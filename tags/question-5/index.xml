@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Question 5 on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/question-5/</link>
+    <description>Recent content in Question 5 on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/question-5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gestions des vulnérabilités avec OpenVAS</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions2/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions2/</guid>
+      <description>Citez des produits de gestion de vulnérabilités ? Tout d&amp;rsquo;abord, il existe OpenVAS, qui est Open Source et est sous licence GNU GPL. Ensuite, il y a Nessus, le produit de gestion de vulnérabilités de Tenable Network. Enfin, il y a aussi Nexpose, l&amp;rsquo;outil de Rapid7.
+Qu&amp;rsquo;est-ce qu&amp;rsquo;un scan authentifié ? Un scan authentifié va permettre d&amp;rsquo;identifier ce qui est installé sur une machine. Le scanner va en effet pouvoir se connecter à des postes de travail ou des serveurs, afin d&amp;rsquo;obtenir plus d&amp;rsquo;informations, comme notamment les services qui ne sont pas exposés.</description>
+    </item>
+    
+  </channel>
+</rss>

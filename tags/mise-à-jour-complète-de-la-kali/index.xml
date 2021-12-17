@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mise à jour complète de la Kali on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/mise-%C3%A0-jour-compl%C3%A8te-de-la-kali/</link>
+    <description>Recent content in Mise à jour complète de la Kali on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/mise-%C3%A0-jour-compl%C3%A8te-de-la-kali/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration de l&#39;architecture</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/configuration/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/configuration/</guid>
+      <description>Kali Linux Mise à jour de Kali Linux Afin de pouvoir utiliser les outils de Kali Linux dans leur dernière version, lancer la commande suivante dans un terminal :
+sudo apt update Puis lancer la commande :
+sudo apt upgrade Enfin, valider le choix en entrant Y dans le prompt comme le montre la figure 32{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;Kali/upgrade1&amp;rdquo;} ci-dessous.
+{#Kali/upgrade1}
+Attribution d&amp;rsquo;une adresse IPv4 statique Pour pouvoir être dans le sous-réseau avec une adresse IP statique, il faut :</description>
+    </item>
+    
+  </channel>
+</rss>

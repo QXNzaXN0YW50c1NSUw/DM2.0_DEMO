@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation de la Kali on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/installation-de-la-kali/</link>
+    <description>Recent content in Installation de la Kali on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/installation-de-la-kali/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mise en place de l&#39;architecture</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/mise-en-place/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/mise-en-place/</guid>
+      <description>Kali Adresse du fichier d&amp;rsquo;installation Une machine virtuelle Kali est mise à disposition à l&amp;rsquo;adresse
+Pour VirtualBox, il faut télécharger le fichier OVA. Avant de procéder à l&amp;rsquo;importation de la machine virtuelle, il faut vérifier l&amp;rsquo;intégrité du fichier téléchargé. La signature de ce fichier est également disponible, à côté du lien de téléchargement du fichier OVA.
+Sur la figure ci-après sont mis en exergue le fichier à télécharger ainsi que sa signature.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Question 4 on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/question-4/</link>
+    <description>Recent content in Question 4 on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/question-4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Découvertes des réseaux</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions/</guid>
+      <description>Comment le logiciel identifie-t-il le type de matériel suite à au moins une écoute passive du réseau ? Le logiciel peut capturer des paquets contenant l&amp;rsquo;adresse MAC des machines et ainsi en récupérer des informations comme par exemple le constructeur ou le type d&amp;rsquo;appareil.
+Comment le logiciel identifie-t-il le système d&amp;rsquo;exploitation ? Le logiciel identifie le type de système d&amp;rsquo;exploitation grâce à une empreinte de la pile TCP/IP de la machine ciblée.</description>
+    </item>
+    
+  </channel>
+</rss>

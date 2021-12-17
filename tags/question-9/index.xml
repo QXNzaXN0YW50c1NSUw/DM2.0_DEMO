@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Question 9 on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/question-9/</link>
+    <description>Recent content in Question 9 on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/tags/question-9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gestions des vulnérabilités avec un scanner de type host-based</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions3/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions3/</guid>
+      <description>Quelle est la différence entre un scanner de type host-based et network-based ? Un scanner de type host-based examine les configurations du système, les systèmes de fichiers, les paramètres des registres, et toutes sortes d&amp;rsquo;autres informations qu&amp;rsquo;un hôte possède. Ces outils permettent d&amp;rsquo;apporter une vision &amp;quot;administrateur&amp;quot; de l&amp;rsquo;environnement et de son exposition.
+Un scanner de type network-based est conçu pour découvrir l&amp;rsquo;existence de vulnérabilités au sein d&amp;rsquo;un réseau. Ces outils permettent de donner un aperçu de l&amp;rsquo;environnement au niveau du réseau.</description>
+    </item>
+    
+  </channel>
+</rss>
