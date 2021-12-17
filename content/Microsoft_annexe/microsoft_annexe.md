@@ -32,7 +32,7 @@ Pour cela, il faut ouvrir le gestionnaire des stratégies de groupe :
 
 
 ![Accès au gestionnaire des stratégies de
-groupe](/Microsoft_annexe/Screenshots/Config/Config-1.png){#Screenshots/Config/1}
+groupe](Microsoft_annexe/Screenshots/Config/Config-1.png){#Screenshots/Config/1}
 
 
 Dérouler les `Domaines` dans l'onglet gauche. Cliquer droit sur le
@@ -41,7 +41,7 @@ domaine, et le lier ici\...* :
 
 
 ![Initiation de création d'une nouvelle GPO dans le domaine
-`EPITAF.local`](/Microsoft_annexe/Screenshots/Config/Config-2.png){#Screenshots/Config/2}
+`EPITAF.local`](Microsoft_annexe/Screenshots/Config/Config-2.png){#Screenshots/Config/2}
 
 
 Donner un nom à la nouvelle GPO ; ici `Remote Registry`. Cliquer sur
@@ -49,7 +49,7 @@ Donner un nom à la nouvelle GPO ; ici `Remote Registry`. Cliquer sur
 
 
 ![Création d'un nouvel objet
-GPO](/Microsoft_annexe/Screenshots/Config/Config-3.png){#Screenshots/Config/3}
+GPO](Microsoft_annexe/Screenshots/Config/Config-3.png){#Screenshots/Config/3}
 
 
 Une fois la nouvelle GPO créée, il faut la configurer. Pour cela,
@@ -57,7 +57,7 @@ cliquer droit sur la GPO *Remote Registry* puis cliquer sur *Modifier* :
 
 
 ![Accès à l'éditeur de gestion des stratégies de groupe pour éditer la
-GPO](/Microsoft_annexe/Screenshots/Config/Config-4.png){#Screenshots/Config/4}
+GPO](Microsoft_annexe/Screenshots/Config/Config-4.png){#Screenshots/Config/4}
 
 
 Aller dans : `Configuration ordinateur` \> `Paramètres Windows` \>
@@ -67,7 +67,7 @@ pour accéder à ses **Propriétés** :
 
 
 ![Accès aux propriétés du service
-`Registre à distance`](/Microsoft_annexe/Screenshots/Config/Config-5.png){#Screenshots/Config/5}
+`Registre à distance`](Microsoft_annexe/Screenshots/Config/Config-5.png){#Screenshots/Config/5}
 
 
 Sélectionner les mêmes informations que sur la figure suivante, puis
@@ -75,7 +75,7 @@ cliquer sur *OK* :
 
 
 ![Propriétés du service
-`Registre à distance`](/Microsoft_annexe/Screenshots/Config/Config-6.png){#Screenshots/Config/6}
+`Registre à distance`](Microsoft_annexe/Screenshots/Config/Config-6.png){#Screenshots/Config/6}
 
 
 Au prochain redémarrage des machines du domaine, la GPO prendra effet,
@@ -90,14 +90,14 @@ fonctionnalité via le Pare-feu Windows*\"
 
 
 ![Accès aux autorisations d'applications du pare-feu
-Windows](/Microsoft_annexe/Screenshots/Config/Config-7.png){#Screenshots/Config/7}
+Windows](Microsoft_annexe/Screenshots/Config/Config-7.png){#Screenshots/Config/7}
 
 
 Cliquer sur *Autoriser une autre application* :
 
 
 ![Autorisations des applications à communiquer à travers le Pare-feu
-Windows](/Microsoft_annexe/Screenshots/Config/Config-8.png){#Screenshots/Config/8}
+Windows](Microsoft_annexe/Screenshots/Config/Config-8.png){#Screenshots/Config/8}
 
 
 Sélectionner *Microsoft Baseline Security Analyzer 2.1* dans la liste,
@@ -106,14 +106,14 @@ puis cliquer sur *OK* :
 
 ![Sélection de l'application MBSA à ajouter aux autorisations du
 Pare-feu
-Windows](/Microsoft_annexe/Screenshots/Config/Config-9.png){#Screenshots/Config/9}
+Windows](Microsoft_annexe/Screenshots/Config/Config-9.png){#Screenshots/Config/9}
 
 
 Vérifier que MBSA est bien autorisé sur le Domaine. Cliquer sur *OK* :
 
 
 ![Vérification de l'autorisation de MBSA du Pare-feu
-Windows](/Microsoft_annexe/Screenshots/Config/Config-10.png){#Screenshots/Config/10}
+Windows](Microsoft_annexe/Screenshots/Config/Config-10.png){#Screenshots/Config/10}
 
 
 Sélectionner la fonctionnalité *Service Accès réseau* en cochant pour le
@@ -121,7 +121,7 @@ Sélectionner la fonctionnalité *Service Accès réseau* en cochant pour le
 
 
 ![Autorisation de la fonctionnalité *Service Accès réseau* sur le
-Domaine](/Microsoft_annexe/Screenshots/Config/Config-11.png){#Screenshots/Config/11}
+Domaine](Microsoft_annexe/Screenshots/Config/Config-11.png){#Screenshots/Config/11}
 
 
 ###### Configurations sur les machines du domaine
@@ -133,7 +133,7 @@ application ou une fonctionnalité via le Pare-feu Windows*\" :
 
 
 ![Accès aux autorisations d'applications du Pare-feu
-Windows](/Microsoft_annexe/Screenshots/Config/Config-12.png){#Screenshots/Config/12}
+Windows](Microsoft_annexe/Screenshots/Config/Config-12.png){#Screenshots/Config/12}
 
 
 Cliquer sur *Modifier les paramètres* :
@@ -141,7 +141,7 @@ Cliquer sur *Modifier les paramètres* :
 
 ![Obtention des privilèges pour modifier les paramètres concernant les
 applications autorisées à communiquer à travers le Pare-feu
-Windows](/Microsoft_annexe/Screenshots/Config/Config-13.png){#Screenshots/Config/13}
+Windows](Microsoft_annexe/Screenshots/Config/Config-13.png){#Screenshots/Config/13}
 
 
 Entrer les identifiants d'un utilisateur ayant suffisamment de
@@ -153,7 +153,7 @@ puis cliquer sur *Oui* :
 ![Utilisation d'un compte Administrateur pour modifier les paramètres
 concernant les applications autorisées à communiquer à travers le
 Pare-feu
-Windows](/Microsoft_annexe/Screenshots/Config/Config-14.png){#Screenshots/Config/14}
+Windows](Microsoft_annexe/Screenshots/Config/Config-14.png){#Screenshots/Config/14}
 
 
 Sélectionner les deux fonctionnalités suivantes, pour le `Domaine` :
@@ -163,7 +163,7 @@ Sélectionner les deux fonctionnalités suivantes, pour le `Domaine` :
 
 ![Sélection des fonctionnalités autorisées à communiquer à travers le
 Pare-feu
-Windows](/Microsoft_annexe/Screenshots/Config/Config-15.png){#Screenshots/Config/15}
+Windows](Microsoft_annexe/Screenshots/Config/Config-15.png){#Screenshots/Config/15}
 
 
 ## Déploiement d'une analyse MBSA sur le domaine
@@ -175,26 +175,26 @@ Sur la machine Windows Server 2012 (DC01), ouvrir MBSA. Cliquer sur
 
 
 ![Sélection du périmètre pour l'analyse avec MBSA sur le domaine
-`EPITAF`](/Microsoft_annexe/Screenshots/Rapport/Rapport-0-0.png){#Screenshots/Rapport/00}
+`EPITAF`](Microsoft_annexe/Screenshots/Rapport/Rapport-0-0.png){#Screenshots/Rapport/00}
 
 
 Donner le nom du domaine sur lequel exécuter l'analyse MBSA, ou bien la
 plage d'adresses IPv4. Sur la figure
-[17](/Microsoft_annexe/#Screenshots/Rapport/01){reference-type="ref"
+[17](Microsoft_annexe/#Screenshots/Rapport/01){reference-type="ref"
 reference="Screenshots/Rapport/01"}, l'analyse est effectuée sur le
 domaine `epitaf`. Il faut également sélectionner les options pour
 l'analyse MBSA. Cliquer sur *Démarrer l'analyse* :
 
 
 ![Paramétrage des options pour l'analyse MBSA sur le domaine
-`EPITAF`](/Microsoft_annexe/Screenshots/Rapport/Rapport-0-1.png){#Screenshots/Rapport/01}
+`EPITAF`](Microsoft_annexe/Screenshots/Rapport/Rapport-0-1.png){#Screenshots/Rapport/01}
 
 
 Patienter pendant l'analyse MSBA :
 
 
 ![Analyse MBSA en cours sur le domaine
-`EPITAF`](/Microsoft_annexe/Screenshots/Rapport/Rapport-0-2.png){#Screenshots/Rapport/02}
+`EPITAF`](Microsoft_annexe/Screenshots/Rapport/Rapport-0-2.png){#Screenshots/Rapport/02}
 
 
 Une fois l'analyse terminée, des rapports sont générés pour chaque
@@ -203,12 +203,12 @@ machine analysée. Sélectionner en premier le rapport pour la machine
 
 
 ![Écran présentant les rapports d'analyse de sécurité générés par
-MBSA](/Microsoft_annexe/Screenshots/Rapport/Rapport-1.png){#Screenshots/Rapport/1}
+MBSA](Microsoft_annexe/Screenshots/Rapport/Rapport-1.png){#Screenshots/Rapport/1}
 
 
 
 ![Détails du rapport de l'analyse MBSA sur
-`EPITAF\DC01`](/Microsoft_annexe/Screenshots/Rapport/Rapport-2.png){#Screenshots/Rapport/2}
+`EPITAF\DC01`](Microsoft_annexe/Screenshots/Rapport/Rapport-2.png){#Screenshots/Rapport/2}
 
 
 
@@ -228,7 +228,7 @@ concernant la machine `PC02` :
 
 
 ![Détails du rapport de l'analyse MBSA sur
-`EPITAF\PC02`](/Microsoft_annexe/Screenshots/Rapport/Rapport-5.png){#Screenshots/Rapport/5}
+`EPITAF\PC02`](Microsoft_annexe/Screenshots/Rapport/Rapport-5.png){#Screenshots/Rapport/5}
 
 
 
@@ -241,7 +241,7 @@ MBSA, afin de choisir le rapport de la machine `PC01` :
 
 
 ![Détails du rapport de l'analyse MBSA sur
-`EPITAF\PC01`](/Microsoft_annexe/Screenshots/Rapport/Rapport-7.png){#Screenshots/Rapport/7}
+`EPITAF\PC01`](Microsoft_annexe/Screenshots/Rapport/Rapport-7.png){#Screenshots/Rapport/7}
 
 
 

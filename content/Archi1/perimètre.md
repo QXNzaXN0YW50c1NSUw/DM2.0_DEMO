@@ -8,7 +8,7 @@ chapter = false
 ## Architecture attendue
 
 Comme le présentent les figures
-[\[Architecture_Screenshots/1\]](/Archi1/#Architecture_Screenshots/1){reference-type="ref"
+[\[Architecture_Screenshots/1\]](Archi1/#Architecture_Screenshots/1){reference-type="ref"
 reference="Architecture_Screenshots/1"} et
 [250](#Schema_tls/1){reference-type="ref" reference="Schema_tls/1"} pour
 l'interception SSL/TLS, une fois la documentation mise en œuvre, il sera
@@ -74,7 +74,7 @@ obtenu :
             depuis l'interface LAN ;
 
 
-![image](/Archi1/Architecture_Screenshots/archi2.jpeg)
+![image](Archi1/Architecture_Screenshots/archi2.jpeg)
 [\[Architecture_Screenshots/1\]]{#Architecture_Screenshots/1
 label="Architecture_Screenshots/1"}
 

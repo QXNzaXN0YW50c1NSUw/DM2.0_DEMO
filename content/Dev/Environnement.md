@@ -38,28 +38,28 @@ encadré en rouge sur la figure :
 
 
 ![Tableau du wiki OpenSSL montrant les distributions binaires tierces
-liées à OpenSSL](/OpenSSL/2.png)
+liées à OpenSSL](OpenSSL/2.png)
 
 
 Cliquer sur le bouton *EXE* de la cellule *Win64 OpenSSL v1.1.1b* -
 prendre la plus récente version :
 
 
-![Tableau listant les exécutables par architecture](/OpenSSL/3.png)
+![Tableau listant les exécutables par architecture](OpenSSL/3.png)
 
 
 Cliquer sur *Oui* dans la fenêtre \"Setup\" :
 
 
 ![Fenêtre de téléchargement du composant *Microsoft Visual C++ 2017
-Redistributables (64-bit)*](/OpenSSL/4.png)
+Redistributables (64-bit)*](OpenSSL/4.png)
 
 
 Cliquer sur *Enregistrer le fichier* :
 
 
 ![Fenêtre de téléchargement du composant *Microsoft Visual C++ 2017
-Redistributables (64-bit)*](/OpenSSL/5.png)
+Redistributables (64-bit)*](OpenSSL/5.png)
 
 
 Cocher \"*J'accepte les conditions générales de la licence*\", puis
@@ -67,52 +67,52 @@ cliquer sur *Installer* :
 
 
 ![Fenêtre de lancement d'installation du composant *Microsoft Visual C++
-2017 Redistributables (64-bit)*](/OpenSSL/6.png)
+2017 Redistributables (64-bit)*](OpenSSL/6.png)
 
 
 Cliquer sur *Fermer* :
 
 
 ![Fenêtre de fin de téléchargement du composant *Microsoft Visual C++
-2017 Redistributables (64-bit)*](/OpenSSL/7.png)
+2017 Redistributables (64-bit)*](OpenSSL/7.png)
 
 
 Cocher \"*I accept the agreement*\", puis cliquer sur *Next* :
 
 
-![Fenêtre pour accepter la licence pour OpenSSL](/OpenSSL/8.png)
+![Fenêtre pour accepter la licence pour OpenSSL](OpenSSL/8.png)
 
 
 Cliquer sur *Next* :
 
 
 ![Fenêtre de sélection du chemin de destination de l'installation
-d'OpenSSL](/OpenSSL/9.png)
+d'OpenSSL](OpenSSL/9.png)
 
 
 Cliquer sur *Next* :
 
 
-![Fenêtre de sélection du dossier du menu démarrer](/OpenSSL/10.png)
+![Fenêtre de sélection du dossier du menu démarrer](OpenSSL/10.png)
 
 
 Cocher l'option \"*The OpenSSL binaries (/bin) directory*\" puis cliquer
 sur *Next* :
 
 
-![Fenêtre de sélection de tâches additionnelles](/OpenSSL/11.png)
+![Fenêtre de sélection de tâches additionnelles](OpenSSL/11.png)
 
 
 Cliquer sur *Install* :
 
 
-![Fenêtre d'installation d'OpenSSL](/OpenSSL/12.png)
+![Fenêtre d'installation d'OpenSSL](OpenSSL/12.png)
 
 
 Décocher toutes les options, puis cliquer sur *Finish* :
 
 
-![Fenêtre de fin d'installation d'OpenSSL](/OpenSSL/13.png)
+![Fenêtre de fin d'installation d'OpenSSL](OpenSSL/13.png)
 
 
 ## Configuration d'OpenSSL
@@ -122,40 +122,40 @@ sécurité*, puis aller dans *Système*. Cliquer sur \"*Paramètres système
 avancés*\" :
 
 
-![Section Système du panneau de configuration](/OpenSSL/14.png)
+![Section Système du panneau de configuration](OpenSSL/14.png)
 
 
 Aller dans l'onglet \"Paramètres système avancés\" et cliquer sur
 *Variables d'environnement\...* :
 
 
-![Fenêtre de propriétés système](/OpenSSL/15.png)
+![Fenêtre de propriétés système](OpenSSL/15.png)
 
 
 Sélectionner la ligne de la variable `Path`, puis cliquer sur *Modifier*
 :
 
 
-![Fenêtre des variables d'environnement](/OpenSSL/16.png)
+![Fenêtre des variables d'environnement](OpenSSL/16.png)
 
 
 Ajouter \"`;C:\Program Files\OpenSSL-Win64\bin`\" à la valeur de la
 variable, puis cliquer sur *Ok* :
 
 
-![Fenêtre de modification de la variable système](/OpenSSL/17.png)
+![Fenêtre de modification de la variable système](OpenSSL/17.png)
 
 
 Cliquer sur *Ok* :
 
 
-![Fenêtre des variables d'environnement](/OpenSSL/18.png)
+![Fenêtre des variables d'environnement](OpenSSL/18.png)
 
 
 Cliquer sur *Ok* :
 
 
-![Fenêtre de propriétés système](/OpenSSL/19.png)
+![Fenêtre de propriétés système](OpenSSL/19.png)
 
 
 ## Exécution du script
@@ -173,53 +173,53 @@ Dans l'onglet `Périphériques`, choisir \"Installer l'image CD des
 Additions invité\...\" :
 
 
-![Bouton périphériques de VirtualBox](/Partage_de_dossier/1.PNG)
+![Bouton périphériques de VirtualBox](Partage_de_dossier/1.PNG)
 
 
 
 ![Bouton permettant d'installer les éléments nécessaires au partage de
-fichiers](/Partage_de_dossier/2.PNG)
+fichiers](Partage_de_dossier/2.PNG)
 
 
 Ouvrir le gestionnaire de fichiers, et aller dans la section **Ce PC**.
 Double cliquer sur l'icône VirtualBox :
 
 
-![Icône pour installer les Additions Invité](/Partage_de_dossier/3.PNG)
+![Icône pour installer les Additions Invité](Partage_de_dossier/3.PNG)
 
 
 L'exécutable se met en route. Cliquer sur *Suivant* :
 
 
 ![Page d'accueil de l'installation des Additions
-Invité](/Partage_de_dossier/4.PNG)
+Invité](Partage_de_dossier/4.PNG)
 
 
 Cliquer sur *Suivant* :
 
 
 ![Chemin de destination de l'installation des Additions
-Invité](/Partage_de_dossier/5.PNG)
+Invité](Partage_de_dossier/5.PNG)
 
 
 Cliquer sur *Suivant* :
 
 
 ![Choix des composants à installer avec les Additions
-Invité](/Partage_de_dossier/6.PNG)
+Invité](Partage_de_dossier/6.PNG)
 
 
 Attendre la fin de l'installation des Additions invité :
 
 
-![Installation des Additions Invité](/Partage_de_dossier/7.PNG)
+![Installation des Additions Invité](Partage_de_dossier/7.PNG)
 
 
 Sélectionner l'option `Redémarrer maintenant` et cliquer sur *Terminer*
 :
 
 
-![Installation des Additions Invité terminée](/Partage_de_dossier/8.PNG)
+![Installation des Additions Invité terminée](Partage_de_dossier/8.PNG)
 
 
 Si l'icône des Additions invité n'est pas un exécutable mais un dossier,
@@ -228,14 +228,14 @@ sur la figure suivante :
 
 
 ![Exécutable situé dans le dossier Additions
-Invité](/Partage_de_dossier/9.PNG)
+Invité](Partage_de_dossier/9.PNG)
 
 
 Ensuite, cliquer sur *Oui* sur la fenêtre générée :
 
 
 ![Demande d'accord pour autoriser l'application à
-s'installer](/Partage_de_dossier/10.PNG)
+s'installer](Partage_de_dossier/10.PNG)
 
 
 Enfin, suivre la procédure telle que décrite précédemment et redémarrer
@@ -248,7 +248,7 @@ Une fois la machine redémarrée, aller dans `Périphériques`, puis
 
 
 ![Accès à la configuration du partage de
-fichiers](/Partage_de_dossier/11.PNG)
+fichiers](Partage_de_dossier/11.PNG)
 
 
 Aller dans la section **Dossiers partagés**. Sélectionner la ligne
@@ -257,21 +257,21 @@ Aller dans la section **Dossiers partagés**. Sélectionner la ligne
 
 
 ![Page de configuration du partage de
-fichiers](/Partage_de_dossier/12.PNG)
+fichiers](Partage_de_dossier/12.PNG)
 
 
 Donner le chemin du dossier à partager ; cocher *Montage automatique* et
 *Configuration permanente*. Cliquer sur *OK* :
 
 
-![Configuration du partage de fichiers](/Partage_de_dossier/13.PNG)
+![Configuration du partage de fichiers](Partage_de_dossier/13.PNG)
 
 
 Cliquer sur *OK* :
 
 
 ![Page de configuration du partage de fichiers après la
-configuration](/Partage_de_dossier/14.PNG)
+configuration](Partage_de_dossier/14.PNG)
 
 
 Redémarrer la machine virtuelle.
@@ -282,7 +282,7 @@ machine hôte et la machine virtuelle :
 
 
 ![Gestionnaire de fichiers avec le disque réseau
-créé](/Partage_de_dossier/15.PNG)
+créé](Partage_de_dossier/15.PNG)
 
 
 ## Exécution du script

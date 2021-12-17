@@ -13,7 +13,7 @@ logiciel :
 
 
 ![Contrôle de compte
-utilisateur](/Microsoft/Screenshots/WS-MBSA-install-11.png){#11}
+utilisateur](Microsoft/Screenshots/WS-MBSA-install-11.png){#11}
 
 
 Ensuite, MBSA peut être utilisé de deux manières :
@@ -45,7 +45,7 @@ l'installation sur le bureau. Cliquer sur *Analyser un ordinateur* :
 
 
 ![Sélection du périmètre pour l'analyse avec
-MBSA](/Microsoft/Screenshots/Win8-local/Rapport-1.png){#Screenshots/Win8-local/1}
+MBSA](Microsoft/Screenshots/Win8-local/Rapport-1.png){#Screenshots/Win8-local/1}
 
 
 Choisir l'ordinateur à analyser, soit en donnant son nom, soit en
@@ -69,14 +69,14 @@ Cliquer sur *Démarrer l'analyse* :
 
 
 ![Paramétrage des options pour l'analyse
-MBSA](/Microsoft/Screenshots/Win8-local/Rapport-2.png){#Screenshots/Win8-local/2}
+MBSA](Microsoft/Screenshots/Win8-local/Rapport-2.png){#Screenshots/Win8-local/2}
 
 
 Patienter pendant l'analyse MSBA
 
 
 ![Analyse MBSA en cours sur la machine
-`EPITAF\PC01`](/Microsoft/Screenshots/Win8-local/Rapport-3.png){#Screenshots/Win8-local/3}
+`EPITAF\PC01`](Microsoft/Screenshots/Win8-local/Rapport-3.png){#Screenshots/Win8-local/3}
 
 
 Une fois l'analyse terminée, le rapport est affiché. Il indique le
@@ -85,16 +85,16 @@ suivante. Les résultats portent sur de multiples catégories :
 
 
 ![Détails du rapport de l'analyse MBSA sur
-`EPITAF\PC01`](/Microsoft/Screenshots/Win8-local/Rapport-4.png){#Screenshots/Win8-local/4}
+`EPITAF\PC01`](Microsoft/Screenshots/Win8-local/Rapport-4.png){#Screenshots/Win8-local/4}
 
 
 Ainsi, on peut voir que le PC01 n'a pas toutes les mises à jour de
 sécurité installées. En regardant dans les *Détails* de cette catégorie,
 MBSA liste les mises à jour de sécurité manquantes, ainsi que celles qui
 sont bien installées, dans les figures
-[9](/Microsoft/#Screenshots/Win8-local/6){reference-type="ref"
+[9](Microsoft/#Screenshots/Win8-local/6){reference-type="ref"
 reference="Screenshots/Win8-local/6"} et
-[10](/Microsoft/#Screenshots/Win8-local/7){reference-type="ref"
+[10](Microsoft/#Screenshots/Win8-local/7){reference-type="ref"
 reference="Screenshots/Win8-local/7"}.\
 
 Également, cet ordinateur possède une vulnérabilité d'administration,
@@ -104,7 +104,7 @@ concernant des mots de passe qui n'expirent jamais. En cliquant sur
 
 ![Détails concernant la catégorie *Expiration des mots de passe* dans
 les résultats de l'analyse Windows, sur les vulnérabilités
-d'administration](/Microsoft/Screenshots/Rapport/Rapport-9.png){#Screenshots/Rapport/9}
+d'administration](Microsoft/Screenshots/Rapport/Rapport-9.png){#Screenshots/Rapport/9}
 
 
 Pour la catégorie de vulnérabilité *Test des mots de passe des comptes
@@ -114,7 +114,7 @@ locaux*, la fenêtre de détails est la suivante (obtenue en cliquant sur
 
 ![Détails concernant la catégorie *Test des mots de passe des comptes
 locaux* dans les résultats de l'analyse Windows, sur les vulnérabilités
-d'administration](/Microsoft/Screenshots/Rapport/Rapport-10.png){#Screenshots/Rapport/10}
+d'administration](Microsoft/Screenshots/Rapport/Rapport-10.png){#Screenshots/Rapport/10}
 
 
 La figure ci-dessous est la suite du rapport de l'analyse MBSA pour
@@ -133,7 +133,7 @@ activés sur cet ordinateur.
 
 Sur certains résultats de l'analyse, il est possible d'accéder à des
 détails. Sur la figure
-[9](/Microsoft/#Screenshots/Win8-local/6){reference-type="ref"
+[9](Microsoft/#Screenshots/Win8-local/6){reference-type="ref"
 reference="Screenshots/Win8-local/6"}, ce sont les détails concernant
 les mises à jour de sécurité. Cette partie du rapport permet de donner
 les ID des éléments qui ne sont pas présents sur le système, telle que
@@ -142,7 +142,7 @@ la mise à jour **MS13-098** :
 
 ![Détails concernant la catégorie *Windows - Mises à jour de sécurité*
 dans les résultats sur les mises à jour de
-sécurité](/Microsoft/Screenshots/Win8-local/Rapport-6.png){#Screenshots/Win8-local/6}
+sécurité](Microsoft/Screenshots/Win8-local/Rapport-6.png){#Screenshots/Win8-local/6}
 
 
 La capture d'écran suivante
@@ -170,7 +170,7 @@ L'exécution de cette commande est montrée sur la figure ci-dessous :
 
 
 ![Exemple d'exécution d'une analyse MBSA via une invite de
-commande](/Microsoft/Screenshots/Win8-local/Rapport-8.png){#Screenshots/Win8-local/8}
+commande](Microsoft/Screenshots/Win8-local/Rapport-8.png){#Screenshots/Win8-local/8}
 
 
 Ce rapport est également stocké sous format XML. Le fichier est situé
@@ -191,7 +191,7 @@ ordinateur.
 
 
 ![Sélection du périmètre pour l'analyse avec
-MBSA](/Microsoft/Screenshots/WS-local/Rapport-0.png){#Screenshots/WS-local/0}
+MBSA](Microsoft/Screenshots/WS-local/Rapport-0.png){#Screenshots/WS-local/0}
 
 
 L'analyse porte ici sur la machine Windows Server 2012. Le nom de
@@ -201,14 +201,14 @@ l'analyse sur PC01. Cliquer sur *Démarrer l'analyse* :
 
 
 ![Paramétrage des options pour l'analyse
-MBSA](/Microsoft/Screenshots/WS-local/Rapport-1.png){#Screenshots/WS-local/1}
+MBSA](Microsoft/Screenshots/WS-local/Rapport-1.png){#Screenshots/WS-local/1}
 
 
 Patienter pendant l'analyse MSBA :
 
 
 ![Analyse MBSA en cours sur la machine
-`EPITAF\DC01`](/Microsoft/Screenshots/WS-local/Rapport-2.png){#Screenshots/WS-local/2}
+`EPITAF\DC01`](Microsoft/Screenshots/WS-local/Rapport-2.png){#Screenshots/WS-local/2}
 
 
 Ci-dessous, le rapport obtenu après analyse du DC01, sous forme de
@@ -216,7 +216,7 @@ captures d'écran :
 
 
 ![Détails du rapport de l'analyse MBSA sur
-`EPITAF\DC01`](/Microsoft/Screenshots/WS-local/Rapport-3.png){#Screenshots/WS-local/3}
+`EPITAF\DC01`](Microsoft/Screenshots/WS-local/Rapport-3.png){#Screenshots/WS-local/3}
 
 
 
@@ -233,7 +233,7 @@ De la même manière que pour PC01, le DC01 ne possède pas toutes les
 mises à jour de sécurité. En effet, le rapport indique que 91 mises à
 jour de sécurité sont absentes, de même que 10 Service Packs ou
 correctifs cumulatifs (figure
-[15](/Microsoft/#Screenshots/WS-local/3){reference-type="ref"
+[15](Microsoft/#Screenshots/WS-local/3){reference-type="ref"
 reference="Screenshots/WS-local/3"}).
 
 En cliquant sur *Détails* pour la catégorie des mises à jour, MBSA liste
@@ -243,7 +243,7 @@ devraient l'être :
 
 ![Détails concernant la catégorie *Windows - Mises à jour de sécurité*
 dans les résultats sur les mises à jour de
-sécurité](/Microsoft/Screenshots/Rapport/Rapport-11.png){#Screenshots/Rapport/11}
+sécurité](Microsoft/Screenshots/Rapport/Rapport-11.png){#Screenshots/Rapport/11}
 
 
 
@@ -279,12 +279,12 @@ Contrairement au PC01, les services Internet IIS sont activés sur le
 DC01. C'est pour cela que certaines vulnérabilités sont listées dans la
 catégorie *Résultats de l'analyse des services Internet IIS -
 Vulnérabilités d'administration* (figure
-[16](/Microsoft/#Screenshots/WS-local/4){reference-type="ref"
+[16](Microsoft/#Screenshots/WS-local/4){reference-type="ref"
 reference="Screenshots/WS-local/4"}).\
 De même, SQL Server est installé sur le DC01, d'où la présence d'une
 liste de vulnérabilités dans la catégorie *Résultats de l'analyse de SQL
 Server - Vulnérabilités d'administration* (figure
-[17](/Microsoft/#Screenshots/WS-local/5){reference-type="ref"
+[17](Microsoft/#Screenshots/WS-local/5){reference-type="ref"
 reference="Screenshots/WS-local/5"}).\
 Ce rapport est également stocké sous format XML. Le fichier est situé
 dans le dossier `doc/scan/MBSA/Local-DC01`.

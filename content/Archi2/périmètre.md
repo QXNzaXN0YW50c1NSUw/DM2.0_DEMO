@@ -9,7 +9,7 @@ chapter = false
 ## Architecture attendue
 
 Comme le présentent les figures
-[\[Architecture_Screenshots/1\]](/Archi2/#Architecture_Screenshots/1){reference-type="ref"
+[\[Architecture_Screenshots/1\]](Archi2/#Architecture_Screenshots/1){reference-type="ref"
 reference="Architecture_Screenshots/1"}, une fois la documentation mise
 en œuvre, il sera obtenu en complément de l'architecture de la
 documentation archi1.pdf :
@@ -31,7 +31,7 @@ documentation archi1.pdf :
     -   Toutes les connexions à internet se font à travers le PFSense.
 
 
-![image](/Archi2/Architecture_Screenshots/Archi2_dm6.jpeg)
+![image](Archi2/Architecture_Screenshots/Archi2_dm6.jpeg)
 [\[Architecture_Screenshots/1\]]{#Architecture_Screenshots/1
 label="Architecture_Screenshots/1"}
 

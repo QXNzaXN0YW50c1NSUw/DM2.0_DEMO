@@ -20,22 +20,22 @@ Un attaquant ayant accès au LAN pourrait aisément devenir administrateur
 du domaine Windows.
 
 
-![image](/Analyse/Screenshots/PART1/dashboard1.png) [\[PART1/1\]]{#PART1/1
+![image](Analyse/Screenshots/PART1/dashboard1.png) [\[PART1/1\]]{#PART1/1
 label="PART1/1"}
 
 
 
-![image](/Analyse/Screenshots/PART1/assets1.png) [\[PART1/2\]]{#PART1/2
+![image](Analyse/Screenshots/PART1/assets1.png) [\[PART1/2\]]{#PART1/2
 label="PART1/2"}
 
 
 
-![image](/Analyse/Screenshots/PART1/tasks1.png) [\[PART1/3\]]{#PART1/3
+![image](Analyse/Screenshots/PART1/tasks1.png) [\[PART1/3\]]{#PART1/3
 label="PART1/3"}
 
 
 
-![image](/Analyse/Screenshots/PART1/infosec1.png) [\[PART1/4\]]{#PART1/4
+![image](Analyse/Screenshots/PART1/infosec1.png) [\[PART1/4\]]{#PART1/4
 label="PART1/4"}
 
 

@@ -49,7 +49,7 @@ a permis d'obtenir :
 
 
 ![Résultat de la découverte
-réseau](/Cartographie/Screenshots/discovery/discovery_scan_PU.png){#discovery/1}
+réseau](Cartographie/Screenshots/discovery/discovery_scan_PU.png){#discovery/1}
 
 
 Ainsi, nous avons pu identifier sur 192.168.0.0/16, 6 machines :
@@ -109,28 +109,28 @@ Les options sont :
 
 
 ![Résultat de la découverte
-réseau](/Cartographie/Screenshots/discovery/pfsense_os.png){#discovery/1}
+réseau](Cartographie/Screenshots/discovery/pfsense_os.png){#discovery/1}
 
 
 ##### Résultat du scan de découverte pour 192.168.2.2
 
 
 ![Résultat de la découverte
-réseau](/Cartographie/Screenshots/discovery/ws_os.png){#discovery/1}
+réseau](Cartographie/Screenshots/discovery/ws_os.png){#discovery/1}
 
 
 ##### Résultat du scan de découverte pour 192.168.2.3
 
 
 ![Résultat de la découverte
-réseau](/Cartographie/Screenshots/discovery/misp_os.png){#discovery/1}
+réseau](Cartographie/Screenshots/discovery/misp_os.png){#discovery/1}
 
 
 ##### Résultat du scan de découverte pour 192.168.2.11
 
 
 ![Résultat de la découverte
-réseau](/Cartographie/Screenshots/discovery/w_os.png){#discovery/1}
+réseau](Cartographie/Screenshots/discovery/w_os.png){#discovery/1}
 
 
 ##### Résultat du scan de découverte pour 192.168.3.2
@@ -140,7 +140,7 @@ machine 192.168.3.2 :
 
 
 ![Résultat de la découverte
-réseau](/Cartographie/Screenshots/discovery/debian_os.png){#discovery/1}
+réseau](Cartographie/Screenshots/discovery/debian_os.png){#discovery/1}
 
 
 ### Empreintes réseau des scans de découverte
@@ -200,39 +200,39 @@ Les ports utilisés correspondent aux tableaux ci-dessous :
 
 
 ![Tableau des ports SCADA/ICS - Partie
-1](/Cartographie/Screenshots/scada/SCADA1.jpg){#MBSA_screenshots/Install-Win8/8}
+1](Cartographie/Screenshots/scada/SCADA1.jpg){#MBSA_screenshots/Install-Win8/8}
 
 
 
-![Tableau des ports SCADA/ICS - Partie 2](/Cartographie/Screenshots/scada/SCADA2.jpg)
+![Tableau des ports SCADA/ICS - Partie 2](Cartographie/Screenshots/scada/SCADA2.jpg)
 
 
 ### Scan de la machine 192.168.2.1
 
 
 ![Résultat du scan ICS/SCADA sur la machine
-192.168.2.1](/Cartographie/Screenshots/scada/scada_pfsense_scan.png){#MBSA_screenshots/Install-Win8/8}
+192.168.2.1](Cartographie/Screenshots/scada/scada_pfsense_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 ### Scan de la machine 192.168.2.2
 
 
 ![Résultat du scan ICS/SCADA sur la machine
-192.168.2.2](/Cartographie/Screenshots/scada/scada_pfsense_scan.png){#MBSA_screenshots/Install-Win8/8}
+192.168.2.2](Cartographie/Screenshots/scada/scada_pfsense_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 ### Scan de la machine 192.168.2.3
 
 
 ![Résultat du scan ICS/SCADA sur la machine
-192.168.2.3](/Cartographie/Screenshots/scada/scada_misp_scan.png){#MBSA_screenshots/Install-Win8/8}
+192.168.2.3](Cartographie/Screenshots/scada/scada_misp_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 ### Scan de la machine 192.168.2.11
 
 
 ![Résultat du scan ICS/SCADA sur la machine
-192.168.2.11](/Cartographie/Screenshots/scada/scada_pfsense_scan.png){#MBSA_screenshots/Install-Win8/8}
+192.168.2.11](Cartographie/Screenshots/scada/scada_pfsense_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 ### Empreintes réseau des scans SCADA/ICS
@@ -322,7 +322,7 @@ La figure ci-dessous est le résultat du scan sur 192.168.2.1 :
 
 
 ![Résultat du scan agressif sur la machine
-192.168.2.1](/Cartographie/Screenshots/agressif/_pfsense_aggressif_scan.png){#MBSA_screenshots/Install-Win8/8}
+192.168.2.1](Cartographie/Screenshots/agressif/_pfsense_aggressif_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 ### Scan agressif de la machine 192.168.2.2
@@ -333,12 +333,12 @@ poodle :
 
 
 ![Résultat du scan agressif sur la machine 192.168.2.2 - Partie
-1](/Cartographie/Screenshots/agressif/_ws_agressif_scan.png){#MBSA_screenshots/Install-Win8/8}
+1](Cartographie/Screenshots/agressif/_ws_agressif_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 
 ![Résultat du scan agressif sur la machine 192.168.2.2 - Partie
-2](/Cartographie/Screenshots/agressif/_ws_agressif2_scan.png){#MBSA_screenshots/Install-Win8/8}
+2](Cartographie/Screenshots/agressif/_ws_agressif2_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 ### Scan agressif de la machine 192.168.2.3
@@ -351,17 +351,17 @@ caractéristiques d'une virtual appliance MISP.
 
 
 ![Résultat du scan agressif sur la machine 192.168.2.3 - Partie
-1](/Cartographie/Screenshots/agressif/_misp_a0_scan.png){#MBSA_screenshots/Install-Win8/8}
+1](Cartographie/Screenshots/agressif/_misp_a0_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 
 ![Résultat du scan agressif sur la machine 192.168.2.3 - Partie
-2](/Cartographie/Screenshots/agressif/_misp_a1_scan.png){#MBSA_screenshots/Install-Win8/8}
+2](Cartographie/Screenshots/agressif/_misp_a1_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 
 ![Résultat du scan agressif sur la machine 192.168.2.3 - Partie
-3](/Cartographie/Screenshots/agressif/_misp_a2_scan.png){#MBSA_screenshots/Install-Win8/8}
+3](Cartographie/Screenshots/agressif/_misp_a2_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 ### Scan agressif de la machine 192.168.2.11
@@ -372,7 +372,7 @@ machine d'un AD :
 
 
 ![Résultat du scan agressif sur la machine
-192.168.2.11](/Cartographie/Screenshots/agressif/_w_agressif_scan.png){#MBSA_screenshots/Install-Win8/8}
+192.168.2.11](Cartographie/Screenshots/agressif/_w_agressif_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 ### Scan agressif de la machine 192.168.3.2
@@ -381,7 +381,7 @@ La figure ci-dessous permet d'identifier un serveur http nginx :
 
 
 ![Résultat du scan agressif sur la machine
-192.168.3.2](/Cartographie/Screenshots/agressif/_debian_aggressif_scan.png){#MBSA_screenshots/Install-Win8/8}
+192.168.3.2](Cartographie/Screenshots/agressif/_debian_aggressif_scan.png){#MBSA_screenshots/Install-Win8/8}
 
 
 ### Empreintes réseau des scans agressifs
@@ -395,11 +395,11 @@ documentation.
 
 
 ![Représentation graphique des résultats des scans
-réseau](/Cartographie/Screenshots/SCAN.jpeg){#Annexe/2}
+réseau](Cartographie/Screenshots/SCAN.jpeg){#Annexe/2}
 
 
 ## Annexe 2
 
 
-![Tableau récapitulatif par IP](/Cartographie/Screenshots/annexe2.PNG){#Annexe/2}
+![Tableau récapitulatif par IP](Cartographie/Screenshots/annexe2.PNG){#Annexe/2}
 

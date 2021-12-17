@@ -6,7 +6,7 @@ chapter = false #
 
 +++
 
-![test](/images/Untitled.png)
+![test](images/Untitled.png)
 
 --- 
 

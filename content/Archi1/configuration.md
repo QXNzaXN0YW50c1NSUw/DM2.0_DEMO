@@ -11,7 +11,7 @@ Démarrer la machine virtuelle Pfsense, comme sur la figure suivante :
 
 
 ![Démarrage de la machine virtuelle
-Pfsense](/Archi1/Pfsense_Screeshots/14.png){#Pfsense_Screeshots/14}
+Pfsense](Archi1/Pfsense_Screeshots/14.png){#Pfsense_Screeshots/14}
 
 
 ### Configuration des adresses IP
@@ -21,7 +21,7 @@ Sélectionner l'option de configuration des interfaces IP, en tapant
 
 
 ![Sélection de l'option de configuration des adresses IP de
-Pfsense](/Archi1/Pfsense_Screeshots/15.png){#Pfsense_Screeshots/15}
+Pfsense](Archi1/Pfsense_Screeshots/15.png){#Pfsense_Screeshots/15}
 
 
 Taper **1**, puis **y**, et **n**. Appuyer sur **Entrée**, puis
@@ -29,7 +29,7 @@ ré-entrer **n**. Appuyer une dernière fois sur **Entrée** :
 
 
 ![Configuration des adresses IP de l'interface réseau WAN de
-Pfsense](/Archi1/Pfsense_Screeshots/16.png){#Pfsense_Screeshots/16}
+Pfsense](Archi1/Pfsense_Screeshots/16.png){#Pfsense_Screeshots/16}
 
 
 Sélectionner l'option de configuration des interfaces IP, en tapant
@@ -37,7 +37,7 @@ Sélectionner l'option de configuration des interfaces IP, en tapant
 
 
 ![Sélection de l'option de configuration des adresses IP de
-Pfsense](/Archi1/Pfsense_Screeshots/15.png){#Pfsense_Screeshots/15}
+Pfsense](Archi1/Pfsense_Screeshots/15.png){#Pfsense_Screeshots/15}
 
 
 Taper **2**. Entrer l'adresse IP : 192.168.2.1. Taper **24**, puis
@@ -46,14 +46,14 @@ dernières questions :
 
 
 ![Configuration des adresses IP de l'interface réseau LAN de
-Pfsense](/Archi1/Pfsense_Screeshots/17.png){#Pfsense_Screeshots/17}
+Pfsense](Archi1/Pfsense_Screeshots/17.png){#Pfsense_Screeshots/17}
 
 
 Vérifier le bon paramétrage de Pfsense avec la figure suivante :
 
 
 ![Vérification du paramétrage de
-Pfsense](/Archi1/Pfsense_Screeshots/18.png){#Pfsense_Screeshots/18}
+Pfsense](Archi1/Pfsense_Screeshots/18.png){#Pfsense_Screeshots/18}
 
 
 ### Configuration des règles Pfsense
@@ -64,7 +64,7 @@ passe définit à l'installation :
 
 
 ![Connexion à Windows
-Server](/Archi1/Pfsense_Screeshots/19.png){#Pfsense_Screeshots/19}
+Server](Archi1/Pfsense_Screeshots/19.png){#Pfsense_Screeshots/19}
 
 
 Ouvrir Internet Explorer, et aller à l'adresse : 192.168.2.1. Se
@@ -73,14 +73,14 @@ passe de Pfsense :
 
 
 ![Accès et changement des accès de Pfsense sur Windows
-Server](/Archi1/Pfsense_Screeshots/20.png){#Pfsense_Screeshots/20}
+Server](Archi1/Pfsense_Screeshots/20.png){#Pfsense_Screeshots/20}
 
 
 Accéder à la page `Rules`, située dans **Firewall** :
 
 
 ![Accès aux règles de Pfsense via Windows
-Server](/Archi1/Pfsense_Screeshots/21.png){#Pfsense_Screeshots/21}
+Server](Archi1/Pfsense_Screeshots/21.png){#Pfsense_Screeshots/21}
 
 
 Aller dans la section *LAN*. Les étapes de modification des règles
@@ -101,7 +101,7 @@ Le résultat attendu est affiché sur la figure suivante :
 
 
 ![Modification des règles de Pfsense via Windows
-Server](/Archi1/Pfsense_Screeshots/22.png){#Pfsense_Screeshots/22}
+Server](Archi1/Pfsense_Screeshots/22.png){#Pfsense_Screeshots/22}
 
 
 ## Windows Server 2012
@@ -115,7 +115,7 @@ fonctionnalités*\" :
 
 
 ![Ajout des rôles et des fonctionnalités sur Windows Server
-2012](/Archi1/WS2012_Screenshots/17.png){#WS2012_Screenshots/17}
+2012](Archi1/WS2012_Screenshots/17.png){#WS2012_Screenshots/17}
 
 
 Aller dans la section **Avant de commencer**, puis cliquer sur *Suivant*
@@ -124,7 +124,7 @@ Aller dans la section **Avant de commencer**, puis cliquer sur *Suivant*
 
 ![Avant de commencer - Assistant d'ajout de rôles et de fonctionnalités
 de Windows Server
-2012](/Archi1/WS2012_Screenshots/18.png){#WS2012_Screenshots/18}
+2012](Archi1/WS2012_Screenshots/18.png){#WS2012_Screenshots/18}
 
 
 Aller dans la section **Type d'installation**, sélectionner la première
@@ -134,7 +134,7 @@ cliquer sur *Suivant* :
 
 ![Type d'installation - Assistant d'ajout de rôles et de fonctionnalités
 de Windows Server
-2012](/Archi1/WS2012_Screenshots/19.png){#WS2012_Screenshots/19}
+2012](Archi1/WS2012_Screenshots/19.png){#WS2012_Screenshots/19}
 
 
 Aller dans la section **Sélection du serveur**. Cocher l'option
@@ -144,7 +144,7 @@ Aller dans la section **Sélection du serveur**. Cocher l'option
 
 ![Sélection du serveur - Assistant d'ajout de rôles et de
 fonctionnalités de Windows Server
-2012](/Archi1/WS2012_Screenshots/20.png){#WS2012_Screenshots/20}
+2012](Archi1/WS2012_Screenshots/20.png){#WS2012_Screenshots/20}
 
 
 Aller dans la section **Rôles de serveurs**. Cocher les options :
@@ -159,35 +159,35 @@ Cliquer sur *Suivant*, puis cliquer sur *Ajouter des fonctionnalités* :
 
 
 ![Ajout de DHCP - Assistant d'ajout de rôles et de fonctionnalités de
-Windows Server 2012](/Archi1/WS2012_Screenshots/21.png){#WS2012_Screenshots/21}
+Windows Server 2012](Archi1/WS2012_Screenshots/21.png){#WS2012_Screenshots/21}
 
 
 Cliquer sur *Ajouter des fonctionnalités* :
 
 
 ![Ajout de DNS - Assistant d'ajout de rôles et de fonctionnalités de
-Windows Server 2012](/Archi1/WS2012_Screenshots/22.png){#WS2012_Screenshots/22}
+Windows Server 2012](Archi1/WS2012_Screenshots/22.png){#WS2012_Screenshots/22}
 
 
 Cliquer sur *Ajouter des fonctionnalités* :
 
 
 ![Ajout de AD DS - Assistant d'ajout de rôles et de fonctionnalités de
-Windows Server 2012](/Archi1/WS2012_Screenshots/23.png){#WS2012_Screenshots/23}
+Windows Server 2012](Archi1/WS2012_Screenshots/23.png){#WS2012_Screenshots/23}
 
 
 Cliquer sur *Ajouter des fonctionnalités* :
 
 
 ![Ajout de AD LDS - Assistant d'ajout de rôles et de fonctionnalités de
-Windows Server 2012](/Archi1/WS2012_Screenshots/24.png){#WS2012_Screenshots/24}
+Windows Server 2012](Archi1/WS2012_Screenshots/24.png){#WS2012_Screenshots/24}
 
 
 Cliquer sur *Suivant* :
 
 
 ![Etat des ajouts - Assistant d'ajout de rôles et de fonctionnalités de
-Windows Server 2012](/Archi1/WS2012_Screenshots/25.png){#WS2012_Screenshots/25}
+Windows Server 2012](Archi1/WS2012_Screenshots/25.png){#WS2012_Screenshots/25}
 
 
 Aller dans la section **Fonctionnalités**. Cocher l'option de
@@ -197,7 +197,7 @@ fonctionnalités* :
 
 ![Ajout du chiffrement de lecteur BitLocker - Assistant d'ajout de rôles
 et de fonctionnalités de Windows Server
-2012](/Archi1/WS2012_Screenshots/26.png){#WS2012_Screenshots/26}
+2012](Archi1/WS2012_Screenshots/26.png){#WS2012_Screenshots/26}
 
 
 Aller dans la section **Serveur DHCP**. Cliquer sur *Suivant* :
@@ -205,14 +205,14 @@ Aller dans la section **Serveur DHCP**. Cliquer sur *Suivant* :
 
 ![Finalisation DHCP - Assistant d'ajout de rôles et de fonctionnalités
 de Windows Server
-2012](/Archi1/WS2012_Screenshots/27.png){#WS2012_Screenshots/27}
+2012](Archi1/WS2012_Screenshots/27.png){#WS2012_Screenshots/27}
 
 
 Aller dans la section **Serveur DNS**. Cliquer sur *Suivant* :
 
 
 ![Finalisation DNS - Assistant d'ajout de rôles et de fonctionnalités de
-Windows Server 2012](/Archi1/WS2012_Screenshots/28.png){#WS2012_Screenshots/28}
+Windows Server 2012](Archi1/WS2012_Screenshots/28.png){#WS2012_Screenshots/28}
 
 
 Aller dans la section **Serveur AD DS**. Cliquer sur *Suivant* :
@@ -220,7 +220,7 @@ Aller dans la section **Serveur AD DS**. Cliquer sur *Suivant* :
 
 ![Finalisation AD DS - Assistant d'ajout de rôles et de fonctionnalités
 de Windows Server
-2012](/Archi1/WS2012_Screenshots/29.png){#WS2012_Screenshots/29}
+2012](Archi1/WS2012_Screenshots/29.png){#WS2012_Screenshots/29}
 
 
 Aller dans la section **Serveur AD LDS**. Cliquer sur *Suivant* :
@@ -228,7 +228,7 @@ Aller dans la section **Serveur AD LDS**. Cliquer sur *Suivant* :
 
 ![Finalisation AD LDS - Assistant d'ajout de rôles et de fonctionnalités
 de Windows Server
-2012](/Archi1/WS2012_Screenshots/30.png){#WS2012_Screenshots/30}
+2012](Archi1/WS2012_Screenshots/30.png){#WS2012_Screenshots/30}
 
 
 Aller dans la section **Confirmation**. Cliquer sur *Installer* :
@@ -236,7 +236,7 @@ Aller dans la section **Confirmation**. Cliquer sur *Installer* :
 
 ![Confirmation des sélections - Assistant d'ajout de rôles et de
 fonctionnalités de Windows Server
-2012](/Archi1/WS2012_Screenshots/31.png){#WS2012_Screenshots/31}
+2012](Archi1/WS2012_Screenshots/31.png){#WS2012_Screenshots/31}
 
 
 Aller dans la section **Résultats**, et attendre la fin de
@@ -244,7 +244,7 @@ l'installation :
 
 
 ![Installation - Assistant d'ajout de rôles et de fonctionnalités de
-Windows Server 2012](/Archi1/WS2012_Screenshots/32.png){#WS2012_Screenshots/32}
+Windows Server 2012](Archi1/WS2012_Screenshots/32.png){#WS2012_Screenshots/32}
 
 
 Fin de l'installation. Cliquer sur *Fermer* :
@@ -252,7 +252,7 @@ Fin de l'installation. Cliquer sur *Fermer* :
 
 ![Fin de l'installation - Assistant d'ajout de rôles et de
 fonctionnalités de Windows Server
-2012](/Archi1/WS2012_Screenshots/33.png){#WS2012_Screenshots/33}
+2012](Archi1/WS2012_Screenshots/33.png){#WS2012_Screenshots/33}
 
 
 ### Configuration du DNS
@@ -261,28 +261,28 @@ Cliquer sur *Outils*, puis cliquer sur DNS :
 
 
 ![Accès au gestionnaire DNS de Windows Server
-2012](/Archi1/WS2012_Screenshots/34.png){#WS2012_Screenshots/34}
+2012](Archi1/WS2012_Screenshots/34.png){#WS2012_Screenshots/34}
 
 
 Cliquer droit sur `Redirecteurs`, puis cliquer sur *Propriétés* :
 
 
 ![Accès aux propriétés des Redirecteurs - Gestionnaire DNS de Windows
-Server 2012](/Archi1/WS2012_Screenshots/35.png){#WS2012_Screenshots/35}
+Server 2012](Archi1/WS2012_Screenshots/35.png){#WS2012_Screenshots/35}
 
 
 Entrer la valeur \"8.8.8.8\" dans le nouveau champ :
 
 
 ![Ajout d'une valeur dans les Redirecteurs - Gestionnaire DNS de Windows
-Server 2012](/Archi1/WS2012_Screenshots/36.png){#WS2012_Screenshots/36}
+Server 2012](Archi1/WS2012_Screenshots/36.png){#WS2012_Screenshots/36}
 
 
 Cliquer sur *OK* :
 
 
 ![Vérification de la valeur dans les Redirecteurs - Gestionnaire DNS de
-Windows Server 2012](/Archi1/WS2012_Screenshots/37.png){#WS2012_Screenshots/37}
+Windows Server 2012](Archi1/WS2012_Screenshots/37.png){#WS2012_Screenshots/37}
 
 
 Cocher l'option \"*Ce serveur assure la maintenance de la zone*\", puis
@@ -290,14 +290,14 @@ cliquer sur *Suivant* :
 
 
 ![Assistant configuration d'un serveur DNS - Gestionnaire DNS de Windows
-Server 2012](/Archi1/WS2012_Screenshots/38.png){#WS2012_Screenshots/38}
+Server 2012](Archi1/WS2012_Screenshots/38.png){#WS2012_Screenshots/38}
 
 
 Cliquer sur *Appliquer* :
 
 
 ![Application du paramétrage des Redirecteurs - Gestionnaire DNS de
-Windows Server 2012](/Archi1/WS2012_Screenshots/39.png){#WS2012_Screenshots/39}
+Windows Server 2012](Archi1/WS2012_Screenshots/39.png){#WS2012_Screenshots/39}
 
 
 ### Gestion du DHCP
@@ -306,21 +306,21 @@ Cliquer sur *Outils*, puis cliquer sur DHCP :
 
 
 ![Accès au gestionnaire DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/40.png){#WS2012_Screenshots/40}
+2012](Archi1/WS2012_Screenshots/40.png){#WS2012_Screenshots/40}
 
 
 Cliquer droit sur IPv4, puis cliquer sur *Propriétés* :
 
 
 ![Nouvelle étendue DHCP sur IPv4 - Gestionnaire DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/41.png){#WS2012_Screenshots/41}
+2012](Archi1/WS2012_Screenshots/41.png){#WS2012_Screenshots/41}
 
 
 Cliquer sur *Suivant* :
 
 
 ![Assistant Nouvelle étendue - Gestionnaire DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/42.png){#WS2012_Screenshots/42}
+2012](Archi1/WS2012_Screenshots/42.png){#WS2012_Screenshots/42}
 
 
 Entrer la valeur \"Etendu EPITAF\" dans le champ *Nom*, et
@@ -330,7 +330,7 @@ Entrer la valeur \"Etendu EPITAF\" dans le champ *Nom*, et
 
 ![Nom et description - Assistant Nouvelle étendue du Gestionnaire DHCP
 de Windows Server
-2012](/Archi1/WS2012_Screenshots/43.png){#WS2012_Screenshots/43}
+2012](Archi1/WS2012_Screenshots/43.png){#WS2012_Screenshots/43}
 
 
 Entrer les valeurs suivantes :
@@ -348,7 +348,7 @@ Cliquer sur *Suivant* :
 
 ![Plage d'adresses IP - Assistant Nouvelle étendue du Gestionnaire DHCP
 de Windows Server
-2012](/Archi1/WS2012_Screenshots/44.png){#WS2012_Screenshots/44}
+2012](Archi1/WS2012_Screenshots/44.png){#WS2012_Screenshots/44}
 
 
 Cliquer sur *Suivant* :
@@ -356,14 +356,14 @@ Cliquer sur *Suivant* :
 
 ![Ajout d'exclusions et de retard - Assistant Nouvelle étendue du
 Gestionnaire DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/45.png){#WS2012_Screenshots/45}
+2012](Archi1/WS2012_Screenshots/45.png){#WS2012_Screenshots/45}
 
 
 Cliquer sur *Suivant* :
 
 
 ![Durée du bail - Assistant Nouvelle étendue du Gestionnaire DHCP de
-Windows Server 2012](/Archi1/WS2012_Screenshots/46.png){#WS2012_Screenshots/46}
+Windows Server 2012](Archi1/WS2012_Screenshots/46.png){#WS2012_Screenshots/46}
 
 
 Cocher l'option \"*Oui, je veux configurer ces options maintenant*\", et
@@ -372,7 +372,7 @@ cliquer sur *Suivant* :
 
 ![Configuration des paramètres DHCP - Assistant Nouvelle étendue du
 Gestionnaire DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/47.png){#WS2012_Screenshots/47}
+2012](Archi1/WS2012_Screenshots/47.png){#WS2012_Screenshots/47}
 
 
 Entrer l'adresse IP 192.168.2.1, puis cliquer sur *Ajouter*. Ensuite,
@@ -380,7 +380,7 @@ cliquer sur *Suivant* :
 
 
 ![Routeur - Assistant Nouvelle étendue du Gestionnaire DHCP de Windows
-Server 2012](/Archi1/WS2012_Screenshots/48.png){#WS2012_Screenshots/48}
+Server 2012](Archi1/WS2012_Screenshots/48.png){#WS2012_Screenshots/48}
 
 
 Remplir les champs comme sur la figure suivante :
@@ -396,14 +396,14 @@ Cliquer sur *Suivant* :
 
 ![Nom de domaine et serveurs DNS - Assistant Nouvelle étendue du
 Gestionnaire DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/49.png){#WS2012_Screenshots/49}
+2012](Archi1/WS2012_Screenshots/49.png){#WS2012_Screenshots/49}
 
 
 Cliquer sur *Suivant* :
 
 
 ![Serveurs WINS - Assistant Nouvelle étendue du Gestionnaire DHCP de
-Windows Server 2012](/Archi1/WS2012_Screenshots/50.png){#WS2012_Screenshots/50}
+Windows Server 2012](Archi1/WS2012_Screenshots/50.png){#WS2012_Screenshots/50}
 
 
 Cocher l'option \"*Oui, je veux activer cette étendue maintenant*\",
@@ -412,7 +412,7 @@ puis cliquer sur *Suivant* :
 
 ![Activation de l'étendue - Assistant Nouvelle étendue du Gestionnaire
 DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/51.png){#WS2012_Screenshots/51}
+2012](Archi1/WS2012_Screenshots/51.png){#WS2012_Screenshots/51}
 
 
 Cliquer sur *Terminer* :
@@ -420,7 +420,7 @@ Cliquer sur *Terminer* :
 
 ![Fin de la nouvelle étendue - Assistant Nouvelle étendue du
 Gestionnaire DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/52.png){#WS2012_Screenshots/52}
+2012](Archi1/WS2012_Screenshots/52.png){#WS2012_Screenshots/52}
 
 
 ### Création de l'Active Directory
@@ -430,21 +430,21 @@ Directory* :
 
 
 ![Centre d'administration Active
-Directory](/Archi1/WS2012_Screenshots/53.png){#WS2012_Screenshots/53}
+Directory](Archi1/WS2012_Screenshots/53.png){#WS2012_Screenshots/53}
 
 
 Dans l'encadré **Serveurs**, cliquer sur *Autres\...* :
 
 
 ![Configuration AD DS de Windows Server
-2012](/Archi1/WS2012_Screenshots/54.png){#WS2012_Screenshots/54}
+2012](Archi1/WS2012_Screenshots/54.png){#WS2012_Screenshots/54}
 
 
 Cliquer sur l'action *Promouvoir ce serveur en contrôleur de domaine* :
 
 
 ![Configuration post-déploiement AD DS de Windows Server
-2012](/Archi1/WS2012_Screenshots/55.png){#WS2012_Screenshots/55}
+2012](Archi1/WS2012_Screenshots/55.png){#WS2012_Screenshots/55}
 
 
 Aller dans la section *Configuration de déploiement* :
@@ -452,7 +452,7 @@ Aller dans la section *Configuration de déploiement* :
 
 ![Configuration de déploiement - Configuration des services de domaine
 Active Directory de Windows Server
-2012](/Archi1/WS2012_Screenshots/56.png){#WS2012_Screenshots/56}
+2012](Archi1/WS2012_Screenshots/56.png){#WS2012_Screenshots/56}
 
 
 Cocher l'option \"*Ajouter une nouvelle forêt*\", et entrer la valeur
@@ -462,7 +462,7 @@ Cocher l'option \"*Ajouter une nouvelle forêt*\", et entrer la valeur
 
 ![Ajout d'une nouvelle forêt - Configuration des services de domaine
 Active Directory de Windows Server
-2012](/Archi1/WS2012_Screenshots/58.png){#WS2012_Screenshots/58}
+2012](Archi1/WS2012_Screenshots/58.png){#WS2012_Screenshots/58}
 
 
 Aller dans la section *Options du contrôleur de domaine*. Entrer un mot
@@ -472,7 +472,7 @@ de passe respectant les bonne pratiques de sécurité, puis cliquer sur
 
 ![Options du contrôleur de domaine - Configuration des services de
 domaine Active Directory de Windows Server
-2012](/Archi1/WS2012_Screenshots/59.png){#WS2012_Screenshots/59}
+2012](Archi1/WS2012_Screenshots/59.png){#WS2012_Screenshots/59}
 
 
 Aller dans la section *Options DNS*, puis cliquer sur *Suivant* :
@@ -480,7 +480,7 @@ Aller dans la section *Options DNS*, puis cliquer sur *Suivant* :
 
 ![Options DNS - Configuration des services de domaine Active Directory
 de Windows Server
-2012](/Archi1/WS2012_Screenshots/60.png){#WS2012_Screenshots/60}
+2012](Archi1/WS2012_Screenshots/60.png){#WS2012_Screenshots/60}
 
 
 Aller dans la section *Options supplémentaires*, puis cliquer sur
@@ -489,7 +489,7 @@ Aller dans la section *Options supplémentaires*, puis cliquer sur
 
 ![Options supplémentaires - Configuration des services de domaine Active
 Directory de Windows Server
-2012](/Archi1/WS2012_Screenshots/61.png){#WS2012_Screenshots/61}
+2012](Archi1/WS2012_Screenshots/61.png){#WS2012_Screenshots/61}
 
 
 Aller dans la section *Chemins d'accès*, puis cliquer sur *Suivant* :
@@ -497,7 +497,7 @@ Aller dans la section *Chemins d'accès*, puis cliquer sur *Suivant* :
 
 ![Chemins d'accès - Configuration des services de domaine Active
 Directory de Windows Server
-2012](/Archi1/WS2012_Screenshots/62.png){#WS2012_Screenshots/62}
+2012](Archi1/WS2012_Screenshots/62.png){#WS2012_Screenshots/62}
 
 
 Aller dans la section *Examiner les options*, puis cliquer sur *Suivant*
@@ -506,7 +506,7 @@ Aller dans la section *Examiner les options*, puis cliquer sur *Suivant*
 
 ![Examiner les options - Configuration des services de domaine Active
 Directory de Windows Server
-2012](/Archi1/WS2012_Screenshots/63.png){#WS2012_Screenshots/63}
+2012](Archi1/WS2012_Screenshots/63.png){#WS2012_Screenshots/63}
 
 
 Aller dans la section *Vérification de la configuration requise*, puis
@@ -515,7 +515,7 @@ cliquer sur *Installer* :
 
 ![Vérification de la configuration requise - Configuration des services
 de domaine Active Directory de Windows Server
-2012](/Archi1/WS2012_Screenshots/64.png){#WS2012_Screenshots/64}
+2012](Archi1/WS2012_Screenshots/64.png){#WS2012_Screenshots/64}
 
 
 Une fois le serveur redémarré, se connecter au compte administrateur du
@@ -523,7 +523,7 @@ domaine EPITAF.
 
 
 ![Accès au compte administrateur du domaine EPITAF de Windows Server
-2012](/Archi1/WS2012_Screenshots/65.png){#WS2012_Screenshots/65}
+2012](Archi1/WS2012_Screenshots/65.png){#WS2012_Screenshots/65}
 
 
 Dans le gestionnaire de serveur, aller dans la section **DHCP** via la
@@ -531,14 +531,14 @@ colonne de gauche. Cliquer sur *Autres\...* dans l'encart jaune :
 
 
 ![Configuration du serveur DHCP pour AD DS de Windows Server
-2012](/Archi1/WS2012_Screenshots/66.png){#WS2012_Screenshots/66}
+2012](Archi1/WS2012_Screenshots/66.png){#WS2012_Screenshots/66}
 
 
 Cliquer sur l'action \"*Terminer la configuration DHCP*\" :
 
 
 ![Configuration post-déploiement du serveur DHCP pour AD DS de Windows
-Server 2012](/Archi1/WS2012_Screenshots/67.png){#WS2012_Screenshots/67}
+Server 2012](Archi1/WS2012_Screenshots/67.png){#WS2012_Screenshots/67}
 
 
 Dans la section *Description* cliquer sur *Suivant* :
@@ -546,7 +546,7 @@ Dans la section *Description* cliquer sur *Suivant* :
 
 ![Description - Assistant Configuration post-déploiement DHCP pour AD DS
 de Windows Server
-2012](/Archi1/WS2012_Screenshots/68.png){#WS2012_Screenshots/68}
+2012](Archi1/WS2012_Screenshots/68.png){#WS2012_Screenshots/68}
 
 
 Dans la section *Autorisation*, cocher l'option \"*Utiliser les
@@ -556,14 +556,14 @@ l'utilisateur `EPITAF\Administrateur`. Cliquer sur *Valider* :
 
 ![Autorisation - Assistant Configuration post-déploiement DHCP pour AD
 DS de Windows Server
-2012](/Archi1/WS2012_Screenshots/69.png){#WS2012_Screenshots/69}
+2012](Archi1/WS2012_Screenshots/69.png){#WS2012_Screenshots/69}
 
 
 Dans la section *Résumé* cliquer sur *Fermer* :
 
 
 ![Résumé - Assistant Configuration post-déploiement DHCP pour AD DS de
-Windows Server 2012](/Archi1/WS2012_Screenshots/70.png){#WS2012_Screenshots/70}
+Windows Server 2012](Archi1/WS2012_Screenshots/70.png){#WS2012_Screenshots/70}
 
 
 Cliquer sur *Outils*, puis cliquer sur *DHCP*. Ensuite, dérouler la
@@ -572,7 +572,7 @@ sur *Configurer les options\...* :
 
 
 ![Accès à la configuration des options de serveur DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/71.png){#WS2012_Screenshots/71}
+2012](Archi1/WS2012_Screenshots/71.png){#WS2012_Screenshots/71}
 
 
 Cocher l'option `003 Routeur`. Dans le champ *Adresse IP*, entrer
@@ -580,7 +580,7 @@ l'adresse IP 192.168.2.1, puis cliquer sur *Ajouter* :
 
 
 ![Paramétrage de l'option routeur du serveur DHCP de Windows Server
-2012](/Archi1/WS2012_Screenshots/72.png){#WS2012_Screenshots/72}
+2012](Archi1/WS2012_Screenshots/72.png){#WS2012_Screenshots/72}
 
 
 Cocher l'option `006 Servers DNS`. Dans le champ *Adresse IP*, entrer
@@ -589,7 +589,7 @@ l'adresse IP 192.168.2.2, puis cliquer sur *Ajouter*. Enfin, cliquer sur
 
 
 ![Paramétrage de l'option DNS de Windows Server
-2012](/Archi1/WS2012_Screenshots/73.png){#WS2012_Screenshots/73}
+2012](Archi1/WS2012_Screenshots/73.png){#WS2012_Screenshots/73}
 
 
 ### Ajout d'un utilisateur dans le domaine EPITAF
@@ -680,7 +680,7 @@ barre des tâches. Cliquer sur *Ouvrir les paramètres réseau et Internet*
 
 
 ![Accès aux paramètres réseau et Internet de Windows
-10](/Archi1/W_Screenshots/41.png){#W_Screenshots/41}
+10](Archi1/W_Screenshots/41.png){#W_Screenshots/41}
 
 
 Ouvrir les options d'adaptateur, en cliquant sur *Modifier les options
@@ -688,14 +688,14 @@ d'adapteur* :
 
 
 ![Ouverture des options d'adaptateur de Windows
-10](/Archi1/W_Screenshots/42.png){#W_Screenshots/42}
+10](Archi1/W_Screenshots/42.png){#W_Screenshots/42}
 
 
 Cliquer droit sur la carte Ethernet, et sélectionner *Propriétés* :
 
 
 ![Accès aux propriétés de la carte Ethernet de Windows
-10](/Archi1/W_Screenshots/43.png){#W_Screenshots/43}
+10](Archi1/W_Screenshots/43.png){#W_Screenshots/43}
 
 
 Décocher *Protocole Internet version 6 (TCP/IPv6)*, et cocher *Protocole
@@ -703,7 +703,7 @@ Internet version 4 (TCP/IPv4)*. Cliquer sur *Propriétés* pour IPv4 :
 
 
 ![Modification sur les protocoles Internet et accès aux propriétés IPv4
-de Windows 10](/Archi1/W_Screenshots/44.png){#W_Screenshots/44}
+de Windows 10](Archi1/W_Screenshots/44.png){#W_Screenshots/44}
 
 
 Renseigner la valeur du serveur DNS préféré : 192.168.2.2. Cliquer sur
@@ -711,7 +711,7 @@ Renseigner la valeur du serveur DNS préféré : 192.168.2.2. Cliquer sur
 
 
 ![Modification de l'adresse DNS de PC01 de Windows
-10](/Archi1/W_Screenshots/45.png){#W_Screenshots/45}
+10](Archi1/W_Screenshots/45.png){#W_Screenshots/45}
 
 
 ### Attribution du domaine
@@ -720,7 +720,7 @@ Accéder aux paramètres *Systèmes* :
 
 
 ![Accès à Système sur Windows
-10](/Archi1/W_Screenshots/46.png){#W_Screenshots/46}
+10](Archi1/W_Screenshots/46.png){#W_Screenshots/46}
 
 
 Aller à la section **Informations Système**. Cliquer sur *Informations
@@ -728,21 +728,21 @@ système* :
 
 
 ![Accès à Informations Système de Windows
-10](/Archi1/W_Screenshots/47.png){#W_Screenshots/47}
+10](Archi1/W_Screenshots/47.png){#W_Screenshots/47}
 
 
 Cliquer sur *Modifier les paramètres* :
 
 
 ![Accès à la modification des paramètres système de Windows
-10](/Archi1/W_Screenshots/48.png){#W_Screenshots/48}
+10](Archi1/W_Screenshots/48.png){#W_Screenshots/48}
 
 
 Accéder aux propriétés de domaine en cliquant sur *Modifier* :
 
 
 ![Accès aux propriétés de domaine de Windows
-10](/Archi1/W_Screenshots/49.png){#W_Screenshots/49}
+10](Archi1/W_Screenshots/49.png){#W_Screenshots/49}
 
 
 Ajouter le domaine **EPITAF**, et cliquer sur *OK* :
@@ -763,7 +763,7 @@ Cliquer sur *OK* puis fermer toutes les fenêtres :
 
 
 ![Modification de domaine effective de Windows
-10](/Archi1/W_Screenshots/51.png){#W_Screenshots/51}
+10](Archi1/W_Screenshots/51.png){#W_Screenshots/51}
 
 
 ## Debian
@@ -775,7 +775,7 @@ cliquer sur *Configuration* :
 
 
 ![Accès à la fenêtre de configuration de la machine virtuelle
-Debian](/Archi1/Debian_screenshots/Config/1.png){#Debian_screenshots/Config/1}
+Debian](Archi1/Debian_screenshots/Config/1.png){#Debian_screenshots/Config/1}
 
 
 Accéder à la section **Réseau**, puis dans l'onglet \"Interface 1\",
@@ -784,7 +784,7 @@ sélectionner *Réseau interne* comme mode d'accès réseau, avec
 
 
 ![Configuration réseau de la machine virtuelle
-Debian](/Archi1/Debian_screenshots/Config/2.png){#Debian_screenshots/Config/2}
+Debian](Archi1/Debian_screenshots/Config/2.png){#Debian_screenshots/Config/2}
 
 
 Se connecter sur la machine virtuelle. Cliquer sur l'icône pour les
@@ -793,14 +793,14 @@ réseaux, cliquer sur *Connexion de Filaire en \...*, puis sur
 
 
 ![Accès aux paramètres de configuration de
-connexion](/Archi1/Debian_screenshots/Config/3.png){#Debian_screenshots/Config/3}
+connexion](Archi1/Debian_screenshots/Config/3.png){#Debian_screenshots/Config/3}
 
 
 Sélectionner *Filaire*, puis cliquer sur le bouton des paramètres :
 
 
 ![Accès aux paramètres de connexion
-filaire](/Archi1/Debian_screenshots/Config/4.png){#Debian_screenshots/Config/4}
+filaire](Archi1/Debian_screenshots/Config/4.png){#Debian_screenshots/Config/4}
 
 
 Aller dans la section *IPv4*, puis sélectionner *Manuel* afin de
@@ -809,14 +809,14 @@ configurer les adresses suivantes : 192.168.2.2, 255.255.255.0 et
 
 
 ![Configuration des paramètres de connexion filaire en
-IPv4](/Archi1/Debian_screenshots/Config/5.png){#Debian_screenshots/Config/5}
+IPv4](Archi1/Debian_screenshots/Config/5.png){#Debian_screenshots/Config/5}
 
 
 Ouvrir un navigateur, et se rendre à l'adresse \"https://192.168.2.1\" :
 
 
 ![Accès à la page web de configuration de
-pfsense](/Archi1/Debian_screenshots/Config/6.png){#Debian_screenshots/Config/6}
+pfsense](Archi1/Debian_screenshots/Config/6.png){#Debian_screenshots/Config/6}
 
 
 Ouvrir la fenêtre de configuration de la machine virtuelle de
@@ -827,7 +827,7 @@ Cliquer sur *OK* :
 
 
 ![Création d'un second réseau interne sur
-pfsense](/Archi1/Debian_screenshots/Config/7.png){#Debian_screenshots/Config/7}
+pfsense](Archi1/Debian_screenshots/Config/7.png){#Debian_screenshots/Config/7}
 
 
 Sur la page web de configuration de pfsense, cliquer sur *Interfaces*
@@ -836,42 +836,42 @@ puis *Assignments* :
 
 ![Accès à l'assignation des interfaces sur la page web de configuration
 de
-pfsense](/Archi1/Debian_screenshots/Config/8.png){#Debian_screenshots/Config/8}
+pfsense](Archi1/Debian_screenshots/Config/8.png){#Debian_screenshots/Config/8}
 
 
 Cliquer sur le bouton *Add* :
 
 
 ![Ajout d'une interface sur la page web de configuration de
-pfsense](/Archi1/Debian_screenshots/Config/9.png){#Debian_screenshots/Config/9}
+pfsense](Archi1/Debian_screenshots/Config/9.png){#Debian_screenshots/Config/9}
 
 
 Cliquer sur la nouvelle interface créée, soit *OPT1* :
 
 
 ![Accès à la configuration de l'interface
-*OPT1*](/Archi1/Debian_screenshots/Config/10.png){#Debian_screenshots/Config/10}
+*OPT1*](Archi1/Debian_screenshots/Config/10.png){#Debian_screenshots/Config/10}
 
 
 Remplir les champs comme sur la figure ci-dessous :
 
 
 ![Configuration de l'interface
-*OPT1*](/Archi1/Debian_screenshots/Config/11.png){#Debian_screenshots/Config/11}
+*OPT1*](Archi1/Debian_screenshots/Config/11.png){#Debian_screenshots/Config/11}
 
 
 Cliquer sur le bouton *Apply Changes* une fois les champs remplis :
 
 
 ![Application des changements sur la configuration de
-l'interface](/Archi1/Debian_screenshots/Config/12.png){#Debian_screenshots/Config/12}
+l'interface](Archi1/Debian_screenshots/Config/12.png){#Debian_screenshots/Config/12}
 
 
 Cliquer sur *Firewall*, puis sur *Rules* :
 
 
 ![Accès aux règles de pfsense sur l'interface
-web](/Archi1/Debian_screenshots/Config/13.png){#Debian_screenshots/Config/13}
+web](Archi1/Debian_screenshots/Config/13.png){#Debian_screenshots/Config/13}
 
 
 Sélectionner la première règle ainsi que les deux dernières (d'après la
@@ -879,7 +879,7 @@ figure suivante), puis cliquer sur le bouton *Delete* :
 
 
 ![Suppression de trois règles pfsense sur l'interface
-web](/Archi1/Debian_screenshots/Config/14.png){#Debian_screenshots/Config/14}
+web](Archi1/Debian_screenshots/Config/14.png){#Debian_screenshots/Config/14}
 
 
 Vérifier que la configuration des règles de pfsense soit la même que
@@ -887,7 +887,7 @@ celle de la figure ci-dessous :
 
 
 ![Aperçu des règles de pfsense sur l'interface
-web](/Archi1/Debian_screenshots/Config/15.png){#Debian_screenshots/Config/15}
+web](Archi1/Debian_screenshots/Config/15.png){#Debian_screenshots/Config/15}
 
 
 Cliquer sur l'icône pour les réseaux dans le coin haut-droite de la
@@ -895,7 +895,7 @@ machine, puis cliquer sur *Paramètres filaire* :
 
 
 ![Accéder aux paramètres filaire de la
-machine](/Archi1/Debian_screenshots/Config/16.png){#Debian_screenshots/Config/16}
+machine](Archi1/Debian_screenshots/Config/16.png){#Debian_screenshots/Config/16}
 
 
 Aller dans la section *IPv4*, puis sélectionner *Manuel* afin de
@@ -904,7 +904,7 @@ configurer les adresses suivantes : 192.168.3.2, 255.255.255.0 et
 
 
 ![Configuration des paramètres de connexion filaire en
-IPv4](/Archi1/Debian_screenshots/Config/17.png){#Debian_screenshots/Config/17}
+IPv4](Archi1/Debian_screenshots/Config/17.png){#Debian_screenshots/Config/17}
 
 
 Ouvrir la fenêtre de configuration réseau de la machine virtuelle
@@ -913,7 +913,7 @@ Debian. Aller dans la section *Réseau*, puis dans l'onglet \"Interface
 
 
 ![Configuration réseau de la machine virtuelle
-Debian](/Archi1/Debian_screenshots/Config/18.png){#Debian_screenshots/Config/18}
+Debian](Archi1/Debian_screenshots/Config/18.png){#Debian_screenshots/Config/18}
 
 
 ## Interception SSL/TLS
@@ -935,7 +935,7 @@ le proxy *SQUID* avec l'antivirus intégré *ClamAV* via le pare-feu
 
 
 ![Schéma de l'interception
-SSL/TLS](/Archi1/Interception_Screenshots/schema.jpeg){#Schema_tls/1}
+SSL/TLS](Archi1/Interception_Screenshots/schema.jpeg){#Schema_tls/1}
 
 
 ### Accès à Pfsense et installation des paquets
@@ -947,7 +947,7 @@ Pour pouvoir obtenir SQUID il faut :
 -   Accéder à **System -\> Package Manager** :
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/3.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/3.png)
     [\[Pfsense_Screeshots/interception/3\]]{#Pfsense_Screeshots/interception/3
     label="Pfsense_Screeshots/interception/3"}
     
@@ -955,7 +955,7 @@ Pour pouvoir obtenir SQUID il faut :
 -   Cliquer sur **Available Packages** :
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/4.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/4.png)
     [\[Pfsense_Screeshots/interception/4\]]{#Pfsense_Screeshots/interception/4
     label="Pfsense_Screeshots/interception/4"}
     
@@ -963,7 +963,7 @@ Pour pouvoir obtenir SQUID il faut :
 -   Rechercher **SQUID** :
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/5.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/5.png)
     [\[Pfsense_Screeshots/interception/5\]]{#Pfsense_Screeshots/interception/5
     label="Pfsense_Screeshots/interception/5"}
     
@@ -973,7 +973,7 @@ Pour pouvoir obtenir SQUID il faut :
 -   Cliquer sur **Confirm** :
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/6.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/6.png)
     [\[Pfsense_Screeshots/interception/6\]]{#Pfsense_Screeshots/interception/6
     label="Pfsense_Screeshots/interception/6"}
     
@@ -981,13 +981,13 @@ Pour pouvoir obtenir SQUID il faut :
 -   Attendre la fin de l'installation.
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/7.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/7.png)
     [\[Pfsense_Screeshots/interception/7\]]{#Pfsense_Screeshots/interception/7
     label="Pfsense_Screeshots/interception/7"}
     
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/8.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/8.png)
     [\[Pfsense_Screeshots/interception/8\]]{#Pfsense_Screeshots/interception/8
     label="Pfsense_Screeshots/interception/8"}
     
@@ -1001,7 +1001,7 @@ Pour ajouter un certificat, il faut :
 -   cliquer sur **Add**;
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/9.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/9.png)
     [\[Pfsense_Screeshots/interception/9\]]{#Pfsense_Screeshots/interception/9
     label="Pfsense_Screeshots/interception/9"}
     
@@ -1009,7 +1009,7 @@ Pour ajouter un certificat, il faut :
 -   renseigner les champs comme ci-dessous :
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/10.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/10.png)
     [\[Pfsense_Screeshots/interception/10\]]{#Pfsense_Screeshots/interception/10
     label="Pfsense_Screeshots/interception/10"}
     
@@ -1025,7 +1025,7 @@ membres du domaine EPITAF :
 
     
     ![Accès aux politiques de groupe pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO0.png)
+    TLS](Archi1/Interception_Screenshots/GPO0.png)
     
 
 -   Dérouler le menu comme suit : **Gestion de stratégie de groupe -\>
@@ -1034,21 +1034,21 @@ membres du domaine EPITAF :
 
     
     ![Nouvelle GPO pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO1.png)
+    TLS](Archi1/Interception_Screenshots/GPO1.png)
     
 
 -   Indiquer le nom de la GPO et cliquer sur *OK* ;
 
     
     ![Nom de la nouvelle GPO pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO2.png)
+    TLS](Archi1/Interception_Screenshots/GPO2.png)
     
 
 -   Cliquer droit sur la nouvelle GPO puis cliquer sur *Modifier\...* ;
 
     
     ![Modification de la GPO pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO3.png)
+    TLS](Archi1/Interception_Screenshots/GPO3.png)
     
 
 -   Dérouler le menu comme suit : **Stratégie AC pour IE -\>
@@ -1060,14 +1060,14 @@ membres du domaine EPITAF :
 
     
     ![Ajout du certificat pour la nouvelle GPO pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO4.png)
+    TLS](Archi1/Interception_Screenshots/GPO4.png)
     
 
 -   Cliquer sur *Suivant* ;
 
     
     ![Nouveau CA pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO5.png)
+    TLS](Archi1/Interception_Screenshots/GPO5.png)
     
 
 -   Cliquer sur **Parcourir\...** ;
@@ -1076,28 +1076,28 @@ membres du domaine EPITAF :
 
     
     ![Choix du certificat pour la nouvelle GPO pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO6.png)
+    TLS](Archi1/Interception_Screenshots/GPO6.png)
     
 
 -   Cliquer sur *Suivant* ;
 
     
     ![Placement du CA pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO7.png)
+    TLS](Archi1/Interception_Screenshots/GPO7.png)
     
 
 -   Cliquer sur *Terminer* ;
 
     
     ![Fin de l'installation du nouveau certificat pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO8.png)
+    TLS](Archi1/Interception_Screenshots/GPO8.png)
     
 
 -   Cliquer sur *Ok*.
 
     
     ![Validation de l'ajout du nouveau certificat pour l'interception
-    TLS](/Archi1/Interception_Screenshots/GPO9.png)
+    TLS](Archi1/Interception_Screenshots/GPO9.png)
     
 
 ### Mise en place de l'antivirus ClamAV
@@ -1107,7 +1107,7 @@ Pour mettre en place l'antivirus ClamAV, il faut :
 -   Accéder à **Services -\> Squid Proxy Server** ;
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/11.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/11.png)
     [\[Pfsense_Screeshots/interception/11\]]{#Pfsense_Screeshots/interception/11
     label="Pfsense_Screeshots/interception/11"}
     
@@ -1115,7 +1115,7 @@ Pour mettre en place l'antivirus ClamAV, il faut :
 -   Changer la valeur du cache par *500*, puis cliquer sur *save* ;
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/12.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/12.png)
     [\[Pfsense_Screeshots/interception/12\]]{#Pfsense_Screeshots/interception/12
     label="Pfsense_Screeshots/interception/12"}
     
@@ -1124,7 +1124,7 @@ Pour mettre en place l'antivirus ClamAV, il faut :
     **enabled**, cliquer sur **Load Advanced** ;
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/13.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/13.png)
     [\[Pfsense_Screeshots/interception/13\]]{#Pfsense_Screeshots/interception/13
     label="Pfsense_Screeshots/interception/13"}
     
@@ -1133,7 +1133,7 @@ Pour mettre en place l'antivirus ClamAV, il faut :
     **DatabaseDirectory** dans **freshclam.conf**.
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/14.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/14.png)
     [\[Pfsense_Screeshots/interception/14\]]{#Pfsense_Screeshots/interception/14
     label="Pfsense_Screeshots/interception/14"}
     
@@ -1149,7 +1149,7 @@ Pour mettre en place l'antivirus ClamAV, il faut :
 -   Cocher **Transparent HTTP Proxy** ;
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/15.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/15.png)
     [\[Pfsense_Screeshots/interception/15\]]{#Pfsense_Screeshots/interception/15
     label="Pfsense_Screeshots/interception/15"}
     
@@ -1161,7 +1161,7 @@ Pour mettre en place l'antivirus ClamAV, il faut :
 -   Cliquer sur **save** ;
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/16.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/16.png)
     [\[Pfsense_Screeshots/interception/16\]]{#Pfsense_Screeshots/interception/16
     label="Pfsense_Screeshots/interception/16"}
     
@@ -1169,7 +1169,7 @@ Pour mettre en place l'antivirus ClamAV, il faut :
 -   Comme fait précédemment, ajouter une règle sur pfsense ;
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/17.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/17.png)
     [\[Pfsense_Screeshots/interception/17\]]{#Pfsense_Screeshots/interception/17
     label="Pfsense_Screeshots/interception/17"}
     
@@ -1178,7 +1178,7 @@ Pour mettre en place l'antivirus ClamAV, il faut :
     puis cliquer sur *save*;
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/18.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/18.png)
     [\[Pfsense_Screeshots/interception/18\]]{#Pfsense_Screeshots/interception/18
     label="Pfsense_Screeshots/interception/18"}
     
@@ -1188,7 +1188,7 @@ Pour mettre en place l'antivirus ClamAV, il faut :
     ci-dessous dans l'onglet **ACLs**, à **Block User Agents**.
 
     
-    ![image](/Archi1/Pfsense_Screeshots/interception/19.png)
+    ![image](Archi1/Pfsense_Screeshots/interception/19.png)
     [\[Pfsense_Screeshots/interception/19\]]{#Pfsense_Screeshots/interception/19
     label="Pfsense_Screeshots/interception/19"}
     
@@ -1223,13 +1223,13 @@ Ci-dessous, le résultat après une recherche google avec des termes
 proches d'epita.
 
 
-![image](/Archi1/Interception_Screenshots/clamAV01.png)
+![image](Archi1/Interception_Screenshots/clamAV01.png)
 [\[Pfsense_Screeshots/interception/18\]]{#Pfsense_Screeshots/interception/18
 label="Pfsense_Screeshots/interception/18"}
 
 
 
-![image](/Archi1/Interception_Screenshots/clamAV02.png)
+![image](Archi1/Interception_Screenshots/clamAV02.png)
 [\[Pfsense_Screeshots/interception/18\]]{#Pfsense_Screeshots/interception/18
 label="Pfsense_Screeshots/interception/18"}
 
@@ -1237,7 +1237,7 @@ label="Pfsense_Screeshots/interception/18"}
 Ce qui nous donne dans les logs :
 
 
-![image](/Archi1/Interception_Screenshots/clamAV03.png)
+![image](Archi1/Interception_Screenshots/clamAV03.png)
 [\[Pfsense_Screeshots/interception/18\]]{#Pfsense_Screeshots/interception/18
 label="Pfsense_Screeshots/interception/18"}
 
@@ -1273,14 +1273,14 @@ Pour pouvoir paramétrer nginx il faut :
 
     
     ![Affichage des certificats pour le TLS
-    mutualisé](/Archi1/Interception_Screenshots/mut01.png)
+    mutualisé](Archi1/Interception_Screenshots/mut01.png)
     
 
 2.  Les placer dans un dossier sur le serveur distant.
 
     
     ![Mise en place des certificats pour le TLS
-    mutualisé](/Archi1/Interception_Screenshots/mut02.png)
+    mutualisé](Archi1/Interception_Screenshots/mut02.png)
     
 
 3.  Dans la configuration ssl de Nginx rajouter les lignes :
@@ -1310,14 +1310,14 @@ un serveur TLS et un client s'authentifiant mutuellement, il faut :
 
     
     ![Importation du CA pour le TLS
-    mutualisé](/Archi1/Interception_Screenshots/mut03.png)
+    mutualisé](Archi1/Interception_Screenshots/mut03.png)
     
 
 -   Dans l'onglet **Certificates**, importer un CSR ;
 
     
     ![Importation du CSR pour le TLS
-    mutualisé](/Archi1/Interception_Screenshots/mut04.png)
+    mutualisé](Archi1/Interception_Screenshots/mut04.png)
     
 
 -   Ajouter un nouveau certificat, selectionner la méthode *Sign a
@@ -1335,7 +1335,7 @@ un serveur TLS et un client s'authentifiant mutuellement, il faut :
 
     
     ![Signature du CSR pour le TLS
-    mutualisé](/Archi1/Interception_Screenshots/mut05.png)
+    mutualisé](Archi1/Interception_Screenshots/mut05.png)
     
 
 \-
@@ -1345,12 +1345,12 @@ un serveur TLS et un client s'authentifiant mutuellement, il faut :
 ### Ansible
 
 Pour pouvoir construire notre infrastructure
-[251](/Archi1/#Architecture_Screenshots/2){reference-type="ref"
+[251](Archi1/#Architecture_Screenshots/2){reference-type="ref"
 reference="Architecture_Screenshots/2"}, nous utiliserons Ansible [^1].
 
 
 ![Architecture cible avec
-Ansible](/Archi1/Architecture_Screenshots/archi2.jpeg){#Architecture_Screenshots/2}
+Ansible](Archi1/Architecture_Screenshots/archi2.jpeg){#Architecture_Screenshots/2}
 
 
 Afin de lancer le déploiement, il suffit d'exécuter la commande suivante
@@ -1391,7 +1391,7 @@ Les paquets nécessaires au fonctionnement du service web Nginx sont:
 
 
 ![Page d'Accueil Nginx avec
-Authentification](/Archi1/Nginx_Screenshots/4.png){#Nginx_Screenshots/4.png}
+Authentification](Archi1/Nginx_Screenshots/4.png){#Nginx_Screenshots/4.png}
 
 
 ##### Rôle
@@ -1450,24 +1450,24 @@ utilisateur, émis par la PKI.
 
 
 ![Page d'Accueil Wordpress depuis Nginx Port 80/Apache Port
-8000](/Archi1/Nginx_Screenshots/5.png){#Nginx_Screenshots/5.png}
+8000](Archi1/Nginx_Screenshots/5.png){#Nginx_Screenshots/5.png}
 
 
 
-![Page d'erreur 404](/Archi1/Nginx_Screenshots/6.png){#Nginx_Screenshots/6.png}
+![Page d'erreur 404](Archi1/Nginx_Screenshots/6.png){#Nginx_Screenshots/6.png}
 
 
 
-![Page d'erreur 405](/Archi1/Nginx_Screenshots/7.png){#Nginx_Screenshots/7.png}
+![Page d'erreur 405](Archi1/Nginx_Screenshots/7.png){#Nginx_Screenshots/7.png}
 
 
 
-![Page d'erreur 50x](/Archi1/Nginx_Screenshots/8.png){#Nginx_Screenshots/8.png}
+![Page d'erreur 50x](Archi1/Nginx_Screenshots/8.png){#Nginx_Screenshots/8.png}
 
 
 
 ![En-tête de Nginx sécurisée et
-préservée](/Archi1/Nginx_Screenshots/9.png){#Nginx_Screenshots/9.png}
+préservée](Archi1/Nginx_Screenshots/9.png){#Nginx_Screenshots/9.png}
 
 
 ### MySQL
@@ -1492,7 +1492,7 @@ lancée en tant que root.
 
 
 ![Lancement de la commande pour
-MariaDB](/Archi1/Wordpress_Screenshots/5.png){#Wordpress_Screenshots/5.png}
+MariaDB](Archi1/Wordpress_Screenshots/5.png){#Wordpress_Screenshots/5.png}
 
 
 Cette commande exécute plusieurs tâches notamment:
@@ -1574,7 +1574,7 @@ création d'un administrateur du site, selon l'illustration suivante :
 
 
 ![Première connexion sur
-Wordpress](/Archi1/Wordpress_Screenshots/1.png){#Wordpress_Screenshots/1.png}
+Wordpress](Archi1/Wordpress_Screenshots/1.png){#Wordpress_Screenshots/1.png}
 
 
 À l'étape suivante, il suffit de cliquer sur \"Log In\" pour se
@@ -1582,14 +1582,14 @@ connecter à l'interface administrateur de gestion du site.
 
 
 ![Connexion à l'interface de gestion de
-Wordpress](/Archi1/Wordpress_Screenshots/2.png){#Wordpress_Screenshots/2.png}
+Wordpress](Archi1/Wordpress_Screenshots/2.png){#Wordpress_Screenshots/2.png}
 
 
 Soyez les bienvenus sur Wordpress !
 
 
 ![Page d'accueil
-Wordpress](/Archi1/Wordpress_Screenshots/4.png){#Wordpress_Screenshots/4.png}
+Wordpress](Archi1/Wordpress_Screenshots/4.png){#Wordpress_Screenshots/4.png}
 
 
 ### OpenSSH
@@ -1677,7 +1677,7 @@ basés sur le temps.
 
 
 ![Lancement de Google
-Authenticator](/Archi1/OpenSSH_Screenshots/google_auth-1.png){#OpenSSH_Screenshots/google-auth-1.png}
+Authenticator](Archi1/OpenSSH_Screenshots/google_auth-1.png){#OpenSSH_Screenshots/google-auth-1.png}
 
 
 Affichage du QR Code à flasher avec l'application Google Authenticator,
@@ -1690,7 +1690,7 @@ possible de le templacer par la nouvelle clé secrète
 
 
 ![Génération de la clé secrète et deuxième question de Google
-Authenticator](/Archi1/OpenSSH_Screenshots/google_auth-2.png){#OpenSSH_Screenshots/google-auth-2.png}
+Authenticator](Archi1/OpenSSH_Screenshots/google_auth-2.png){#OpenSSH_Screenshots/google-auth-2.png}
 
 
 Choisir de ne pas autoriser l'utilisation multiple du même jeton
@@ -1698,7 +1698,7 @@ d'authentification.
 
 
 ![Troisième question de Google
-Authenticator](/Archi1/OpenSSH_Screenshots/google_auth-3.png){#OpenSSH_Screenshots/google-auth-3.png}
+Authenticator](Archi1/OpenSSH_Screenshots/google_auth-3.png){#OpenSSH_Screenshots/google-auth-3.png}
 
 
 Garder la génération d'un nouveau jeton toutes les 30 secondes, et donc
@@ -1706,14 +1706,14 @@ répondre non à la question :
 
 
 ![Quatrième question de Google
-Authenticator](/Archi1/OpenSSH_Screenshots/google_auth-4.png){#OpenSSH_Screenshots/google-auth-4.png}
+Authenticator](Archi1/OpenSSH_Screenshots/google_auth-4.png){#OpenSSH_Screenshots/google-auth-4.png}
 
 
 Répondre oui pour permettre la limitation de tentative de connexion :
 
 
 ![Dernière question de Google
-Authenticator](/Archi1/OpenSSH_Screenshots/google_auth-5.png){#OpenSSH_Screenshots/google-auth-5.png}
+Authenticator](Archi1/OpenSSH_Screenshots/google_auth-5.png){#OpenSSH_Screenshots/google-auth-5.png}
 
 
 Ce programme génère un fichier *.google_authenticator* contenant la clé
@@ -1771,7 +1771,7 @@ Authenticator :
 
 ![Capture d'écran de la ré-authentification de charlie avec Google
 Authenticator au bout de 1
-minute](/Archi1/OpenSSH_Screenshots/charlie-timeout.png){#OpenSSH_Screenshots/maverik.png}
+minute](Archi1/OpenSSH_Screenshots/charlie-timeout.png){#OpenSSH_Screenshots/maverik.png}
 
 
 Pour des raisons pratiques, la capture d'écran montre le comportement
@@ -1852,7 +1852,7 @@ que maverik ne peut exécuter que certaines commandes avec `sudo`{.bash}
 
 
 ![Capture d'écran lors de la connexion de
-maverik](/Archi1/OpenSSH_Screenshots/maverik.png){#OpenSSH_Screenshots/maverik.png}
+maverik](Archi1/OpenSSH_Screenshots/maverik.png){#OpenSSH_Screenshots/maverik.png}
 
 
 La figure ci-dessous montre la connexion SSH de l'utilisateur `charlie`,
@@ -1861,7 +1861,7 @@ biclé ainsi que grâce à un code de vérification de Google Authenticator.
 
 
 ![Capture d'écran lors de la connexion de
-charlie](/Archi1/OpenSSH_Screenshots/charlie2.png){#OpenSSH_Screenshots/charlie2.png}
+charlie](Archi1/OpenSSH_Screenshots/charlie2.png){#OpenSSH_Screenshots/charlie2.png}
 
 
 La figure ci-dessous montre la connexion SSH de l'utilisateur `goose`.
@@ -1871,7 +1871,7 @@ lui donner comme shell par défaut un shell restreint : `rbash`.
 
 
 ![Capture d'écran lors de la connexion de
-goose](/Archi1/OpenSSH_Screenshots/goose.png){#OpenSSH_Screenshots/goose.png}
+goose](Archi1/OpenSSH_Screenshots/goose.png){#OpenSSH_Screenshots/goose.png}
 
 
 ### Pare-feu
@@ -2030,22 +2030,22 @@ Les illustrations suivantes montrent la configuration à adopter :
 
 
 ![Lancement de la commande pour
-MariaDB](/Archi1/Fail2ban_Screenshots/1.png){#Fail2ban_Screenshots/1.png}
+MariaDB](Archi1/Fail2ban_Screenshots/1.png){#Fail2ban_Screenshots/1.png}
 
 
 
 ![Fonctionnement du ban IP pour scan de
-port](/Archi1/Fail2ban_Screenshots/2.png){#Fail2ban_Screenshots/2.png}
+port](Archi1/Fail2ban_Screenshots/2.png){#Fail2ban_Screenshots/2.png}
 
 
 
 ![Fonctionnement du ban IP pour requête avec méthode
-interdite](/Archi1/Fail2ban_Screenshots/3.png){#Fail2ban_Screenshots/3.png}
+interdite](Archi1/Fail2ban_Screenshots/3.png){#Fail2ban_Screenshots/3.png}
 
 
 
 ![Fonctionnement du ban IP pour abus de connexion
-SSH](/Archi1/Fail2ban_Screenshots/4.png){#Fail2ban_Screenshots4.png}
+SSH](Archi1/Fail2ban_Screenshots/4.png){#Fail2ban_Screenshots4.png}
 
 
 ## Mise en place d'apache avec Kerberos
@@ -2472,13 +2472,13 @@ Se rendre sur la page du gestionnaire de paquets de Pfsense, en cliquant
 sur l'onglet **System**, puis sur *Package Manager* :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/1.png)
+![image](Archi1/MISP_Screenshots/Snort/1.png)
 [\[MISP_Screenshots/Snort/1\]]{#MISP_Screenshots/Snort/1
 label="MISP_Screenshots/Snort/1"}
 
 
 
-![image](/Archi1/MISP_Screenshots/Snort/2.png)
+![image](Archi1/MISP_Screenshots/Snort/2.png)
 [\[MISP_Screenshots/Snort/2\]]{#MISP_Screenshots/Snort/2
 label="MISP_Screenshots/Snort/2"}
 
@@ -2486,7 +2486,7 @@ label="MISP_Screenshots/Snort/2"}
 Entrer le mot-clé `snort` dans la barre de recherche de paquets :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/3.png)
+![image](Archi1/MISP_Screenshots/Snort/3.png)
 [\[MISP_Screenshots/Snort/3\]]{#MISP_Screenshots/Snort/3
 label="MISP_Screenshots/Snort/3"}
 
@@ -2495,7 +2495,7 @@ Confirmer l'installation du paquet, en cliquant sur le bouton *Confirm*
 :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/4.png)
+![image](Archi1/MISP_Screenshots/Snort/4.png)
 [\[MISP_Screenshots/Snort/4\]]{#MISP_Screenshots/Snort/4
 label="MISP_Screenshots/Snort/4"}
 
@@ -2503,13 +2503,13 @@ label="MISP_Screenshots/Snort/4"}
 Attendre la fin de l'installation du paquet Snort :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/5.png)
+![image](Archi1/MISP_Screenshots/Snort/5.png)
 [\[MISP_Screenshots/Snort/5\]]{#MISP_Screenshots/Snort/5
 label="MISP_Screenshots/Snort/5"}
 
 
 
-![image](/Archi1/MISP_Screenshots/Snort/6.png)
+![image](Archi1/MISP_Screenshots/Snort/6.png)
 [\[MISP_Screenshots/Snort/6\]]{#MISP_Screenshots/Snort/6
 label="MISP_Screenshots/Snort/6"}
 
@@ -2518,7 +2518,7 @@ Afin d'accéder à la page du service Snort sur l'interface web de
 Pfsense, cliquer sur l'onglet **Services**, puis sur *Snort* :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/7.png)
+![image](Archi1/MISP_Screenshots/Snort/7.png)
 [\[MISP_Screenshots/Snort/7\]]{#MISP_Screenshots/Snort/7
 label="MISP_Screenshots/Snort/7"}
 
@@ -2526,7 +2526,7 @@ label="MISP_Screenshots/Snort/7"}
 Ajouter une nouvelle interface WAN en cliquant sur le bouton *Add* :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/8.png)
+![image](Archi1/MISP_Screenshots/Snort/8.png)
 [\[MISP_Screenshots/Snort/8\]]{#MISP_Screenshots/Snort/8
 label="MISP_Screenshots/Snort/8"}
 
@@ -2534,7 +2534,7 @@ label="MISP_Screenshots/Snort/8"}
 Configurer l'interface WAN, selon la capture d'écran suivante :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/9.png)
+![image](Archi1/MISP_Screenshots/Snort/9.png)
 [\[MISP_Screenshots/Snort/9\]]{#MISP_Screenshots/Snort/9
 label="MISP_Screenshots/Snort/9"}
 
@@ -2544,7 +2544,7 @@ Ajouter le chemin d'un fichier de configuration dans l'encadré
 *include /usr/local/etc/snort/rules/misp.rules* :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/10.png)
+![image](Archi1/MISP_Screenshots/Snort/10.png)
 [\[MISP_Screenshots/Snort/10\]]{#MISP_Screenshots/Snort/10
 label="MISP_Screenshots/Snort/10"}
 
@@ -2553,7 +2553,7 @@ Dupliquer la configuration de l'interface WAN pour faire une interface
 LAN :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/11.png)
+![image](Archi1/MISP_Screenshots/Snort/11.png)
 [\[MISP_Screenshots/Snort/11\]]{#MISP_Screenshots/Snort/11
 label="MISP_Screenshots/Snort/11"}
 
@@ -2562,7 +2562,7 @@ Configurer la nouvelle interface LAN, tel que sur la capture d'écran
 suivante :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/12.png)
+![image](Archi1/MISP_Screenshots/Snort/12.png)
 [\[MISP_Screenshots/Snort/12\]]{#MISP_Screenshots/Snort/12
 label="MISP_Screenshots/Snort/12"}
 
@@ -2572,7 +2572,7 @@ configuration dans l'encadré `Advanced Configuration Pass-Through` :
 *include/usr/local/etc/snort/rules/misp.rules* :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/13.png)
+![image](Archi1/MISP_Screenshots/Snort/13.png)
 [\[MISP_Screenshots/Snort/13\]]{#MISP_Screenshots/Snort/13
 label="MISP_Screenshots/Snort/13"}
 
@@ -2581,7 +2581,7 @@ De la même manière que pour les interfaces WAN et LAN, créer une
 nouvelle interface pour la DMZ :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/14.png)
+![image](Archi1/MISP_Screenshots/Snort/14.png)
 [\[MISP_Screenshots/Snort/14\]]{#MISP_Screenshots/Snort/14
 label="MISP_Screenshots/Snort/14"}
 
@@ -2591,7 +2591,7 @@ l'encadré `Advanced Configuration Pass-Through` : *include
 /usr/local/etc/snort/rules/misp.rules* :
 
 
-![image](/Archi1/MISP_Screenshots/Snort/15.png)
+![image](Archi1/MISP_Screenshots/Snort/15.png)
 [\[MISP_Screenshots/Snort/15\]]{#MISP_Screenshots/Snort/15
 label="MISP_Screenshots/Snort/15"}
 
@@ -2600,13 +2600,13 @@ Cliquer sur le bouton **Play** de chacune des interfaces, dans la
 colonne *Snort Status*.
 
 
-![image](/Archi1/MISP_Screenshots/Snort/16.png)
+![image](Archi1/MISP_Screenshots/Snort/16.png)
 [\[MISP_Screenshots/Snort/16\]]{#MISP_Screenshots/Snort/16
 label="MISP_Screenshots/Snort/16"}
 
 
 
-![image](/Archi1/MISP_Screenshots/Snort/17.png)
+![image](Archi1/MISP_Screenshots/Snort/17.png)
 [\[MISP_Screenshots/Snort/17\]]{#MISP_Screenshots/Snort/17
 label="MISP_Screenshots/Snort/17"}
 
@@ -2643,22 +2643,22 @@ Ce script est décrit plus en détail dans le document *dev.pdf*.
 
 Les seules modifications à effectuer sont celles de la configuration
 réseau dans le fichier de configuration **/etc/network/interfaces**
-selon la figure [289](/Archi1/#graylog_screenshots/1.png){reference-type="ref"
+selon la figure [289](Archi1/#graylog_screenshots/1.png){reference-type="ref"
 reference="graylog_screenshots/1.png"}, et celles concernant le nom
 d'hôte dans **/etc/hosts**, tel que sur la figure
-[290](/Archi1/#graylog_screenshots/2.png){reference-type="ref"
+[290](Archi1/#graylog_screenshots/2.png){reference-type="ref"
 reference="graylog_screenshots/2.png"}.\
 Il suffira de redémarrer la machine virtuelle pour que les changements
 prennent effet avec la commande suivante : `sudo reboot`{.shell}
 
 
 ![Fichier de configuration
-réseau](/Archi1/graylog_screenshots/1.png){#graylog_screenshots/1.png}
+réseau](Archi1/graylog_screenshots/1.png){#graylog_screenshots/1.png}
 
 
 
 ![Fichier de configuration
-réseau](/Archi1/graylog_screenshots/2.png){#graylog_screenshots/2.png}
+réseau](Archi1/graylog_screenshots/2.png){#graylog_screenshots/2.png}
 
 
 [^1]: Ansible est une plate-forme logicielle libre pour la configuration

@@ -25,7 +25,7 @@ l'intégrité de l'image :
 
 
 ![Récupération de la machine virtuelle Kali mise à
-disposition](/Archi2/Kali_Screenshots/Installation/1.png){#Kali_Screenshots/Installation/1}
+disposition](Archi2/Kali_Screenshots/Installation/1.png){#Kali_Screenshots/Installation/1}
 
 
 ### Procédure d'installation
@@ -36,14 +36,14 @@ suivante :
 
 
 ![Importation de l'image de Kali Linux dans
-VirtualBox](/Archi2/Kali_Screenshots/Installation/2.png){#Kali_Screenshots/Installation/2}
+VirtualBox](Archi2/Kali_Screenshots/Installation/2.png){#Kali_Screenshots/Installation/2}
 
 
 Sélectionner le fichier OVA à importer, puis cliquer sur *Suivant \>* :
 
 
 ![Sélection de l'appareil virtuel à importer dans
-VirtualBox](/Archi2/Kali_Screenshots/Installation/3.png){#Kali_Screenshots/Installation/3}
+VirtualBox](Archi2/Kali_Screenshots/Installation/3.png){#Kali_Screenshots/Installation/3}
 
 
 Sélectionner les paramètres voulus pour la machine virtuelle Kali Linux
@@ -53,7 +53,7 @@ cliquer sur *Importer* :
 
 
 ![Sélection des paramètres de l'appareil virtuel à importer dans
-VirtualBox](/Archi2/Kali_Screenshots/Installation/4.png){#Kali_Screenshots/Installation/4}
+VirtualBox](Archi2/Kali_Screenshots/Installation/4.png){#Kali_Screenshots/Installation/4}
 
 
 Accepter les termes du contrat de licence logiciel affichés, en cliquant
@@ -62,7 +62,7 @@ sur *Accepter* :
 
 ![Acceptation des termes du contrat de licence logiciel de la machine
 virtuelle Kali
-Linux](/Archi2/Kali_Screenshots/Installation/5.png){#Kali_Screenshots/Installation/5}
+Linux](Archi2/Kali_Screenshots/Installation/5.png){#Kali_Screenshots/Installation/5}
 
 
 Patienter pendant l'importation de l'appareil virtuel Kali Linux dans
@@ -70,7 +70,7 @@ VirtualBox :
 
 
 ![Importation de l'appareil virtuel Kali Linux dans
-VirtualBox](/Archi2/Kali_Screenshots/Installation/6.png){#Kali_Screenshots/Installation/6}
+VirtualBox](Archi2/Kali_Screenshots/Installation/6.png){#Kali_Screenshots/Installation/6}
 
 
 ## Windows 8
@@ -92,7 +92,7 @@ Créer la nouvelle machine virtuelle :
 
 
 ![Création d'une nouvelle machine virtuelle Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-1.png){#Windows8_screenshots/Install/1}
+8.1](Archi2/Windows8_screenshots/Install/VM-1.png){#Windows8_screenshots/Install/1}
 
 
 Nommer la machine virtuelle `Windows 8.1`, de type `Microsoft Windows`
@@ -100,7 +100,7 @@ et comme version, `Windows 8.1 (64-bit)`. Cliquer sur *Suivant* :
 
 
 ![Initialisation d'une nouvelle machine virtuelle Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-2.png){#Windows8_screenshots/Install/2}
+8.1](Archi2/Windows8_screenshots/Install/VM-2.png){#Windows8_screenshots/Install/2}
 
 
 Attribuer la RAM qui sera allouée pour cette machine ; 2048 Mo
@@ -108,28 +108,28 @@ suffisent. Cliquer sur *Suivant* :
 
 
 ![Attribution de la RAM d'une nouvelle machine virtuelle Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-3.png){#Windows8_screenshots/Install/3}
+8.1](Archi2/Windows8_screenshots/Install/VM-3.png){#Windows8_screenshots/Install/3}
 
 
 Choisir de créer un disque dur virtuel maintenant. Cliquer sur *Créer* :
 
 
 ![Attribution d'un disque d'une nouvelle machine virtuelle Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-4.png){#Windows8_screenshots/Install/4}
+8.1](Archi2/Windows8_screenshots/Install/VM-4.png){#Windows8_screenshots/Install/4}
 
 
 Choisir VDI comme type de disque dur. Cliquer sur *Suivant* :
 
 
 ![Attribution du type de disque d'une nouvelle machine virtuelle Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-5.png){#Windows8_screenshots/Install/5}
+8.1](Archi2/Windows8_screenshots/Install/VM-5.png){#Windows8_screenshots/Install/5}
 
 
 Choisir l'option \"Dynamiquement alloué\". Cliquer sur *Suivant* :
 
 
 ![Attribution du type d'espace d'une nouvelle machine virtuelle Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-6.png){#Windows8_screenshots/Install/6}
+8.1](Archi2/Windows8_screenshots/Install/VM-6.png){#Windows8_screenshots/Install/6}
 
 
 Choisir un emplacement de la machine virtuelle ; 20 Go suffisent.
@@ -138,7 +138,7 @@ Cliquer sur *Créer* :
 
 ![Attribution de l'espace disque d'une nouvelle machine virtuelle
 Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-7.png){#Windows8_screenshots/Install/7}
+8.1](Archi2/Windows8_screenshots/Install/VM-7.png){#Windows8_screenshots/Install/7}
 
 
 Cliquer droit sur la machine virtuelle Windows 8.1, puis sur
@@ -146,7 +146,7 @@ Cliquer droit sur la machine virtuelle Windows 8.1, puis sur
 
 
 ![Configuration d'une nouvelle machine virtuelle Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-8.png){#Windows8_screenshots/Install/8}
+8.1](Archi2/Windows8_screenshots/Install/VM-8.png){#Windows8_screenshots/Install/8}
 
 
 Accéder à **Stockage**. Choisir l'ISO de Windows 8.1 téléchargée
@@ -154,7 +154,7 @@ précédemment :
 
 
 ![Attribution de l'ISO d'une nouvelle machine virtuelle Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-9.png){#Windows8_screenshots/Install/9}
+8.1](Archi2/Windows8_screenshots/Install/VM-9.png){#Windows8_screenshots/Install/9}
 
 
 ### Configuration de l'interface réseau de la machine
@@ -167,7 +167,7 @@ cliquer sur *OK* :
 
 
 ![Configuration de l'interface de la nouvelle machine virtuelle Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-10.png){#Windows8_screenshots/Install/10}
+8.1](Archi2/Windows8_screenshots/Install/VM-10.png){#Windows8_screenshots/Install/10}
 
 
 ### Installation de Windows 8.1
@@ -176,14 +176,14 @@ Lancer la machine virtuelle Windows 8.1. Renseigner les champs :
 
 
 ![Initialisation de l'installation de Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-11.png){#Windows8_screenshots/Install/11}
+8.1](Archi2/Windows8_screenshots/Install/VM-11.png){#Windows8_screenshots/Install/11}
 
 
 Cliquer sur *Installer maintenant* :
 
 
 ![Lancement de l'installation de Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-12.png){#Windows8_screenshots/Install/12}
+8.1](Archi2/Windows8_screenshots/Install/VM-12.png){#Windows8_screenshots/Install/12}
 
 
 Lire \"Avis et conditions du contrat de licence applicables\". Si vous
@@ -192,7 +192,7 @@ contrat de licene\". Cliquer sur *Suivant* :
 
 
 ![Acceptation du contrat de licence de Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-13.png){#Windows8_screenshots/Install/13}
+8.1](Archi2/Windows8_screenshots/Install/VM-13.png){#Windows8_screenshots/Install/13}
 
 
 Choisir l'option : *Personnalisé : installer uniquement Windows
@@ -200,21 +200,21 @@ Choisir l'option : *Personnalisé : installer uniquement Windows
 
 
 ![Type d'installation de Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-14.png){#Windows8_screenshots/Install/14}
+8.1](Archi2/Windows8_screenshots/Install/VM-14.png){#Windows8_screenshots/Install/14}
 
 
 Choisir le lecteur 0. Cliquer sur *Suivant* :
 
 
 ![Sélection du lecteur de Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-15.png){#Windows8_screenshots/Install/15}
+8.1](Archi2/Windows8_screenshots/Install/VM-15.png){#Windows8_screenshots/Install/15}
 
 
 Attendre pendant l'installation de Windows :
 
 
 ![Installation de Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-16.png){#Windows8_screenshots/Install/16}
+8.1](Archi2/Windows8_screenshots/Install/VM-16.png){#Windows8_screenshots/Install/16}
 
 
 Sélectionner une couleur pour le thème du PC, et choisir le nom du PC.
@@ -222,21 +222,21 @@ Ici, `PC02`. Cliquer sur *Suivant* :
 
 
 ![Personnaliser la couleur ainsi que le nom du PC Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-17.png){#Windows8_screenshots/Install/17}
+8.1](Archi2/Windows8_screenshots/Install/VM-17.png){#Windows8_screenshots/Install/17}
 
 
 Cliquer sur *Personnaliser* :
 
 
 ![Configuration des paramètres du PC Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-18.png){#Windows8_screenshots/Install/18}
+8.1](Archi2/Windows8_screenshots/Install/VM-18.png){#Windows8_screenshots/Install/18}
 
 
 Cliquer sur *Oui* :
 
 
 ![Configuration réseau du PC Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-19.png){#Windows8_screenshots/Install/19}
+8.1](Archi2/Windows8_screenshots/Install/VM-19.png){#Windows8_screenshots/Install/19}
 
 
 Choisir les paramètres concernant les mises à jour, ainsi que ceux
@@ -245,7 +245,7 @@ Cliquer sur *Suivant* :
 
 
 ![Configuration personnalisée de paramètres du PC Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-20.png){#Windows8_screenshots/Install/20}
+8.1](Archi2/Windows8_screenshots/Install/VM-20.png){#Windows8_screenshots/Install/20}
 
 
 Choisir les paramètres concernant la recherche de solutions en ligne
@@ -269,14 +269,14 @@ Cliquer sur *Créer un nouveau compte* :
 
 
 ![Connexion ou création d'un nouveau compte Microsoft sur le PC Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-23.png){#Windows8_screenshots/Install/23}
+8.1](Archi2/Windows8_screenshots/Install/VM-23.png){#Windows8_screenshots/Install/23}
 
 
 Cliquer sur *Se connecter sans compte Microsoft* :
 
 
 ![Création d'un nouveau compte
-Microsoft](/Archi2/Windows8_screenshots/Install/VM-24.png){#Windows8_screenshots/Install/24}
+Microsoft](Archi2/Windows8_screenshots/Install/VM-24.png){#Windows8_screenshots/Install/24}
 
 
 Choisir un nom d'utilisateur, ainsi qu'un mot de passe et une indication
@@ -284,5 +284,5 @@ de mot de passe, puis cliquer sur *Terminer* :
 
 
 ![Création d'un compte sur le PC Windows
-8.1](/Archi2/Windows8_screenshots/Install/VM-25.png){#Windows8_screenshots/Install/25}
+8.1](Archi2/Windows8_screenshots/Install/VM-25.png){#Windows8_screenshots/Install/25}
 
