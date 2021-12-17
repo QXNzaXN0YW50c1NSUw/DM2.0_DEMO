@@ -3,6 +3,7 @@ title = "Gestions des vulnérabilités avec un scanner de type host-based"
 date = 2021-12-15T01:10:29+01:00
 weight = 3
 chapter = false
+tags = ['Question 9']
 +++
 
 ## Quelle est la différence entre un scanner de type host-based et network-based ?

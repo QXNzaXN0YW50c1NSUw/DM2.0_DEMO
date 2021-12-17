@@ -4,6 +4,7 @@ date = 2021-12-15T01:10:29+01:00
 weight = 2
 chapter = false
 pre = "<b>4. </b>"
+tags = ['scans']
 +++
 
 ## Synthèse des résultats des scans
@@ -22,8 +23,6 @@ du domaine Windows.
 
 ![image](Analyse/Screenshots/PART1/dashboard1.png) [\[PART1/1\]]{#PART1/1
 label="PART1/1"}
-
-
 
 ![image](Analyse/Screenshots/PART1/assets1.png) [\[PART1/2\]]{#PART1/2
 label="PART1/2"}

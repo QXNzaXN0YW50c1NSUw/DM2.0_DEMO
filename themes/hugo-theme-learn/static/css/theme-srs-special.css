@@ -22,11 +22,14 @@
     --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
     --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
     --MENU-SECTION-ACTIVE-CATEGORY-color: #12386b; /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: rgb(255, 255, 255); /* Color of background for the active category (only) */
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
     --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
 
+    --TAG-LINK-BG-color: #f0eeec;
+    --TAG-LINK-BORDER-color: #9c121293;
+    --TAG-LINK-TEXT-color: #7c2929;
 }
 
 body {
@@ -106,11 +109,12 @@ a:hover {
 }
 
 #body .tags a.tag-link {
-    background-color: var(--MENU-HEADER-BG-color);
+    background-color: var(--TAG-LINK-BG-color);
+    color: var(--TAG-LINK-TEXT-color)
 }
 
 #body .tags a.tag-link:before {
-    border-right-color: var(--MENU-HEADER-BG-color);
+    border-right-color: var(--TAG-LINK-BORDER-color);
 }
 
 #homelinks {

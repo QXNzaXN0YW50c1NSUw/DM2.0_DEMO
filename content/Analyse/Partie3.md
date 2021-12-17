@@ -3,7 +3,7 @@ title = "Partie 3"
 date = 2021-12-15T01:10:29+01:00
 weight = 4
 chapter = false
-pre = "<b>4. </b>"
+tags = ['Critère 1', 'Critère 2']
 +++
 
 

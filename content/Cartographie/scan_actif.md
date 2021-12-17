@@ -3,6 +3,13 @@ title = "Scan actif"
 date = 2021-12-15T01:10:29+01:00
 weight = 3
 chapter = false
+tags = ["Cartographie en tant qu'administrateur de la totalité du réseau LAN", 
+"Cartographie en tant qu'administrateur de la totalité du réseau DMZ", 
+"La découverte des IP, adresses MAC et services devra ensuite être effectuée avec les fonctionnalités actives des outils de type NMAP, arp-scan, ...",
+"Puis vous effectuerez un scan NMAP avec une variante agressive pour identifier des services et peut-être quelques vulnérabilités",
+"Pour compléter la démonstration de votre topologie LAN, vous pourrez utiliser des outils réseau de base comme traceroute, mtr, ping, arp",
+"Annexe 1 : schéma synthétique du réseau professionnel de niveau 3 selon le modèle OSI",
+"Annexe 2"]
 +++
 
 

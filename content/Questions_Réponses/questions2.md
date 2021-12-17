@@ -3,6 +3,7 @@ title = "Gestions des vulnérabilités avec OpenVAS"
 date = 2021-12-15T01:10:29+01:00
 weight = 3
 chapter = false
+tags = ['Question 5', 'Question 6', 'Question 7', 'Question 8']
 +++
 
 

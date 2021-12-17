@@ -3,6 +3,7 @@ title = "Découvertes des réseaux"
 date = 2021-12-15T01:10:29+01:00
 weight = 2
 chapter = false
+tags = ['Question 1', 'Question 2', 'Question 3', 'Question 4']
 +++
 
 

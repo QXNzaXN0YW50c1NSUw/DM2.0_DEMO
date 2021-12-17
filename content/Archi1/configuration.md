@@ -3,6 +3,7 @@ title = "Configuration de l'architecture"
 date = 2021-12-15T01:10:29+01:00
 weight = 4
 chapter = false
+tags = ['Critère 1', 'Critère 2']
 +++
 
 ## Pfsense

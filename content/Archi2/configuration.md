@@ -3,6 +3,7 @@ title = "Configuration de l'architecture"
 date = 2021-12-15T01:10:29+01:00
 weight = 4
 chapter = false
+tags = ['Mise à jour complète de la Kali', ]
 +++
 
 ## Kali Linux

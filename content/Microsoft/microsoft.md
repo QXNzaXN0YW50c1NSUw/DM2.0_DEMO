@@ -3,6 +3,7 @@ title = "Déroulé d'une analyse avec MBSA"
 date = 2021-12-15T01:10:29+01:00
 weight = 2
 chapter = false
+tags = ['Critère 1', 'Critère 2']
 +++
 
 ## Présentation générale de l'utilisation de MBSA

@@ -10,7 +10,10 @@ theme = "hugo-theme-learn"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> >>> Correction <<<"
+url = "/tags"
+weight = 30
 
 [params]
   landingPageURL = "https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/"
