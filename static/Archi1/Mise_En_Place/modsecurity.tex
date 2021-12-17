@@ -1,0 +1,118 @@
+\section{Mise en place d'apache Modsecurity}
+
+\subsection{Objectifs}
+
+L'objectif est de mettre en place un pare-feu applicatif permettant de protéger les applications de INFRA01 ainsi que de filtrer le mot clef \textit{EPITA} sur les requêtes \textit{POST}, \textit{PUT} et \textit{GET}. Pour cela nous utiliserons ModSecurity \footnote{ModSecurity est un module qui s’intègre au serveur Web Apache et qui permet de mettre en place un pare-feu applicatif dédié aux applications Web. Il fournit un moteur permettant de détecter et de se prémunir des attaques avant qu’elles n’atteignent l’application Web protégée. \\
+ModSecurity offre les mécanismes suivants : 
+\begin{itemize}
+\item la journalisation du trafic ;
+\item la surveillance du trafic et détection en temps réel des attaques ;
+\item la prévention des attaques et adaptation des règles de détection en vue de corriger les vulnérabilités applicatives sans modifier réellement les applications Web.
+\end{itemize}
+\cite{modsecurity}} avec Apache2. \\
+
+
+
+Le pare-feu présente cependant des limites s'il est utilisé seul. \\
+Pour palier ce problème, nous utiliserons OWASP Core Set Rule \footnote{OWASP ModSecurity Core Rule Set (CRS) est un ensemble de règles de détection d'attaques génériques à utiliser avec, entre autres, ModSecurity. Le CRS a pour but de protéger les applications contre une grande variété d'attaques, incluant le top 10 des attaques recensées par OWASP. De plus, il génère très peu de fausses alertes - \url{https://modsecurity.org/crs/}}.
+
+La figure \ref{Apache/modsecurity} montre le fonctionnement de ModSecurity. Cela nous permettra de comprendre comment écrire les règles adéquates.
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.9]{Apache/modsecurity.jpg}
+		\caption{Phases de traitement de l'information par modsecurity \cite{modsecurity-phases}}
+		\label{Apache/modsecurity}
+	\end{center}
+\end{figure}
+\FloatBarrier 
+Le cercle représente le processus de traitement de données d'Apache. Les étiquettes sont les phases avec lesquelles on pourra interférer via ModSecurity. \\
+Ce qu'il faut comprendre :
+\begin{itemize}
+    \item \textbf{Phase 1} : cette phase se déroule juste après qu'Apache ait fini de lire l'en-tête d'une requête. Il est possible d'influer sur la façon dont la requête va être traitée.
+    \item \textbf{Phase 2} : lors de cette phase, le corps de la requête est accessible, il est donc possible d'en obtenir les arguments.
+    \item \textbf{Phase 3} : cette phase se déroule juste avant que le service envoie les en-têtes de la réponse au client. Il est donc possible d'acquérir ce qui a été envoyé au client avant qu'il ne le reçoive.
+    \item \textbf{Phase 4} : dans cette phase, le corps de la réponse est accessible. Il est possible de détecter des "information disclosure".
+    \item \textbf{Phase 5} : phase avant l'entrée d'information dans les logs. Il est possible d'inspecter les messages d'erreurs d'apache.
+\end{itemize}
+
+\subsection{Configuration du serveur Apache avec modsecurity}
+\subsubsection{Configuration par défaut}
+Pour pouvoir utiliser modsecurity avec apache il faut : 
+\begin{itemize}
+    \item Installer libapache2-modsecurity :
+    \begin{minted}{shell}
+    $ sudo apt install libapache2-modsecurity
+    \end{minted}
+    
+    \item Activer le module security2 :
+    \begin{minted}{shell}
+    $ sudo a2enmod security2
+    \end{minted}
+    
+    \item Changer \textbf{/etc/modsecurity/modsecurity-default.conf} en :\\  \textbf{/etc/modsecurity/modsecurity.conf} :
+    \begin{minted}{shell}
+    $ sudo cp /etc/modsecurity/modsecurity-default.conf \ 
+        /etc/modsecurity/modsecurity.conf
+    \end{minted}
+    
+    \item Changer dans le fichier; \textbf{SecRuleEngine DetectionOnly} en :
+    \begin{itemize}
+        \item \textbf{SecRuleEngine On}
+    \end{itemize}
+    \item Redémarrer apache :
+    \begin{minted}{shell}
+    $ sudo systemctl restart apache2
+    \end{minted}
+    
+\end{itemize}
+\subsubsection{Changement de la configuration par défaut}
+Certains paramètres sont à modifier, on obtiendra  :
+\begin{itemize}
+    \item \textbf{SecResponseBodyLimitation Reject} : par défaut laisse passer les réponses qui ne peuvent pas être inspectées dû à leur taille.
+    \item \textbf{SecTmpDir /var/modsecurity/tmp/} :  par défaut, écrit les fichiers temporaires dans un endroit accessible à tout le monde (/tmp)
+    \item \textbf{SecDataDir /var/modsecurity/persistant/} : par défaut, écrit les fichiers persistants dans un endroit accessible à tout le monde (/tmp)
+    \item \textbf{SecAuditEngine On} : par défaut ne log que certaines transactions.
+\end{itemize}
+
+
+Il faut ensuite :
+\begin{itemize}
+    \item Créer les dossiers adéquats :
+\begin{minted}{shell}
+    $ mkdir -p /var/modsecurity/tmp /var/modsecurity/persistant
+\end{minted}
+    \item Redémarrer apache2
+\end{itemize}
+
+\subsubsection{Filtrage du mot \textbf{EPITA}}
+    On cherche à bloquer le mot clé \texttt{EPITA} dans les méthodes \textit{GET}, \textit{PUT} et \textit{POST}. Pour cela il faut rajouter la ligne suivante dans \textbf{/etc/modsecurity/modsecurity.conf} :
+    \begin{minted}{shell}
+    SecRule REQUEST_METHOD "(?:POST|GET|PUT)" \ 
+        "phase:2, t:none, chain, deny, msg:'STOP', status:500, id:5555"
+    SecRule REQUEST_URI|ARGS|REQUEST_BODY "EPITA" \ 
+        "log, auditlog, tag:'KeyWord_EPITA_matched'"
+    \end{minted}
+    On regarde si \textit{EPITA} est présent après avoir regardé si on recevait une requête GET/POST/PUT. Le message d'erreur sera le 500 et l'évènement sera placé dans les logs. Tout se passe pendant la phase 2.\\ 
+    
+    Redémarrer apache :
+    \begin{minted}{shell}
+    $ sudo systemctl restart apache2.
+    \end{minted}
+    
+\subsubsection{OWASP ModSecurity Core Rule Set}
+
+La Configuration par défaut ne suffisant pas, il est possible de se protéger en utilisant le CRS d'OWASP.
+OWASP CSR est à ce jour disponible par défaut avec l'installation de libapache2-mod-security.
+
+Pour installer OWASP ModSecurity CRS manuellement il faut : 
+\begin{itemize}
+    \item Cloner le dépôt du CRS :
+    \begin{minted}{shell}
+    $ git clone https://github.com/SpiderLabs/owasp-modsecurity-crs.git
+    \end{minted}
+    \item Inclure \textbf{crs-setup.conf} et \textbf{rules/*.conf} dans la configuration : 
+    \begin{itemize}
+        \item \textbf{/etc/apache2/mods-enabled/security2\_module}.
+    \end{itemize}
+    \item Redémarrer apache2.
+\end{itemize}

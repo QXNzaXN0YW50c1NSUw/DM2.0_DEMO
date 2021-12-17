@@ -1,0 +1,12 @@
+\subsection{Squid avec ClamAV}
+
+L'installation et la configuration du proxy Squid ayant déjà été traitées dans le document \textit{archi1.pdf}, il n'est pas nécessaire d'en reparler ici. \\
+
+Lors de l'installation de Squid, l'antivirus ClamAV est également installé sur le Pfsense. Cet antivirus est capable de traiter des règles YARA, situées dans le dossier : \\
+\texttt{/var/db/clamav/} \\
+
+Aussi, il est possible d'exporter des règles YARA, via la plateforme MISP, permettant de détecter des malwares ainsi que des outils d'attaques spécifique à APT17.
+
+Pour cela, nous avons écrit un script Python2.7 utilisant la bibliothèque PyMISP, récupérant les attributs YARA, et les écrivant dans le fichier \texttt{/var/db/clamav/rules.yara}. Ce script est relancé toutes les heures à l'aide d'une tâche ajoutée avec crontab. \\
+
+Ce script est décrit plus en détail dans le document \textit{dev.pdf}.
