@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>README on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/</link>
+    <description>Recent content in README on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Découvertes des réseaux</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions/</guid>
+      <description>Comment le logiciel identifie-t-il le type de matériel suite à au moins une écoute passive du réseau ? Le logiciel peut capturer des paquets contenant l&amp;rsquo;adresse MAC des machines et ainsi en récupérer des informations comme par exemple le constructeur ou le type d&amp;rsquo;appareil.
+Comment le logiciel identifie-t-il le système d&amp;rsquo;exploitation ? Le logiciel identifie le type de système d&amp;rsquo;exploitation grâce à une empreinte de la pile TCP/IP de la machine ciblée.</description>
+    </item>
+    
+    <item>
+      <title>Déroulé d&#39;une analyse avec MBSA</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft/microsoft/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft/microsoft/</guid>
+      <description>Présentation générale de l&amp;rsquo;utilisation de MBSA Tout d&amp;rsquo;abord, MBSA doit être exécuté avec un compte à privilèges. En effet, un simple utilisateur du domaine n&amp;rsquo;a pas le droit d&amp;rsquo;exécuter ce logiciel :
+{#11}
+Ensuite, MBSA peut être utilisé de deux manières :
+  Via l&amp;rsquo;interface graphique : mbsa.exe
+  Via l&amp;rsquo;invite de commande : mbsacli.exe
+  L&amp;rsquo;analyse peut être réalisée sur une seule machine ou bien sur plusieurs.</description>
+    </item>
+    
+    <item>
+      <title>Environnement</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/environnement/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/environnement/</guid>
+      <description>Architecture des sources Le fichier mini-pki.ps1 est le script PowerShell permettant de créer une PKI. Il contient tout ce qui est nécessaire à :
+  La création d&amp;rsquo;un certificat de la root CA
+  La création utilisateur de certificat de chiffrement ou de signature
+  La création et la mise à jour de la CRL
+  La création du certificat nécessaire au serveur OCSP.
+  Modules Afin de mettre en œuvre une PKI, nous avons utilisé l&amp;rsquo;utilitaire cryptographique OpenSSL.</description>
+    </item>
+    
+    <item>
+      <title>Exécution d&#39;un déploiement de MBSA</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft_annexe/microsoft_annexe/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft_annexe/microsoft_annexe/</guid>
+      <description>Présentation Microsoft Baseline Security Analyzer offre la possibilité d&amp;rsquo;effectuer une analyse sur un ensemble de machines. Cet ensemble peut être défini selon deux manières :
+  Sur un domaine
+  Sur une plage d&amp;rsquo;adresses IPv4
+  Cependant, afin que les machines de l&amp;rsquo;ensemble à analyser puissent être examinées, il faut tout d&amp;rsquo;abord faire certaines configurations, autant sur le contrôleur de domaine duquel l&amp;rsquo;analyse sera lancée que sur les machines qui seront analysées.</description>
+    </item>
+    
+    <item>
+      <title>Partie 1</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie1/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie1/</guid>
+      <description>Synthèse des résultats des scans D&amp;rsquo;après les figures ci-dessous, le système d&amp;rsquo;information cible est un système vieillissant.
+La figure [PART1/2]{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;PART1/2&amp;rdquo;} indique que toutes les machines sont vulnérables. De plus, le contrôleur de domaine est le plus susceptible d&amp;rsquo;être compromis.
+Le pare-feu et les machines utilisateurs sont les moins vulnérables du système d&amp;rsquo;information.
+Un attaquant ayant accès au LAN pourrait aisément devenir administrateur du domaine Windows.
+[[PART1/1]]{#PART1/1 label=&amp;ldquo;PART1/1&amp;rdquo;}
+[[PART1/2]]{#PART1/2 label=&amp;ldquo;PART1/2&amp;rdquo;}</description>
+    </item>
+    
+    <item>
+      <title>Partie 2</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie2/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie2/</guid>
+      <description>Comparaisons des résultats des scans des machines Afin de pouvoir réaliser certains scans de machine, il est important de positionner le paramètre Consider Alive via l&amp;rsquo;option Alive Test lors de la création des profils des machines. La figure [PART2/1]{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;PART2/1&amp;rdquo;} montre l&amp;rsquo;opération :
+[[PART2/1]]{#PART2/1 label=&amp;ldquo;PART2/1&amp;rdquo;}
+Comparaison des scans simple et ultimate Les scans dits Ultimate ont été réalisés avec les données d&amp;rsquo;authentification des machines du parc, contrairement aux scans simples.</description>
+    </item>
+    
+    <item>
+      <title>Périmètre fonctionnel</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/perim%C3%A8tre/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/perim%C3%A8tre/</guid>
+      <description>Architecture attendue Comme le présentent les figures [Architecture_Screenshots/1]{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;Architecture_Screenshots/1&amp;rdquo;} et 250{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;Schema_tls/1&amp;rdquo;} pour l&amp;rsquo;interception SSL/TLS, une fois la documentation mise en œuvre, il sera obtenu :
+  1 machine virtuelle Windows Server 2012 :
+  Rôle de domaine contrôleur &amp;quot;EPITAF&amp;quot;;
+  Nom de machine : DC01;
+  IP fixe 192.168.2.2, route par défaut 192.168.2.1;
+  Serveur DHCP &amp;ndash; plage distribuable : 192.168.2.10 &amp;ndash; 20.
+    1 machine virtuelle Windows 10 :</description>
+    </item>
+    
+    <item>
+      <title>Périmètre fonctionnel</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/p%C3%A9rim%C3%A8tre/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/p%C3%A9rim%C3%A8tre/</guid>
+      <description>Architecture attendue Comme le présentent les figures [Architecture_Screenshots/1]{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;Architecture_Screenshots/1&amp;rdquo;}, une fois la documentation mise en œuvre, il sera obtenu en complément de l&amp;rsquo;architecture de la documentation archi1.pdf :
+  1 machine virtuelle : Virtual appliance kali
+  Nom de machine : KALI01
+  IP fixe 192.168.2.21, route par défaut 192.168.2.1
+  Toutes les connexions à internet se font à travers le PFSense.
+    1 machine virtuelle : Windows 8.</description>
+    </item>
+    
+    <item>
+      <title>Scan passif</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/cartographie/scan_passif/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/cartographie/scan_passif/</guid>
+      <description>Découverte du réseau avec netdiscover La figure 1{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;Netdiscover0&amp;rdquo;} permet de lancer netdiscover en mode écoute passive :
+{#Netdiscover0}
+Il faut ensuite attendre que du trafic se fasse :
+{#Netdiscover1}
+La figure 3{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;Netdiscover2&amp;rdquo;} montre la capture d&amp;rsquo;un paquet en provenance de 192.168.2.11 :
+{#Netdiscover2}</description>
+    </item>
+    
+    <item>
+      <title>Développement</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/d%C3%A9veloppement/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/d%C3%A9veloppement/</guid>
+      <description>Fonctions Description des fonctions Create-CA Cette fonction s&amp;rsquo;occupe de la création du certificat de la root CA (Autorité de certification). En premier lieu, il faut créer l&amp;rsquo;arborescence, puis verrouiller l&amp;rsquo;accès au dossier de l&amp;rsquo;AC. Les fichiers d&amp;rsquo;index et de serial sont initialisés. Enfin, on génère le certificat AC à l&amp;rsquo;aide d&amp;rsquo;une clé RSA. Des données spécifiques à l&amp;rsquo;AC sont demandées à l&amp;rsquo;administrateur. Ce certificat est un tiers de confiance permettant d&amp;rsquo;identifier l&amp;rsquo;identité des correspondants.</description>
+    </item>
+    
+    <item>
+      <title>Gestions des vulnérabilités avec OpenVAS</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions2/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions2/</guid>
+      <description>Citez des produits de gestion de vulnérabilités ? Tout d&amp;rsquo;abord, il existe OpenVAS, qui est Open Source et est sous licence GNU GPL. Ensuite, il y a Nessus, le produit de gestion de vulnérabilités de Tenable Network. Enfin, il y a aussi Nexpose, l&amp;rsquo;outil de Rapid7.
+Qu&amp;rsquo;est-ce qu&amp;rsquo;un scan authentifié ? Un scan authentifié va permettre d&amp;rsquo;identifier ce qui est installé sur une machine. Le scanner va en effet pouvoir se connecter à des postes de travail ou des serveurs, afin d&amp;rsquo;obtenir plus d&amp;rsquo;informations, comme notamment les services qui ne sont pas exposés.</description>
+    </item>
+    
+    <item>
+      <title>Gestions des vulnérabilités avec un scanner de type host-based</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions3/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/questions_r%C3%A9ponses/questions3/</guid>
+      <description>Quelle est la différence entre un scanner de type host-based et network-based ? Un scanner de type host-based examine les configurations du système, les systèmes de fichiers, les paramètres des registres, et toutes sortes d&amp;rsquo;autres informations qu&amp;rsquo;un hôte possède. Ces outils permettent d&amp;rsquo;apporter une vision &amp;quot;administrateur&amp;quot; de l&amp;rsquo;environnement et de son exposition.
+Un scanner de type network-based est conçu pour découvrir l&amp;rsquo;existence de vulnérabilités au sein d&amp;rsquo;un réseau. Ces outils permettent de donner un aperçu de l&amp;rsquo;environnement au niveau du réseau.</description>
+    </item>
+    
+    <item>
+      <title>Mise en place de l&#39;architecture</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/mise-en-place/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/mise-en-place/</guid>
+      <description>VirtualBox L&amp;rsquo;architecture du projet est construite via un outil de virtualisation. Nous utilisons VirtualBox.
+Adresse du fichier d&amp;rsquo;installation VirtualBox est disponible à cette adresse : https://www.virtualbox.org/wiki/Downloads
+Dans la section &amp;quot;VirtualBox &amp;lt;version&amp;gt; plateform packages&amp;quot;, choisir son système d&amp;rsquo;exploitation.
+Procédure d&amp;rsquo;installation Merci de bien vouloir suivre la partie 1.6 de https://download.virtualbox.org/virtualbox/6.0.4/UserManual.pdf pour pouvoir installer l&amp;rsquo;outil.
+Utilisation Merci de bien vouloir lire la partie 1.7 de https://download.virtualbox.org/virtualbox/6.0.4/UserManual.pdf pour pouvoir utiliser VirtualBox.
+Pfsense Adresse du fichier d&amp;rsquo;installation Pfsense est disponible à cette adresse : https://www.</description>
+    </item>
+    
+    <item>
+      <title>Mise en place de l&#39;architecture</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/mise-en-place/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/mise-en-place/</guid>
+      <description>Kali Adresse du fichier d&amp;rsquo;installation Une machine virtuelle Kali est mise à disposition à l&amp;rsquo;adresse
+Pour VirtualBox, il faut télécharger le fichier OVA. Avant de procéder à l&amp;rsquo;importation de la machine virtuelle, il faut vérifier l&amp;rsquo;intégrité du fichier téléchargé. La signature de ce fichier est également disponible, à côté du lien de téléchargement du fichier OVA.
+Sur la figure ci-après sont mis en exergue le fichier à télécharger ainsi que sa signature.</description>
+    </item>
+    
+    <item>
+      <title>Scan actif</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/cartographie/scan_actif/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/cartographie/scan_actif/</guid>
+      <description>Découverte des machines présentes sur le réseau Afin de pouvoir identifier les machines d&amp;rsquo;un réseau, il est possible de lancer un scan de découverte avec NMAP.
+Plusieurs scans de découverte sont possibles. Cependant, certaines configurations de logiciels de sécurité permettent de bloquer la découverte du réseau.
+Les commandes suivantes permettent un scan de découverte sur l&amp;rsquo;ensemble des adresses IPv4 privées :
+nmap -PU -sn -n 192.168.0.0/16 nmap -PU -sn -n 10.</description>
+    </item>
+    
+    <item>
+      <title>Configuration de l&#39;architecture</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/configuration/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/configuration/</guid>
+      <description>Pfsense Démarrer la machine virtuelle Pfsense, comme sur la figure suivante :
+{#Pfsense_Screeshots/14}
+Configuration des adresses IP Sélectionner l&amp;rsquo;option de configuration des interfaces IP, en tapant 2, puis appuyer sur la touche Entrée :
+{#Pfsense_Screeshots/15}
+Taper 1, puis y, et n. Appuyer sur Entrée, puis ré-entrer n. Appuyer une dernière fois sur Entrée :
+{#Pfsense_Screeshots/16}
+Sélectionner l&amp;rsquo;option de configuration des interfaces IP, en tapant 2, puis appuyer sur la touche Entrée :</description>
+    </item>
+    
+    <item>
+      <title>Configuration de l&#39;architecture</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/configuration/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi2/configuration/</guid>
+      <description>Kali Linux Mise à jour de Kali Linux Afin de pouvoir utiliser les outils de Kali Linux dans leur dernière version, lancer la commande suivante dans un terminal :
+sudo apt update Puis lancer la commande :
+sudo apt upgrade Enfin, valider le choix en entrant Y dans le prompt comme le montre la figure 32{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;Kali/upgrade1&amp;rdquo;} ci-dessous.
+{#Kali/upgrade1}
+Attribution d&amp;rsquo;une adresse IPv4 statique Pour pouvoir être dans le sous-réseau avec une adresse IP statique, il faut :</description>
+    </item>
+    
+    <item>
+      <title>Partie 3</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie3/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie3/</guid>
+      <description>Comparaison des produits OpenVAS, Nessus et Nexpose  nnalité | OpenVAS |Nessus |Nexpose|
+à des normes | Non | Oui | Oui|
+vulnérabilités dans le temps | Oui | Oui | Oui|
+la licence GNU General Public License (GNU GPL) Network. Version d&amp;rsquo;essai gratuite pour utilisation non commerciale. Période limitée Version d&amp;rsquo;essai de 30 jours gratuite
+vulnérabilités que d&amp;rsquo;autres outils. Support limité des systèmes d&amp;rsquo;exploitation par an. Expertise sur cet outil nécessaire important de faux-positifs Oui Oui Oui</description>
+    </item>
+    
+  </channel>
+</rss>

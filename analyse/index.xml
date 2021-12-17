@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analyse on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/</link>
+    <description>Recent content in Analyse on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Partie 1</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie1/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie1/</guid>
+      <description>Synthèse des résultats des scans D&amp;rsquo;après les figures ci-dessous, le système d&amp;rsquo;information cible est un système vieillissant.
+La figure [PART1/2]{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;PART1/2&amp;rdquo;} indique que toutes les machines sont vulnérables. De plus, le contrôleur de domaine est le plus susceptible d&amp;rsquo;être compromis.
+Le pare-feu et les machines utilisateurs sont les moins vulnérables du système d&amp;rsquo;information.
+Un attaquant ayant accès au LAN pourrait aisément devenir administrateur du domaine Windows.
+[[PART1/1]]{#PART1/1 label=&amp;ldquo;PART1/1&amp;rdquo;}
+[[PART1/2]]{#PART1/2 label=&amp;ldquo;PART1/2&amp;rdquo;}</description>
+    </item>
+    
+    <item>
+      <title>Partie 2</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie2/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie2/</guid>
+      <description>Comparaisons des résultats des scans des machines Afin de pouvoir réaliser certains scans de machine, il est important de positionner le paramètre Consider Alive via l&amp;rsquo;option Alive Test lors de la création des profils des machines. La figure [PART2/1]{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;PART2/1&amp;rdquo;} montre l&amp;rsquo;opération :
+[[PART2/1]]{#PART2/1 label=&amp;ldquo;PART2/1&amp;rdquo;}
+Comparaison des scans simple et ultimate Les scans dits Ultimate ont été réalisés avec les données d&amp;rsquo;authentification des machines du parc, contrairement aux scans simples.</description>
+    </item>
+    
+    <item>
+      <title>Partie 3</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie3/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/analyse/partie3/</guid>
+      <description>Comparaison des produits OpenVAS, Nessus et Nexpose  nnalité | OpenVAS |Nessus |Nexpose|
+à des normes | Non | Oui | Oui|
+vulnérabilités dans le temps | Oui | Oui | Oui|
+la licence GNU General Public License (GNU GPL) Network. Version d&amp;rsquo;essai gratuite pour utilisation non commerciale. Période limitée Version d&amp;rsquo;essai de 30 jours gratuite
+vulnérabilités que d&amp;rsquo;autres outils. Support limité des systèmes d&amp;rsquo;exploitation par an. Expertise sur cet outil nécessaire important de faux-positifs Oui Oui Oui</description>
+    </item>
+    
+  </channel>
+</rss>

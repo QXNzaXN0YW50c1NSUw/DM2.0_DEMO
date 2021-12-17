@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Annexes on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft_annexe/</link>
+    <description>Recent content in Annexes on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft_annexe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exécution d&#39;un déploiement de MBSA</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft_annexe/microsoft_annexe/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft_annexe/microsoft_annexe/</guid>
+      <description>Présentation Microsoft Baseline Security Analyzer offre la possibilité d&amp;rsquo;effectuer une analyse sur un ensemble de machines. Cet ensemble peut être défini selon deux manières :
+  Sur un domaine
+  Sur une plage d&amp;rsquo;adresses IPv4
+  Cependant, afin que les machines de l&amp;rsquo;ensemble à analyser puissent être examinées, il faut tout d&amp;rsquo;abord faire certaines configurations, autant sur le contrôleur de domaine duquel l&amp;rsquo;analyse sera lancée que sur les machines qui seront analysées.</description>
+    </item>
+    
+  </channel>
+</rss>

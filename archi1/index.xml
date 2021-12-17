@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archi1 on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/</link>
+    <description>Recent content in Archi1 on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Périmètre fonctionnel</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/perim%C3%A8tre/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/perim%C3%A8tre/</guid>
+      <description>Architecture attendue Comme le présentent les figures [Architecture_Screenshots/1]{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;Architecture_Screenshots/1&amp;rdquo;} et 250{reference-type=&amp;ldquo;ref&amp;rdquo; reference=&amp;ldquo;Schema_tls/1&amp;rdquo;} pour l&amp;rsquo;interception SSL/TLS, une fois la documentation mise en œuvre, il sera obtenu :
+  1 machine virtuelle Windows Server 2012 :
+  Rôle de domaine contrôleur &amp;quot;EPITAF&amp;quot;;
+  Nom de machine : DC01;
+  IP fixe 192.168.2.2, route par défaut 192.168.2.1;
+  Serveur DHCP &amp;ndash; plage distribuable : 192.168.2.10 &amp;ndash; 20.
+    1 machine virtuelle Windows 10 :</description>
+    </item>
+    
+    <item>
+      <title>Mise en place de l&#39;architecture</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/mise-en-place/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/mise-en-place/</guid>
+      <description>VirtualBox L&amp;rsquo;architecture du projet est construite via un outil de virtualisation. Nous utilisons VirtualBox.
+Adresse du fichier d&amp;rsquo;installation VirtualBox est disponible à cette adresse : https://www.virtualbox.org/wiki/Downloads
+Dans la section &amp;quot;VirtualBox &amp;lt;version&amp;gt; plateform packages&amp;quot;, choisir son système d&amp;rsquo;exploitation.
+Procédure d&amp;rsquo;installation Merci de bien vouloir suivre la partie 1.6 de https://download.virtualbox.org/virtualbox/6.0.4/UserManual.pdf pour pouvoir installer l&amp;rsquo;outil.
+Utilisation Merci de bien vouloir lire la partie 1.7 de https://download.virtualbox.org/virtualbox/6.0.4/UserManual.pdf pour pouvoir utiliser VirtualBox.
+Pfsense Adresse du fichier d&amp;rsquo;installation Pfsense est disponible à cette adresse : https://www.</description>
+    </item>
+    
+    <item>
+      <title>Configuration de l&#39;architecture</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/configuration/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/archi1/configuration/</guid>
+      <description>Pfsense Démarrer la machine virtuelle Pfsense, comme sur la figure suivante :
+{#Pfsense_Screeshots/14}
+Configuration des adresses IP Sélectionner l&amp;rsquo;option de configuration des interfaces IP, en tapant 2, puis appuyer sur la touche Entrée :
+{#Pfsense_Screeshots/15}
+Taper 1, puis y, et n. Appuyer sur Entrée, puis ré-entrer n. Appuyer une dernière fois sur Entrée :
+{#Pfsense_Screeshots/16}
+Sélectionner l&amp;rsquo;option de configuration des interfaces IP, en tapant 2, puis appuyer sur la touche Entrée :</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/</link>
+    <description>Recent content in Dev on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Environnement</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/environnement/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/environnement/</guid>
+      <description>Architecture des sources Le fichier mini-pki.ps1 est le script PowerShell permettant de créer une PKI. Il contient tout ce qui est nécessaire à :
+  La création d&amp;rsquo;un certificat de la root CA
+  La création utilisateur de certificat de chiffrement ou de signature
+  La création et la mise à jour de la CRL
+  La création du certificat nécessaire au serveur OCSP.
+  Modules Afin de mettre en œuvre une PKI, nous avons utilisé l&amp;rsquo;utilitaire cryptographique OpenSSL.</description>
+    </item>
+    
+    <item>
+      <title>Développement</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/d%C3%A9veloppement/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/dev/d%C3%A9veloppement/</guid>
+      <description>Fonctions Description des fonctions Create-CA Cette fonction s&amp;rsquo;occupe de la création du certificat de la root CA (Autorité de certification). En premier lieu, il faut créer l&amp;rsquo;arborescence, puis verrouiller l&amp;rsquo;accès au dossier de l&amp;rsquo;AC. Les fichiers d&amp;rsquo;index et de serial sont initialisés. Enfin, on génère le certificat AC à l&amp;rsquo;aide d&amp;rsquo;une clé RSA. Des données spécifiques à l&amp;rsquo;AC sont demandées à l&amp;rsquo;administrateur. Ce certificat est un tiers de confiance permettant d&amp;rsquo;identifier l&amp;rsquo;identité des correspondants.</description>
+    </item>
+    
+  </channel>
+</rss>

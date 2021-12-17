@@ -1,0 +1,3658 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.90.1" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/DM2.0_DEMO/images/favicon.png" type="image/png">
+
+    <title>Configuration de l&#39;architecture - DMs</title>
+
+    
+    <link href="/DM2.0_DEMO/css/nucleus.css?1639744451" rel="stylesheet">
+    <link href="/DM2.0_DEMO/css/fontawesome-all.min.css?1639744451" rel="stylesheet">
+    <link href="/DM2.0_DEMO/css/hybrid.css?1639744451" rel="stylesheet">
+    <link href="/DM2.0_DEMO/css/featherlight.min.css?1639744451" rel="stylesheet">
+    <link href="/DM2.0_DEMO/css/perfect-scrollbar.min.css?1639744451" rel="stylesheet">
+    <link href="/DM2.0_DEMO/css/auto-complete.css?1639744451" rel="stylesheet">
+    <link href="/DM2.0_DEMO/css/atom-one-dark-reasonable.css?1639744451" rel="stylesheet">
+    <link href="/DM2.0_DEMO/css/theme.css?1639744451" rel="stylesheet">
+    <link href="/DM2.0_DEMO/css/tabs.css?1639744451" rel="stylesheet">
+    <link href="/DM2.0_DEMO/css/hugo-theme.css?1639744451" rel="stylesheet">
+    
+    <link href="/DM2.0_DEMO/css/theme-srs-special.css?1639744451" rel="stylesheet">
+    
+    <link href="/DM2.0_DEMO/css/foo.css?1639744451" rel="stylesheet"><link href="/DM2.0_DEMO/css/bar.css?1639744451" rel="stylesheet">
+
+    <script src="/DM2.0_DEMO/js/jquery-3.3.1.min.js?1639744451"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/DM2.0_DEMO/archi1/configuration/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="100.000000pt" height="100.000000pt" viewBox="0 0 550.000000 550.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,550.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M2545 5494 c-533 -44 -1024 -230 -1450 -548 -161 -120 -422 -381
+-546 -547 -379 -508 -568 -1114 -545 -1744 21 -583 210 -1113 565 -1580 98
+-130 378 -409 508 -508 386 -293 816 -472 1308 -544 168 -24 562 -24 730 0
+489 72 904 243 1293 534 155 115 422 382 536 535 348 468 531 985 553 1563 24
+630 -168 1236 -554 1753 -116 156 -381 420 -540 539 -372 279 -792 454 -1253
+524 -132 19 -483 33 -605 23z m-435 -214 c17 -10 20 -8 -47 -48 -60 -36 -69
+-25 -21 25 34 35 44 38 68 23z m680 1 c0 -24 -13 -71 -20 -71 -4 0 -11 11 -14
+25 -6 22 -11 25 -56 25 l-50 0 0 -55 0 -55 34 0 c26 0 35 5 41 23 8 21 8 21
+12 -5 2 -16 2 -40 0 -55 -4 -27 -4 -27 -12 -5 -6 17 -15 22 -41 22 l-34 0 0
+-60 0 -60 50 0 c46 0 51 3 67 33 l18 32 3 -39 c2 -21 2 -39 0 -41 -2 -1 -57
+-6 -123 -9 -104 -6 -118 -5 -102 7 19 16 21 50 11 184 -6 77 -8 82 -33 90 -20
+6 -9 9 49 13 123 10 200 11 200 1z m242 -36 c5 -16 22 -82 39 -145 21 -82 36
+-120 52 -133 20 -17 21 -18 2 -13 -11 3 -47 8 -79 12 -52 6 -57 8 -42 20 14
+10 17 21 12 48 -6 33 -8 34 -58 38 -49 3 -51 2 -66 -30 -15 -30 -15 -33 4 -47
+17 -13 14 -14 -38 -15 -61 0 -73 9 -36 25 12 6 33 30 46 55 72 134 128 220
+141 218 8 -2 18 -16 23 -33z m-563 3 c0 -13 -4 -32 -8 -43 -7 -18 -9 -17 -25
+13 -19 36 -47 42 -84 16 -45 -31 -20 -71 58 -93 62 -18 90 -46 90 -91 0 -23
+-7 -43 -18 -53 -29 -27 -88 -47 -137 -47 l-45 0 0 40 c0 47 13 52 30 10 13
+-32 33 -37 74 -19 28 13 39 34 31 59 -6 20 -34 35 -93 50 -72 18 -101 67 -71
+122 16 29 86 58 147 58 48 0 52 -2 51 -22z m811 -19 c50 -10 59 -14 40 -19
+-21 -5 -27 -16 -42 -80 -27 -113 -26 -159 1 -182 31 -24 95 -24 120 1 16 16
+71 169 71 199 0 5 -7 15 -15 22 -25 20 -13 20 50 0 56 -18 64 -25 23 -21 -12
+2 -23 -21 -47 -96 -39 -126 -60 -148 -140 -148 -70 1 -119 27 -143 76 -17 34
+-17 40 1 138 18 101 18 104 0 108 -10 3 -19 10 -19 15 0 5 8 7 18 4 9 -3 46
+-10 82 -17z m-1090 -39 c0 -45 -11 -52 -28 -16 -10 24 -12 24 -59 12 -52 -14
+-52 -13 -32 -88 9 -35 10 -36 42 -27 17 5 33 9 34 9 2 0 3 9 3 20 0 36 17 21
+24 -21 7 -45 0 -64 -14 -38 -10 17 -55 15 -66 -2 -5 -9 15 -89 26 -102 4 -5
+26 -4 48 2 34 10 42 17 53 49 10 32 13 34 20 17 4 -11 8 -32 8 -47 1 -23 -4
+-27 -40 -33 -22 -4 -74 -17 -115 -30 -73 -23 -88 -23 -59 -1 13 10 10 27 -22
+134 -34 115 -38 122 -62 122 -22 1 -24 2 -9 11 15 8 217 66 241 68 4 1 7 -17
+7 -39z m1470 -72 c65 -24 84 -38 51 -38 -16 0 -21 -4 -18 -14 3 -8 9 -31 13
+-50 3 -20 8 -36 11 -36 10 0 82 41 88 50 3 6 -1 13 -9 16 -9 3 -16 10 -16 14
+0 5 27 -4 60 -18 65 -29 76 -41 32 -34 -19 2 -50 -7 -89 -26 l-60 -31 19 -88
+c11 -48 26 -96 35 -105 27 -30 12 -27 -67 13 -49 25 -67 38 -52 38 25 1 26 3
+11 71 l-11 50 -27 -16 c-15 -9 -38 -24 -51 -34 -21 -16 -22 -20 -10 -36 14
+-16 13 -17 -5 -10 -11 4 -37 13 -57 19 -45 14 -49 26 -10 25 16 -1 52 15 87
+38 33 21 61 39 63 40 10 6 -42 152 -59 166 -24 20 -25 32 -1 23 9 -4 42 -16
+72 -27z m-1800 -28 c26 -26 26 -70 0 -103 l-20 -25 57 -41 c32 -23 68 -41 80
+-41 33 0 28 -16 -8 -29 -51 -18 -70 -13 -130 29 -56 39 -96 52 -86 28 34 -88
+40 -97 60 -100 16 -2 5 -11 -43 -34 -64 -30 -92 -35 -57 -10 16 12 13 22 -38
+131 -52 110 -57 117 -80 111 -50 -13 -22 10 58 47 134 62 175 69 207 37z
+m1045 -281 c870 -75 1601 -680 1830 -1515 57 -208 70 -312 70 -559 -1 -182 -5
+-241 -23 -341 -66 -365 -215 -692 -440 -967 -84 -103 -284 -292 -379 -360
+-294 -210 -599 -333 -944 -382 -136 -19 -432 -19 -569 0 -372 53 -731 209
+-1020 442 -98 80 -281 268 -353 365 -223 299 -360 643 -403 1013 -19 164 -14
+414 11 565 112 671 533 1239 1140 1536 336 164 712 235 1080 203z m-2385
+-1011 c0 -4 -16 -8 -35 -8 -40 0 -58 -24 -53 -73 2 -26 8 -33 30 -35 20 -2 38
+7 70 36 63 57 84 66 119 51 38 -15 49 -36 49 -91 0 -43 -43 -148 -60 -148 -13
+0 -70 34 -70 43 0 4 18 7 40 7 44 0 60 18 60 69 0 20 -7 34 -20 41 -25 13 -47
+3 -106 -52 -72 -67 -145 -48 -146 39 0 49 8 76 39 130 l25 42 29 -21 c16 -12
+29 -25 29 -30z m4540 -64 c36 -30 65 -84 75 -136 7 -35 6 -36 -29 -40 -40 -5
+-48 10 -15 30 16 10 19 19 14 40 -9 37 -34 62 -61 62 -32 0 -44 -28 -44 -103
+0 -75 -17 -103 -66 -113 -40 -8 -89 32 -120 101 -33 69 -31 82 13 94 48 14 53
+7 19 -28 -23 -24 -25 -32 -17 -54 15 -38 54 -61 80 -47 18 9 21 20 21 80 0 77
+12 113 44 128 34 17 52 14 86 -14z m-4679 -181 c37 -22 37 -33 0 -33 -26 0
+-31 -5 -45 -47 -9 -26 -16 -48 -16 -49 0 -2 18 -8 41 -14 22 -6 46 -13 53 -16
+9 -3 18 7 25 28 10 28 9 35 -5 45 -27 20 -10 26 35 13 42 -11 56 -30 22 -30
+-12 0 -23 -11 -30 -32 -6 -17 -10 -32 -9 -33 2 -1 29 -9 60 -17 l56 -16 12 50
+c12 46 11 51 -11 74 -30 32 -20 39 25 17 26 -12 35 -22 31 -32 -4 -9 -18 -56
+-32 -106 -34 -123 -35 -125 -42 -95 -6 22 -18 27 -121 52 -135 32 -140 32
+-140 14 0 -8 -5 -18 -11 -22 -14 -8 -11 7 33 159 17 59 33 107 35 107 3 0 18
+-8 34 -17z m4829 -178 c16 -60 30 -114 30 -122 0 -8 -13 -13 -35 -13 -40 0
+-43 5 -14 29 19 15 20 20 8 64 -10 42 -14 48 -33 43 -12 -4 -34 -9 -49 -13
+-16 -3 -31 -11 -33 -18 -8 -19 14 -65 31 -65 29 0 14 -16 -25 -27 -42 -11 -63
+-1 -34 15 12 7 15 17 9 41 -3 17 -11 31 -17 31 -16 0 -92 -22 -100 -29 -4 -4
+-1 -26 6 -51 11 -37 18 -46 44 -52 38 -10 42 -28 8 -28 -13 0 -31 -2 -38 -5
+-11 -5 -21 19 -42 97 -41 154 -40 146 -23 126 13 -16 22 -15 135 23 115 38
+122 42 122 67 1 43 15 9 50 -113z m88 -47 l-10 -29 -34 56 c-19 31 -34 61 -34
+66 0 5 20 -7 44 -27 41 -34 43 -39 34 -66z m-5005 -121 c12 -3 69 -13 126 -23
+102 -17 104 -17 118 2 13 17 14 14 8 -36 -8 -60 -23 -109 -24 -78 -1 20 -10
+22 -134 41 -104 16 -104 15 33 -71 52 -33 95 -65 95 -72 0 -6 -53 -32 -118
+-57 -64 -25 -116 -47 -115 -49 2 -1 50 -4 107 -5 96 -3 105 -1 112 17 5 12 8
+-3 8 -41 0 -43 -3 -54 -9 -39 -7 18 -20 22 -92 27 -156 13 -173 11 -185 -20
+-10 -25 -11 -20 -12 40 l-1 68 57 25 c31 14 80 33 110 42 46 15 70 32 44 32
+-4 0 -47 25 -95 57 l-88 56 7 55 c9 71 19 97 23 60 2 -17 10 -28 25 -31z
+m4914 -67 c18 -10 42 -38 54 -61 23 -45 40 -140 32 -180 -4 -22 -9 -24 -39
+-21 -46 6 -52 21 -14 35 31 12 32 14 27 60 -8 93 -95 134 -186 88 -66 -34 -86
+-108 -55 -196 6 -18 5 -18 -8 -5 -40 40 -51 161 -19 220 40 76 137 104 208 60z
+m90 -427 c-3 -38 -5 -44 -11 -25 -8 21 -13 22 -115 22 -119 0 -144 -10 -154
+-59 -8 -37 9 -88 33 -101 15 -8 165 -30 206 -30 6 0 16 10 22 23 9 19 11 17
+11 -23 0 -48 -17 -107 -18 -63 -1 23 -5 24 -131 39 -121 14 -155 51 -148 161
+3 56 8 68 36 96 32 31 34 32 142 35 96 4 110 6 110 21 0 10 3 21 8 25 9 10 14
+-58 9 -121z m-5022 -10 c-11 -7 -22 -13 -27 -13 -4 0 -8 -22 -8 -50 l0 -50 55
+0 55 0 0 36 c0 27 -5 37 -20 41 -38 10 -20 23 33 22 50 0 51 -1 30 -16 -15
+-10 -23 -26 -23 -44 0 -29 1 -29 60 -29 l60 0 0 50 c0 45 -3 51 -30 65 -39 20
+-38 25 9 25 l39 0 7 -97 c3 -54 9 -108 12 -120 3 -13 0 -23 -6 -23 -6 0 -11 7
+-11 15 0 18 -23 18 -165 2 -93 -11 -99 -13 -105 -37 -5 -21 -8 -18 -13 20 -4
+25 -9 89 -13 142 l-7 97 43 -11 c39 -10 41 -12 25 -25z m-78 -50 c-3 -5 -10
+-34 -17 -66 -11 -56 -12 -58 -30 -42 -19 17 -19 19 6 66 13 27 29 49 35 49 5
+0 8 -3 6 -7z m4801 -253 c4 0 61 -9 126 -19 66 -11 123 -18 128 -15 4 3 8 12
+8 20 0 8 4 14 9 14 13 0 -25 -196 -47 -238 -25 -49 -63 -63 -99 -36 -15 11
+-31 34 -35 51 l-8 31 -68 -25 c-37 -14 -75 -34 -84 -45 -18 -20 -18 -20 -18 1
+0 12 6 36 14 55 11 28 25 37 90 61 41 16 78 35 80 41 3 7 -17 16 -52 23 -50
+10 -58 9 -69 -6 -25 -33 -24 -10 3 102 7 27 8 28 11 8 3 -13 7 -23 11 -23z
+m-4678 21 c0 -5 -13 -14 -29 -21 -16 -6 -28 -17 -26 -23 2 -7 6 -24 9 -38 l6
+-27 72 14 c179 34 176 33 180 62 5 33 10 20 30 -70 9 -38 12 -68 7 -68 -4 0
+-11 9 -14 21 -5 15 -13 19 -28 15 -12 -2 -67 -15 -122 -27 -55 -12 -102 -24
+-104 -25 -2 -2 0 -19 3 -38 6 -30 12 -36 41 -42 19 -3 35 -9 35 -13 0 -6 -58
+-31 -72 -31 -7 0 -43 144 -62 248 l-13 72 44 0 c23 0 43 -4 43 -9z m269 -287
+c27 -20 71 -108 71 -145 0 -27 -20 -39 -65 -39 -18 1 -17 3 8 25 15 13 27 33
+27 43 0 27 -38 72 -60 72 -29 0 -42 -26 -50 -102 -6 -57 -13 -76 -30 -90 -54
+-44 -127 0 -155 94 -23 79 -21 88 20 88 39 0 45 -13 15 -32 -27 -17 -25 -54 5
+-84 21 -21 28 -23 45 -14 25 13 27 18 35 94 11 93 71 134 134 90z m4442 -109
+c113 -37 122 -39 134 -22 24 33 23 16 -3 -63 -15 -44 -31 -80 -36 -80 -4 0 -6
+9 -3 20 6 25 7 24 -127 75 -90 34 -113 40 -119 29 -4 -8 -12 -14 -16 -14 -5 0
+4 33 18 73 20 55 27 66 29 46 3 -23 14 -29 123 -64z m-4266 -273 c-2 -2 -12 2
+-22 9 -17 10 -27 7 -66 -16 -39 -22 -53 -39 -83 -100 -24 -49 -35 -83 -32 -99
+9 -44 -5 -29 -50 54 -40 73 -48 106 -16 63 15 -21 12 -23 53 50 l32 57 -28 0
+c-15 0 -44 3 -65 6 -33 6 -37 4 -40 -17 -4 -20 -8 -15 -30 31 -28 60 -28 74 1
+44 13 -14 43 -24 99 -32 79 -13 82 -12 131 13 38 19 51 31 51 48 1 15 12 1 34
+-43 19 -36 33 -66 31 -68z m4171 23 l111 -53 17 36 c16 34 16 35 -5 58 -29 30
+-20 39 25 24 l35 -11 -16 -37 c-21 -51 -110 -223 -127 -247 -14 -20 -15 -20
+-40 4 -34 32 -33 43 6 39 26 -2 35 2 50 29 l19 31 -113 60 -113 59 -24 -21
+c-27 -24 -27 -24 19 67 32 63 35 67 40 41 4 -24 20 -34 116 -79z m-240 -139
+c-5 -21 5 -30 101 -91 89 -56 110 -66 125 -56 10 6 20 11 23 11 7 0 -37 -68
+-103 -158 l-54 -74 -24 23 c-32 30 -30 43 6 36 25 -5 33 -1 54 26 36 47 35 52
+-13 87 -46 33 -45 34 -72 -13 -7 -13 -7 -22 1 -32 20 -25 -6 -24 -38 1 -38 30
+-41 43 -9 37 15 -2 28 5 40 23 11 14 17 27 15 28 -1 2 -24 17 -50 34 l-46 32
+-31 -41 c-29 -40 -29 -43 -15 -71 21 -41 10 -47 -25 -14 l-29 28 54 75 c30 42
+62 89 71 104 21 35 27 37 19 5z m-3846 -26 c27 -19 90 -107 90 -127 0 -11 -66
+-44 -74 -36 -3 3 4 17 14 31 25 32 25 34 -6 71 -48 58 -102 24 -84 -54 24
+-103 5 -155 -58 -155 -44 0 -82 28 -122 90 -36 56 -35 74 5 84 35 9 43 1 22
+-22 -28 -31 -16 -66 30 -90 47 -25 73 16 54 84 -16 57 -13 88 10 118 25 32 78
+35 119 6z m4058 -321 c-7 -5 -20 -9 -30 -9 -14 0 -13 9 10 67 l27 68 3 -59 c2
+-41 -1 -62 -10 -67z m-2663 -740 c49 -11 90 -21 91 -22 1 -1 -5 -17 -13 -36
+-11 -27 -17 -31 -24 -20 -5 8 -9 21 -9 30 0 10 -12 19 -31 23 -52 10 -56 8
+-63 -33 -3 -22 -8 -46 -12 -54 -8 -21 57 -33 69 -12 16 30 24 14 14 -30 -10
+-45 -27 -61 -27 -26 0 17 -25 30 -56 31 -7 0 -15 -17 -19 -37 -3 -21 -9 -48
+-12 -59 -4 -20 1 -23 46 -29 48 -6 53 -5 72 20 26 32 32 28 24 -19 -9 -44 -13
+-45 -159 -9 -83 20 -105 28 -86 33 22 5 28 19 58 129 32 118 32 124 15 138
+-17 13 -16 14 7 9 14 -4 65 -15 115 -27z m1095 -121 c69 -98 87 -118 108 -118
+41 0 13 -16 -58 -33 -65 -16 -90 -14 -57 4 16 10 16 12 -4 41 -20 28 -24 29
+-68 23 -55 -8 -58 -10 -66 -57 -7 -35 -5 -38 16 -39 22 0 23 -1 4 -8 -11 -5
+-40 -11 -65 -14 l-45 -6 26 19 c22 17 31 41 59 157 33 136 47 172 60 156 3 -4
+44 -61 90 -125z m-777 71 c76 -20 100 -81 53 -135 -20 -24 -32 -28 -90 -32
+l-66 -4 0 -49 c0 -42 4 -51 23 -60 16 -7 5 -8 -42 -4 -35 3 -72 5 -82 5 -11 0
+-19 5 -19 10 0 6 8 10 19 10 21 0 22 4 42 159 12 89 11 95 -7 108 -17 13 -10
+14 56 8 41 -4 92 -11 113 -16z m547 -13 c0 -45 -14 -53 -29 -18 -10 24 -16 27
+-44 24 l-33 -4 13 -106 c6 -59 12 -117 13 -129 0 -18 6 -23 27 -23 56 0 5 -18
+-69 -24 -81 -7 -97 -3 -52 14 17 7 24 15 20 28 -2 9 -8 65 -12 125 l-6 107
+-34 0 c-30 0 -35 -4 -40 -30 -6 -27 -24 -43 -24 -21 0 5 -3 23 -6 40 l-6 31
+58 1 c33 1 84 4 114 9 108 15 110 14 110 -24z m-310 3 c0 -5 -7 -9 -15 -9 -13
+0 -15 -21 -15 -131 0 -122 1 -131 20 -136 40 -11 18 -18 -55 -18 -73 0 -95 7
+-55 18 19 5 20 14 20 136 0 110 -2 131 -15 131 -8 0 -15 4 -15 9 0 6 29 10 65
+10 36 0 65 -4 65 -10z"/>
+<path d="M2948 5149 c-28 -48 -24 -59 25 -59 29 0 29 -3 7 79 -6 23 -7 22 -32
+-20z"/>
+<path d="M1715 5058 c-11 -6 -21 -12 -23 -13 -4 -4 47 -105 53 -105 2 0 16 5
+30 12 31 14 41 48 24 80 -21 39 -46 47 -84 26z"/>
+<path d="M2381 4534 c2 -5 19 -39 37 -75 67 -133 63 -290 -13 -461 -51 -115
+-51 -118 -12 -75 43 46 99 153 121 226 29 100 19 212 -29 325 -8 18 -5 19 36
+12 55 -9 146 -55 218 -111 70 -53 189 -176 226 -232 30 -47 37 -50 54 -29 9
+11 -1 31 -49 95 -154 207 -319 313 -513 328 -47 4 -78 2 -76 -3z"/>
+<path d="M2535 4437 c102 -81 166 -181 185 -287 5 -30 16 -93 25 -140 17 -96
+57 -189 105 -243 39 -45 53 -47 38 -6 -25 73 11 173 93 257 55 57 53 62 -12
+32 -57 -25 -104 -25 -129 0 -10 10 -26 45 -35 77 -45 163 -105 244 -224 307
+-85 44 -99 45 -46 3z"/>
+<path d="M1806 4402 c-21 -34 -40 -150 -39 -247 0 -127 23 -213 75 -278 16
+-21 28 -40 27 -42 -2 -2 -19 -9 -37 -17 -30 -12 -36 -22 -63 -103 -36 -109
+-156 -358 -228 -474 l-52 -85 41 -103 c68 -170 68 -170 -35 -370 -82 -158 -88
+-175 -88 -229 0 -94 51 -172 151 -231 45 -27 142 -66 142 -58 0 3 -11 27 -24
+53 -34 67 -39 87 -22 101 12 10 21 9 46 -4 38 -20 44 -16 30 19 -15 41 -12 66
+15 125 27 58 26 81 -2 41 -83 -118 -145 -170 -204 -170 -32 0 -41 5 -58 34
+-38 62 -36 81 22 206 29 63 79 159 111 214 l58 98 -55 135 -55 134 55 92 c65
+110 146 274 206 417 l44 105 109 68 c175 110 384 281 416 341 13 24 20 29 -87
+-56 -92 -73 -273 -196 -356 -242 l-67 -36 -15 38 c-26 64 -40 159 -35 235 6
+98 11 104 57 67 58 -47 134 -72 238 -78 122 -6 153 7 55 24 -40 7 -97 24 -128
+38 -68 31 -167 124 -206 194 -31 54 -34 57 -42 44z"/>
+<path d="M2566 4375 c44 -120 46 -132 41 -196 -6 -72 -39 -157 -80 -205 l-26
+-31 49 -22 c27 -12 71 -42 97 -65 51 -46 102 -76 128 -76 17 0 20 16 5 25 -6
+4 -24 32 -39 64 -30 59 -43 114 -60 257 -13 103 -42 181 -87 230 -21 23 -33
+31 -28 19z"/>
+<path d="M3076 4101 c5 -4 32 -14 59 -21 72 -19 211 -80 275 -121 249 -160
+389 -394 470 -784 42 -207 53 -326 47 -510 -9 -258 -65 -452 -264 -912 -3 -7
+0 -13 5 -13 16 0 166 247 243 400 38 75 87 192 111 261 40 119 42 130 46 269
+4 142 3 148 -26 232 -17 48 -47 165 -67 260 -60 285 -112 426 -210 574 -119
+178 -266 270 -543 340 -141 36 -162 39 -146 25z"/>
+<path d="M2421 3710 c-69 -15 -196 -59 -217 -76 -19 -15 -19 -16 0 -10 133 43
+307 71 381 61 72 -9 150 -56 185 -112 59 -93 83 -225 56 -316 -22 -74 -66
+-113 -189 -161 -66 -26 -105 -48 -123 -68 -33 -40 -25 -45 21 -13 21 14 83 39
+139 56 194 60 266 130 266 258 0 163 -81 308 -203 362 -42 19 -72 23 -162 25
+-60 2 -130 -1 -154 -6z"/>
+<path d="M1937 3641 c-13 -16 -39 -69 -56 -116 -17 -48 -36 -97 -42 -108 -21
+-40 -62 -77 -87 -77 -19 0 -23 -4 -17 -17 19 -50 36 -138 43 -228 l8 -100 18
+72 c24 98 68 186 104 213 l31 23 -22 17 c-33 27 -27 102 17 234 20 60 35 111
+32 113 -2 2 -15 -10 -29 -26z"/>
+<path d="M2549 3583 c-57 -93 -161 -182 -319 -275 -113 -67 -215 -149 -270
+-219 -56 -71 -52 -81 20 -46 103 51 117 20 40 -97 -29 -45 -44 -76 -36 -76 24
+0 92 57 161 136 39 44 96 105 127 137 32 32 58 60 58 62 0 3 -18 -2 -40 -11
+-80 -32 -60 2 68 115 94 83 146 147 192 239 36 71 35 94 -1 35z"/>
+<path d="M2945 3512 c6 -6 66 -31 135 -57 l125 -46 73 -182 73 -183 -31 -89
+c-65 -185 -183 -395 -292 -518 l-43 -48 -40 18 c-31 13 -67 17 -155 18 -99 0
+-122 -3 -164 -23 -51 -23 -136 -87 -136 -102 0 -4 32 8 70 28 63 32 81 37 163
+40 100 4 168 -13 240 -63 l35 -23 64 76 c191 228 335 459 383 613 l18 56 -118
+222 c-64 121 -120 221 -124 221 -10 0 -228 38 -261 46 -17 4 -22 2 -15 -4z"/>
+<path d="M2215 2731 c-116 -21 -203 -47 -233 -70 -20 -15 -16 -16 73 -18 160
+-3 238 -43 265 -137 36 -128 -88 -230 -361 -297 -148 -36 -153 -38 -146 -45 7
+-7 273 33 357 53 161 39 240 119 240 240 -1 69 -28 121 -99 185 l-62 56 43 16
+c24 8 59 20 78 25 l35 9 -45 0 c-25 0 -90 -8 -145 -17z"/>
+<path d="M3180 2276 c0 -5 13 -31 30 -57 78 -128 92 -284 36 -402 -38 -79
+-110 -163 -193 -226 -72 -54 -214 -131 -242 -131 -9 0 -35 18 -56 41 -83 85
+-296 206 -396 224 l-36 7 13 36 c14 41 20 342 6 342 -4 0 -21 -44 -37 -97 -28
+-94 -95 -242 -149 -329 l-25 -41 97 -6 c166 -11 270 -52 357 -141 105 -108
+150 -257 143 -472 -2 -73 -1 -131 4 -128 4 3 8 11 8 17 0 27 116 248 176 339
+153 227 413 443 602 499 23 7 42 14 42 17 0 2 -29 36 -65 75 -49 53 -79 98
+-121 183 -43 89 -70 129 -124 186 -38 40 -69 69 -70 64z"/>
+<path d="M2294 2146 c-112 -58 -206 -88 -296 -94 -91 -5 -125 6 -168 55 l-30
+34 0 -33 c1 -50 34 -114 69 -132 83 -44 219 1 429 142 45 30 82 59 82 64 0 4
+-1 7 -2 7 -2 -1 -39 -20 -84 -43z"/>
+<path d="M5110 2261 c0 -45 18 -61 66 -61 30 0 53 24 54 56 0 25 -9 30 -74 39
+l-46 7 0 -41z"/>
+<path d="M3223 411 c-11 -55 -8 -58 44 -43 l23 7 -29 43 -28 43 -10 -50z"/>
+<path d="M2480 473 c0 -10 -3 -42 -6 -70 l-7 -53 30 0 c39 0 63 28 63 73 0 26
+-6 40 -22 51 -30 21 -58 20 -58 -1z"/>
+</g>
+</svg>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/DM2.0_DEMO/js/lunr.min.js?1639744451"></script>
+<script type="text/javascript" src="/DM2.0_DEMO/js/auto-complete.js?1639744451"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/QXNzaXN0YW50c1NSUw.github.io\/DM2.0_DEMO";
+    
+</script>
+<script type="text/javascript" src="/DM2.0_DEMO/js/search.js?1639744451"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/DM2.0_DEMO/archi1/" title="Archi1" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/DM2.0_DEMO/archi1/">
+          <b>1. </b>Archi1
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/archi1/perim%C3%A8tre/" title="Périmètre fonctionnel" class="dd-item ">
+        <a href="/DM2.0_DEMO/archi1/perim%C3%A8tre/">
+        Périmètre fonctionnel
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/archi1/mise-en-place/" title="Mise en place de l&#39;architecture" class="dd-item ">
+        <a href="/DM2.0_DEMO/archi1/mise-en-place/">
+        Mise en place de l&#39;architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/archi1/configuration/" title="Configuration de l&#39;architecture" class="dd-item active">
+        <a href="/DM2.0_DEMO/archi1/configuration/">
+        Configuration de l&#39;architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/DM2.0_DEMO/archi2/" title="Archi2" class="dd-item
+        
+        
+        
+        ">
+      <a href="/DM2.0_DEMO/archi2/">
+          <b>2. </b>Archi2
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/archi2/p%C3%A9rim%C3%A8tre/" title="Périmètre fonctionnel" class="dd-item ">
+        <a href="/DM2.0_DEMO/archi2/p%C3%A9rim%C3%A8tre/">
+        Périmètre fonctionnel
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/archi2/mise-en-place/" title="Mise en place de l&#39;architecture" class="dd-item ">
+        <a href="/DM2.0_DEMO/archi2/mise-en-place/">
+        Mise en place de l&#39;architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/archi2/configuration/" title="Configuration de l&#39;architecture" class="dd-item ">
+        <a href="/DM2.0_DEMO/archi2/configuration/">
+        Configuration de l&#39;architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/DM2.0_DEMO/cartographie/" title="Cartographie" class="dd-item
+        
+        
+        
+        ">
+      <a href="/DM2.0_DEMO/cartographie/">
+          <b>3. </b>Cartographie
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/cartographie/scan_passif/" title="Scan passif" class="dd-item ">
+        <a href="/DM2.0_DEMO/cartographie/scan_passif/">
+        Scan passif
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/cartographie/scan_actif/" title="Scan actif" class="dd-item ">
+        <a href="/DM2.0_DEMO/cartographie/scan_actif/">
+        Scan actif
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/DM2.0_DEMO/analyse/" title="Analyse" class="dd-item
+        
+        
+        
+        ">
+      <a href="/DM2.0_DEMO/analyse/">
+          <b>4. </b>Analyse
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/analyse/partie1/" title="Partie 1" class="dd-item ">
+        <a href="/DM2.0_DEMO/analyse/partie1/">
+        <b>4. </b>Partie 1
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/analyse/partie2/" title="Partie 2" class="dd-item ">
+        <a href="/DM2.0_DEMO/analyse/partie2/">
+        <b>4. </b>Partie 2
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/analyse/partie3/" title="Partie 3" class="dd-item ">
+        <a href="/DM2.0_DEMO/analyse/partie3/">
+        <b>4. </b>Partie 3
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/DM2.0_DEMO/microsoft/" title="Microsoft" class="dd-item
+        
+        
+        
+        ">
+      <a href="/DM2.0_DEMO/microsoft/">
+          <b>5. </b>Microsoft
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/microsoft/microsoft/" title="Déroulé d&#39;une analyse avec MBSA" class="dd-item ">
+        <a href="/DM2.0_DEMO/microsoft/microsoft/">
+        Déroulé d&#39;une analyse avec MBSA
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/DM2.0_DEMO/dev/" title="Dev" class="dd-item
+        
+        
+        
+        ">
+      <a href="/DM2.0_DEMO/dev/">
+          <b>6. </b>Dev
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/dev/environnement/" title="Environnement" class="dd-item ">
+        <a href="/DM2.0_DEMO/dev/environnement/">
+        Environnement
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/dev/d%C3%A9veloppement/" title="Développement" class="dd-item ">
+        <a href="/DM2.0_DEMO/dev/d%C3%A9veloppement/">
+        Développement
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/DM2.0_DEMO/microsoft_annexe/" title="Annexes" class="dd-item
+        
+        
+        
+        ">
+      <a href="/DM2.0_DEMO/microsoft_annexe/">
+          <b>7. </b>Annexes
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/microsoft_annexe/microsoft_annexe/" title="Exécution d&#39;un déploiement de MBSA" class="dd-item ">
+        <a href="/DM2.0_DEMO/microsoft_annexe/microsoft_annexe/">
+        Exécution d&#39;un déploiement de MBSA
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/DM2.0_DEMO/questions_r%C3%A9ponses/" title="Q&amp;A" class="dd-item
+        
+        
+        
+        ">
+      <a href="/DM2.0_DEMO/questions_r%C3%A9ponses/">
+          <b>8. </b>Q&amp;A
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/questions_r%C3%A9ponses/questions/" title="Découvertes des réseaux" class="dd-item ">
+        <a href="/DM2.0_DEMO/questions_r%C3%A9ponses/questions/">
+        Découvertes des réseaux
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/questions_r%C3%A9ponses/questions2/" title="Gestions des vulnérabilités avec OpenVAS" class="dd-item ">
+        <a href="/DM2.0_DEMO/questions_r%C3%A9ponses/questions2/">
+        Gestions des vulnérabilités avec OpenVAS
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/DM2.0_DEMO/questions_r%C3%A9ponses/questions3/" title="Gestions des vulnérabilités avec un scanner de type host-based" class="dd-item ">
+        <a href="/DM2.0_DEMO/questions_r%C3%A9ponses/questions3/">
+        Gestions des vulnérabilités avec un scanner de type host-based
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+<p>Modified by Mathieu</p>
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/DM2.0_DEMO/'>README</a> > <a href='/DM2.0_DEMO/archi1/'>Archi1</a> > Configuration de l'architecture
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#pfsense">Pfsense</a>
+      <ul>
+        <li><a href="#configuration-des-adresses-ip">Configuration des adresses IP</a></li>
+        <li><a href="#configuration-des-règles-pfsense">Configuration des règles Pfsense</a></li>
+      </ul>
+    </li>
+    <li><a href="#windows-server-2012">Windows Server 2012</a>
+      <ul>
+        <li><a href="#ajout-de-fonctionnalités-de-windows-server">Ajout de fonctionnalités de Windows Server</a></li>
+        <li><a href="#configuration-du-dns">Configuration du DNS</a></li>
+        <li><a href="#gestion-du-dhcp">Gestion du DHCP</a></li>
+        <li><a href="#création-de-lactive-directory">Création de l&rsquo;Active Directory</a></li>
+        <li><a href="#ajout-dun-utilisateur-dans-le-domaine-epitaf">Ajout d&rsquo;un utilisateur dans le domaine EPITAF</a></li>
+        <li><a href="#ajout-dun-ordinateur-dans-le-domaine-epitaf">Ajout d&rsquo;un ordinateur dans le domaine EPITAF</a></li>
+      </ul>
+    </li>
+    <li><a href="#windows">Windows</a>
+      <ul>
+        <li><a href="#attribution-des-paramètres-réseaux">Attribution des paramètres réseaux</a></li>
+        <li><a href="#attribution-du-domaine">Attribution du domaine</a></li>
+      </ul>
+    </li>
+    <li><a href="#debian">Debian</a>
+      <ul>
+        <li><a href="#attribution-des-paramètres-réseaux-1">Attribution des paramètres réseaux</a></li>
+      </ul>
+    </li>
+    <li><a href="#interception-ssltls">Interception SSL/TLS</a>
+      <ul>
+        <li><a href="#objectifs">Objectifs</a></li>
+        <li><a href="#accès-à-pfsense-et-installation-des-paquets">Accès à Pfsense et installation des paquets</a></li>
+        <li><a href="#ajout-dun-certificat">Ajout d&rsquo;un certificat</a></li>
+        <li><a href="#ajout-du-certificat-sur-tous-les-postes-appartenant-à-epitaf-via-gpo">Ajout du certificat sur tous les postes appartenant à EPITAF via GPO</a></li>
+        <li><a href="#mise-en-place-de-lantivirus-clamav">Mise en place de l&rsquo;antivirus ClamAV</a></li>
+        <li><a href="#filtrage-du-mot-clé-epita-via-clamav">Filtrage du mot clé EPITA via ClamAV</a></li>
+      </ul>
+    </li>
+    <li><a href="#mise-en-place-dune-connexion-ssltls-mutualisée">Mise en place d&rsquo;une connexion SSL/TLS mutualisée</a>
+      <ul>
+        <li><a href="#objectifs-et-pré-requis">Objectifs et pré-requis</a></li>
+        <li><a href="#paramétrage-du-serveur-nginx">Paramétrage du serveur NGINX</a></li>
+        <li><a href="#interception-ssltls-sur-une-connexion-tls-mutualisée">Interception SSL/TLS sur une connexion TLS mutualisée</a></li>
+      </ul>
+    </li>
+    <li><a href="#installation-et-configuration-des-services">Installation et configuration des services</a>
+      <ul>
+        <li><a href="#ansible">Ansible</a></li>
+        <li><a href="#nginx">Nginx</a></li>
+        <li><a href="#mysql">MySQL</a></li>
+        <li><a href="#apache">Apache</a></li>
+        <li><a href="#openssh">OpenSSH</a></li>
+        <li><a href="#pare-feu">Pare-feu</a></li>
+        <li><a href="#fail2ban">Fail2ban</a></li>
+      </ul>
+    </li>
+    <li><a href="#mise-en-place-dapache-avec-kerberos">Mise en place d&rsquo;apache avec Kerberos</a>
+      <ul>
+        <li><a href="#objectifs-et-pré-requis-1">Objectifs et pré-requis</a></li>
+        <li><a href="#configuration-de-windows-server">Configuration de Windows Server</a></li>
+        <li><a href="#configuration-du-client-kerberos-pour-un-client-hors-active-directory">Configuration du client Kerberos pour un client hors Active Directory</a></li>
+        <li><a href="#configuration-du-serveur-apache-avec-kerberos">Configuration du serveur Apache avec Kerberos</a></li>
+      </ul>
+    </li>
+    <li><a href="#mise-en-place-dapache-modsecurity">Mise en place d&rsquo;apache Modsecurity</a>
+      <ul>
+        <li><a href="#objectifs-1">Objectifs</a></li>
+        <li><a href="#configuration-du-serveur-apache-avec-modsecurity">Configuration du serveur Apache avec modsecurity</a></li>
+      </ul>
+    </li>
+    <li><a href="#misp">MISP</a>
+      <ul>
+        <li><a href="#snort">Snort</a></li>
+        <li><a href="#iptables">Iptables</a></li>
+        <li><a href="#squid-avec-clamav">Squid avec ClamAV</a></li>
+      </ul>
+    </li>
+    <li><a href="#graylog">Graylog</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+          
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#pfsense">Pfsense</a>
+      <ul>
+        <li><a href="#configuration-des-adresses-ip">Configuration des adresses IP</a></li>
+        <li><a href="#configuration-des-règles-pfsense">Configuration des règles Pfsense</a></li>
+      </ul>
+    </li>
+    <li><a href="#windows-server-2012">Windows Server 2012</a>
+      <ul>
+        <li><a href="#ajout-de-fonctionnalités-de-windows-server">Ajout de fonctionnalités de Windows Server</a></li>
+        <li><a href="#configuration-du-dns">Configuration du DNS</a></li>
+        <li><a href="#gestion-du-dhcp">Gestion du DHCP</a></li>
+        <li><a href="#création-de-lactive-directory">Création de l&rsquo;Active Directory</a></li>
+        <li><a href="#ajout-dun-utilisateur-dans-le-domaine-epitaf">Ajout d&rsquo;un utilisateur dans le domaine EPITAF</a></li>
+        <li><a href="#ajout-dun-ordinateur-dans-le-domaine-epitaf">Ajout d&rsquo;un ordinateur dans le domaine EPITAF</a></li>
+      </ul>
+    </li>
+    <li><a href="#windows">Windows</a>
+      <ul>
+        <li><a href="#attribution-des-paramètres-réseaux">Attribution des paramètres réseaux</a></li>
+        <li><a href="#attribution-du-domaine">Attribution du domaine</a></li>
+      </ul>
+    </li>
+    <li><a href="#debian">Debian</a>
+      <ul>
+        <li><a href="#attribution-des-paramètres-réseaux-1">Attribution des paramètres réseaux</a></li>
+      </ul>
+    </li>
+    <li><a href="#interception-ssltls">Interception SSL/TLS</a>
+      <ul>
+        <li><a href="#objectifs">Objectifs</a></li>
+        <li><a href="#accès-à-pfsense-et-installation-des-paquets">Accès à Pfsense et installation des paquets</a></li>
+        <li><a href="#ajout-dun-certificat">Ajout d&rsquo;un certificat</a></li>
+        <li><a href="#ajout-du-certificat-sur-tous-les-postes-appartenant-à-epitaf-via-gpo">Ajout du certificat sur tous les postes appartenant à EPITAF via GPO</a></li>
+        <li><a href="#mise-en-place-de-lantivirus-clamav">Mise en place de l&rsquo;antivirus ClamAV</a></li>
+        <li><a href="#filtrage-du-mot-clé-epita-via-clamav">Filtrage du mot clé EPITA via ClamAV</a></li>
+      </ul>
+    </li>
+    <li><a href="#mise-en-place-dune-connexion-ssltls-mutualisée">Mise en place d&rsquo;une connexion SSL/TLS mutualisée</a>
+      <ul>
+        <li><a href="#objectifs-et-pré-requis">Objectifs et pré-requis</a></li>
+        <li><a href="#paramétrage-du-serveur-nginx">Paramétrage du serveur NGINX</a></li>
+        <li><a href="#interception-ssltls-sur-une-connexion-tls-mutualisée">Interception SSL/TLS sur une connexion TLS mutualisée</a></li>
+      </ul>
+    </li>
+    <li><a href="#installation-et-configuration-des-services">Installation et configuration des services</a>
+      <ul>
+        <li><a href="#ansible">Ansible</a></li>
+        <li><a href="#nginx">Nginx</a></li>
+        <li><a href="#mysql">MySQL</a></li>
+        <li><a href="#apache">Apache</a></li>
+        <li><a href="#openssh">OpenSSH</a></li>
+        <li><a href="#pare-feu">Pare-feu</a></li>
+        <li><a href="#fail2ban">Fail2ban</a></li>
+      </ul>
+    </li>
+    <li><a href="#mise-en-place-dapache-avec-kerberos">Mise en place d&rsquo;apache avec Kerberos</a>
+      <ul>
+        <li><a href="#objectifs-et-pré-requis-1">Objectifs et pré-requis</a></li>
+        <li><a href="#configuration-de-windows-server">Configuration de Windows Server</a></li>
+        <li><a href="#configuration-du-client-kerberos-pour-un-client-hors-active-directory">Configuration du client Kerberos pour un client hors Active Directory</a></li>
+        <li><a href="#configuration-du-serveur-apache-avec-kerberos">Configuration du serveur Apache avec Kerberos</a></li>
+      </ul>
+    </li>
+    <li><a href="#mise-en-place-dapache-modsecurity">Mise en place d&rsquo;apache Modsecurity</a>
+      <ul>
+        <li><a href="#objectifs-1">Objectifs</a></li>
+        <li><a href="#configuration-du-serveur-apache-avec-modsecurity">Configuration du serveur Apache avec modsecurity</a></li>
+      </ul>
+    </li>
+    <li><a href="#misp">MISP</a>
+      <ul>
+        <li><a href="#snort">Snort</a></li>
+        <li><a href="#iptables">Iptables</a></li>
+        <li><a href="#squid-avec-clamav">Squid avec ClamAV</a></li>
+      </ul>
+    </li>
+    <li><a href="#graylog">Graylog</a></li>
+  </ul>
+</nav>
+            <h1>
+              
+              Configuration de l&#39;architecture
+            </h1>
+          
+
+        
+
+
+<h2 id="pfsense">Pfsense</h2>
+<p>Démarrer la machine virtuelle Pfsense, comme sur la figure suivante :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/14.png" alt="Démarrage de la machine virtuellePfsense">{#Pfsense_Screeshots/14}</p>
+<h3 id="configuration-des-adresses-ip">Configuration des adresses IP</h3>
+<p>Sélectionner l&rsquo;option de configuration des interfaces IP, en tapant
+<strong>2</strong>, puis appuyer sur la touche <strong>Entrée</strong> :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/15.png" alt="Sélection de l&rsquo;option de configuration des adresses IP dePfsense">{#Pfsense_Screeshots/15}</p>
+<p>Taper <strong>1</strong>, puis <strong>y</strong>, et <strong>n</strong>. Appuyer sur <strong>Entrée</strong>, puis
+ré-entrer <strong>n</strong>. Appuyer une dernière fois sur <strong>Entrée</strong> :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/16.png" alt="Configuration des adresses IP de l&rsquo;interface réseau WAN dePfsense">{#Pfsense_Screeshots/16}</p>
+<p>Sélectionner l&rsquo;option de configuration des interfaces IP, en tapant
+<strong>2</strong>, puis appuyer sur la touche <strong>Entrée</strong> :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/15.png" alt="Sélection de l&rsquo;option de configuration des adresses IP dePfsense">{#Pfsense_Screeshots/15}</p>
+<p>Taper <strong>2</strong>. Entrer l&rsquo;adresse IP : 192.168.2.1. Taper <strong>24</strong>, puis
+appuyer deux fois sur la touche <strong>Entrée</strong>. Taper <strong>n</strong> aux deux
+dernières questions :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/17.png" alt="Configuration des adresses IP de l&rsquo;interface réseau LAN dePfsense">{#Pfsense_Screeshots/17}</p>
+<p>Vérifier le bon paramétrage de Pfsense avec la figure suivante :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/18.png" alt="Vérification du paramétrage dePfsense">{#Pfsense_Screeshots/18}</p>
+<h3 id="configuration-des-règles-pfsense">Configuration des règles Pfsense</h3>
+<p>Démarrer la machine virtuelle Windows Server 2012. Se connecter sur la
+machine Windows Server 2012 avec le compte administrateur et le mot de
+passe définit à l&rsquo;installation :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/19.png" alt="Connexion à WindowsServer">{#Pfsense_Screeshots/19}</p>
+<p>Ouvrir Internet Explorer, et aller à l&rsquo;adresse : 192.168.2.1. Se
+connecter avec les identifiants Pfsense par défaut. Changer le mot de
+passe de Pfsense :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/20.png" alt="Accès et changement des accès de Pfsense sur WindowsServer">{#Pfsense_Screeshots/20}</p>
+<p>Accéder à la page <code>Rules</code>, située dans <strong>Firewall</strong> :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/21.png" alt="Accès aux règles de Pfsense via WindowsServer">{#Pfsense_Screeshots/21}</p>
+<p>Aller dans la section <em>LAN</em>. Les étapes de modification des règles
+Pfsense sont les suivantes :</p>
+<ul>
+<li>
+<p>Désactiver les deux règles existantes;</p>
+</li>
+<li>
+<p>Créer une règle filtrant les trames IPv4 TCP/UDP provenant de
+192.168.2.2, sur le port 53 (DNS);</p>
+</li>
+<li>
+<p>Créer une règle filtrant les trames IPv4 TCP/UDP provenant de
+192.168.2.0/24, sur le port 443 (HTTPS);</p>
+</li>
+<li>
+<p>Créer une règle filtrant les trames IPv4 TCP/UDP provenant de
+192.168.2.0/24, sur le port 80 (HTTP).</p>
+</li>
+</ul>
+<p>Le résultat attendu est affiché sur la figure suivante :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/22.png" alt="Modification des règles de Pfsense via WindowsServer">{#Pfsense_Screeshots/22}</p>
+<h2 id="windows-server-2012">Windows Server 2012</h2>
+<h3 id="ajout-de-fonctionnalités-de-windows-server">Ajout de fonctionnalités de Windows Server</h3>
+<p>Démarrer la machine virtuelle Windows Server 2012. Ouvrir le
+gestionnaire de serveur (s&rsquo;ouvre normalement automatiquement lors du
+démarrage de la machine). Cliquer sur &quot;<em>Ajouter des rôles et des
+fonctionnalités</em>&quot; :</p>
+<p><img src="/Archi1/WS2012_Screenshots/17.png" alt="Ajout des rôles et des fonctionnalités sur Windows Server2012">{#WS2012_Screenshots/17}</p>
+<p>Aller dans la section <strong>Avant de commencer</strong>, puis cliquer sur <em>Suivant</em>
+:</p>
+<p><img src="/Archi1/WS2012_Screenshots/18.png" alt="Avant de commencer - Assistant d&rsquo;ajout de rôles et de fonctionnalitésde Windows Server2012">{#WS2012_Screenshots/18}</p>
+<p>Aller dans la section <strong>Type d&rsquo;installation</strong>, sélectionner la première
+option &quot;<em>Installation basée sur un rôle ou une fonctionnalité</em>&quot;, puis
+cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/19.png" alt="Type d&rsquo;installation - Assistant d&rsquo;ajout de rôles et de fonctionnalitésde Windows Server2012">{#WS2012_Screenshots/19}</p>
+<p>Aller dans la section <strong>Sélection du serveur</strong>. Cocher l&rsquo;option
+&quot;Sélectionner un serveur de pool de serveurs&quot;. Choisir
+<em>DC01.EPITAF.local</em>, puis cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/20.png" alt="Sélection du serveur - Assistant d&rsquo;ajout de rôles et defonctionnalités de Windows Server2012">{#WS2012_Screenshots/20}</p>
+<p>Aller dans la section <strong>Rôles de serveurs</strong>. Cocher les options :</p>
+<ul>
+<li>
+<p>Serveur DHCP (installé);</p>
+</li>
+<li>
+<p>Serveur DNS (installé);</p>
+</li>
+<li>
+<p>Services AD DS (Installé).</p>
+</li>
+</ul>
+<p>Cliquer sur <em>Suivant</em>, puis cliquer sur <em>Ajouter des fonctionnalités</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/21.png" alt="Ajout de DHCP - Assistant d&rsquo;ajout de rôles et de fonctionnalités deWindows Server 2012">{#WS2012_Screenshots/21}</p>
+<p>Cliquer sur <em>Ajouter des fonctionnalités</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/22.png" alt="Ajout de DNS - Assistant d&rsquo;ajout de rôles et de fonctionnalités deWindows Server 2012">{#WS2012_Screenshots/22}</p>
+<p>Cliquer sur <em>Ajouter des fonctionnalités</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/23.png" alt="Ajout de AD DS - Assistant d&rsquo;ajout de rôles et de fonctionnalités deWindows Server 2012">{#WS2012_Screenshots/23}</p>
+<p>Cliquer sur <em>Ajouter des fonctionnalités</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/24.png" alt="Ajout de AD LDS - Assistant d&rsquo;ajout de rôles et de fonctionnalités deWindows Server 2012">{#WS2012_Screenshots/24}</p>
+<p>Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/25.png" alt="Etat des ajouts - Assistant d&rsquo;ajout de rôles et de fonctionnalités deWindows Server 2012">{#WS2012_Screenshots/25}</p>
+<p>Aller dans la section <strong>Fonctionnalités</strong>. Cocher l&rsquo;option de
+chiffrement de lecteur BitLocker. Cliquer sur <em>Ajouter des
+fonctionnalités</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/26.png" alt="Ajout du chiffrement de lecteur BitLocker - Assistant d&rsquo;ajout de rôleset de fonctionnalités de Windows Server2012">{#WS2012_Screenshots/26}</p>
+<p>Aller dans la section <strong>Serveur DHCP</strong>. Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/27.png" alt="Finalisation DHCP - Assistant d&rsquo;ajout de rôles et de fonctionnalitésde Windows Server2012">{#WS2012_Screenshots/27}</p>
+<p>Aller dans la section <strong>Serveur DNS</strong>. Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/28.png" alt="Finalisation DNS - Assistant d&rsquo;ajout de rôles et de fonctionnalités deWindows Server 2012">{#WS2012_Screenshots/28}</p>
+<p>Aller dans la section <strong>Serveur AD DS</strong>. Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/29.png" alt="Finalisation AD DS - Assistant d&rsquo;ajout de rôles et de fonctionnalitésde Windows Server2012">{#WS2012_Screenshots/29}</p>
+<p>Aller dans la section <strong>Serveur AD LDS</strong>. Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/30.png" alt="Finalisation AD LDS - Assistant d&rsquo;ajout de rôles et de fonctionnalitésde Windows Server2012">{#WS2012_Screenshots/30}</p>
+<p>Aller dans la section <strong>Confirmation</strong>. Cliquer sur <em>Installer</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/31.png" alt="Confirmation des sélections - Assistant d&rsquo;ajout de rôles et defonctionnalités de Windows Server2012">{#WS2012_Screenshots/31}</p>
+<p>Aller dans la section <strong>Résultats</strong>, et attendre la fin de
+l&rsquo;installation :</p>
+<p><img src="/Archi1/WS2012_Screenshots/32.png" alt="Installation - Assistant d&rsquo;ajout de rôles et de fonctionnalités deWindows Server 2012">{#WS2012_Screenshots/32}</p>
+<p>Fin de l&rsquo;installation. Cliquer sur <em>Fermer</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/33.png" alt="Fin de l&rsquo;installation - Assistant d&rsquo;ajout de rôles et defonctionnalités de Windows Server2012">{#WS2012_Screenshots/33}</p>
+<h3 id="configuration-du-dns">Configuration du DNS</h3>
+<p>Cliquer sur <em>Outils</em>, puis cliquer sur DNS :</p>
+<p><img src="/Archi1/WS2012_Screenshots/34.png" alt="Accès au gestionnaire DNS de Windows Server2012">{#WS2012_Screenshots/34}</p>
+<p>Cliquer droit sur <code>Redirecteurs</code>, puis cliquer sur <em>Propriétés</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/35.png" alt="Accès aux propriétés des Redirecteurs - Gestionnaire DNS de WindowsServer 2012">{#WS2012_Screenshots/35}</p>
+<p>Entrer la valeur &quot;8.8.8.8&quot; dans le nouveau champ :</p>
+<p><img src="/Archi1/WS2012_Screenshots/36.png" alt="Ajout d&rsquo;une valeur dans les Redirecteurs - Gestionnaire DNS de WindowsServer 2012">{#WS2012_Screenshots/36}</p>
+<p>Cliquer sur <em>OK</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/37.png" alt="Vérification de la valeur dans les Redirecteurs - Gestionnaire DNS deWindows Server 2012">{#WS2012_Screenshots/37}</p>
+<p>Cocher l&rsquo;option &quot;<em>Ce serveur assure la maintenance de la zone</em>&quot;, puis
+cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/38.png" alt="Assistant configuration d&rsquo;un serveur DNS - Gestionnaire DNS de WindowsServer 2012">{#WS2012_Screenshots/38}</p>
+<p>Cliquer sur <em>Appliquer</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/39.png" alt="Application du paramétrage des Redirecteurs - Gestionnaire DNS deWindows Server 2012">{#WS2012_Screenshots/39}</p>
+<h3 id="gestion-du-dhcp">Gestion du DHCP</h3>
+<p>Cliquer sur <em>Outils</em>, puis cliquer sur DHCP :</p>
+<p><img src="/Archi1/WS2012_Screenshots/40.png" alt="Accès au gestionnaire DHCP de Windows Server2012">{#WS2012_Screenshots/40}</p>
+<p>Cliquer droit sur IPv4, puis cliquer sur <em>Propriétés</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/41.png" alt="Nouvelle étendue DHCP sur IPv4 - Gestionnaire DHCP de Windows Server2012">{#WS2012_Screenshots/41}</p>
+<p>Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/42.png" alt="Assistant Nouvelle étendue - Gestionnaire DHCP de Windows Server2012">{#WS2012_Screenshots/42}</p>
+<p>Entrer la valeur &quot;Etendu EPITAF&quot; dans le champ <em>Nom</em>, et
+&quot;192.168.2.10-192.168.2.20&quot; dans le champ <em>Description</em>. Cliquer sur
+<em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/43.png" alt="Nom et description - Assistant Nouvelle étendue du Gestionnaire DHCPde Windows Server2012">{#WS2012_Screenshots/43}</p>
+<p>Entrer les valeurs suivantes :</p>
+<ul>
+<li>
+<p>Adresse IP de début : 192.168.2.10</p>
+</li>
+<li>
+<p>Adresse IP de fin : 192.168.2.20</p>
+</li>
+<li>
+<p>Longueur : 24</p>
+</li>
+<li>
+<p>Masque de sous-réseau : 255.255.255.0</p>
+</li>
+</ul>
+<p>Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/44.png" alt="Plage d&rsquo;adresses IP - Assistant Nouvelle étendue du Gestionnaire DHCPde Windows Server2012">{#WS2012_Screenshots/44}</p>
+<p>Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/45.png" alt="Ajout d&rsquo;exclusions et de retard - Assistant Nouvelle étendue duGestionnaire DHCP de Windows Server2012">{#WS2012_Screenshots/45}</p>
+<p>Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/46.png" alt="Durée du bail - Assistant Nouvelle étendue du Gestionnaire DHCP deWindows Server 2012">{#WS2012_Screenshots/46}</p>
+<p>Cocher l&rsquo;option &quot;<em>Oui, je veux configurer ces options maintenant</em>&quot;, et
+cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/47.png" alt="Configuration des paramètres DHCP - Assistant Nouvelle étendue duGestionnaire DHCP de Windows Server2012">{#WS2012_Screenshots/47}</p>
+<p>Entrer l&rsquo;adresse IP 192.168.2.1, puis cliquer sur <em>Ajouter</em>. Ensuite,
+cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/48.png" alt="Routeur - Assistant Nouvelle étendue du Gestionnaire DHCP de WindowsServer 2012">{#WS2012_Screenshots/48}</p>
+<p>Remplir les champs comme sur la figure suivante :</p>
+<ul>
+<li>
+<p>Domaine parent : EPITAF</p>
+</li>
+<li>
+<p>Nom du serveur : Controleur de domain</p>
+</li>
+<li>
+<p>Adresse IP : 192.168.2.2 et 8.8.8.8</p>
+</li>
+</ul>
+<p>Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/49.png" alt="Nom de domaine et serveurs DNS - Assistant Nouvelle étendue duGestionnaire DHCP de Windows Server2012">{#WS2012_Screenshots/49}</p>
+<p>Cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/50.png" alt="Serveurs WINS - Assistant Nouvelle étendue du Gestionnaire DHCP deWindows Server 2012">{#WS2012_Screenshots/50}</p>
+<p>Cocher l&rsquo;option &quot;<em>Oui, je veux activer cette étendue maintenant</em>&quot;,
+puis cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/51.png" alt="Activation de l&rsquo;étendue - Assistant Nouvelle étendue du GestionnaireDHCP de Windows Server2012">{#WS2012_Screenshots/51}</p>
+<p>Cliquer sur <em>Terminer</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/52.png" alt="Fin de la nouvelle étendue - Assistant Nouvelle étendue duGestionnaire DHCP de Windows Server2012">{#WS2012_Screenshots/52}</p>
+<h3 id="création-de-lactive-directory">Création de l&rsquo;Active Directory</h3>
+<p>Cliquer sur <em>Outils</em>, puis cliquer sur <em>Centre d&rsquo;administration Active
+Directory</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/53.png" alt="Centre d&rsquo;administration ActiveDirectory">{#WS2012_Screenshots/53}</p>
+<p>Dans l&rsquo;encadré <strong>Serveurs</strong>, cliquer sur <em>Autres...</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/54.png" alt="Configuration AD DS de Windows Server2012">{#WS2012_Screenshots/54}</p>
+<p>Cliquer sur l&rsquo;action <em>Promouvoir ce serveur en contrôleur de domaine</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/55.png" alt="Configuration post-déploiement AD DS de Windows Server2012">{#WS2012_Screenshots/55}</p>
+<p>Aller dans la section <em>Configuration de déploiement</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/56.png" alt="Configuration de déploiement - Configuration des services de domaineActive Directory de Windows Server2012">{#WS2012_Screenshots/56}</p>
+<p>Cocher l&rsquo;option &quot;<em>Ajouter une nouvelle forêt</em>&quot;, et entrer la valeur
+&quot;<em>EPITAF.local</em>&quot; dans le champ <em>Nom de domaine racine</em>. Cliquer sur
+<em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/58.png" alt="Ajout d&rsquo;une nouvelle forêt - Configuration des services de domaineActive Directory de Windows Server2012">{#WS2012_Screenshots/58}</p>
+<p>Aller dans la section <em>Options du contrôleur de domaine</em>. Entrer un mot
+de passe respectant les bonne pratiques de sécurité, puis cliquer sur
+<em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/59.png" alt="Options du contrôleur de domaine - Configuration des services dedomaine Active Directory de Windows Server2012">{#WS2012_Screenshots/59}</p>
+<p>Aller dans la section <em>Options DNS</em>, puis cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/60.png" alt="Options DNS - Configuration des services de domaine Active Directoryde Windows Server2012">{#WS2012_Screenshots/60}</p>
+<p>Aller dans la section <em>Options supplémentaires</em>, puis cliquer sur
+<em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/61.png" alt="Options supplémentaires - Configuration des services de domaine ActiveDirectory de Windows Server2012">{#WS2012_Screenshots/61}</p>
+<p>Aller dans la section <em>Chemins d&rsquo;accès</em>, puis cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/62.png" alt="Chemins d&rsquo;accès - Configuration des services de domaine ActiveDirectory de Windows Server2012">{#WS2012_Screenshots/62}</p>
+<p>Aller dans la section <em>Examiner les options</em>, puis cliquer sur <em>Suivant</em>
+:</p>
+<p><img src="/Archi1/WS2012_Screenshots/63.png" alt="Examiner les options - Configuration des services de domaine ActiveDirectory de Windows Server2012">{#WS2012_Screenshots/63}</p>
+<p>Aller dans la section <em>Vérification de la configuration requise</em>, puis
+cliquer sur <em>Installer</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/64.png" alt="Vérification de la configuration requise - Configuration des servicesde domaine Active Directory de Windows Server2012">{#WS2012_Screenshots/64}</p>
+<p>Une fois le serveur redémarré, se connecter au compte administrateur du
+domaine EPITAF.</p>
+<p><img src="/Archi1/WS2012_Screenshots/65.png" alt="Accès au compte administrateur du domaine EPITAF de Windows Server2012">{#WS2012_Screenshots/65}</p>
+<p>Dans le gestionnaire de serveur, aller dans la section <strong>DHCP</strong> via la
+colonne de gauche. Cliquer sur <em>Autres...</em> dans l&rsquo;encart jaune :</p>
+<p><img src="/Archi1/WS2012_Screenshots/66.png" alt="Configuration du serveur DHCP pour AD DS de Windows Server2012">{#WS2012_Screenshots/66}</p>
+<p>Cliquer sur l&rsquo;action &quot;<em>Terminer la configuration DHCP</em>&quot; :</p>
+<p><img src="/Archi1/WS2012_Screenshots/67.png" alt="Configuration post-déploiement du serveur DHCP pour AD DS de WindowsServer 2012">{#WS2012_Screenshots/67}</p>
+<p>Dans la section <em>Description</em> cliquer sur <em>Suivant</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/68.png" alt="Description - Assistant Configuration post-déploiement DHCP pour AD DSde Windows Server2012">{#WS2012_Screenshots/68}</p>
+<p>Dans la section <em>Autorisation</em>, cocher l&rsquo;option &quot;<em>Utiliser les
+informations d&rsquo;identification de l&rsquo;utilisateur suivant</em>&quot;, pour
+l&rsquo;utilisateur <code>EPITAF\Administrateur</code>. Cliquer sur <em>Valider</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/69.png" alt="Autorisation - Assistant Configuration post-déploiement DHCP pour ADDS de Windows Server2012">{#WS2012_Screenshots/69}</p>
+<p>Dans la section <em>Résumé</em> cliquer sur <em>Fermer</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/70.png" alt="Résumé - Assistant Configuration post-déploiement DHCP pour AD DS deWindows Server 2012">{#WS2012_Screenshots/70}</p>
+<p>Cliquer sur <em>Outils</em>, puis cliquer sur <em>DHCP</em>. Ensuite, dérouler la
+section IPv4, et cliquer droit sur <em>Options de serveur</em>, puis cliquer
+sur <em>Configurer les options...</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/71.png" alt="Accès à la configuration des options de serveur DHCP de Windows Server2012">{#WS2012_Screenshots/71}</p>
+<p>Cocher l&rsquo;option <code>003 Routeur</code>. Dans le champ <em>Adresse IP</em>, entrer
+l&rsquo;adresse IP 192.168.2.1, puis cliquer sur <em>Ajouter</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/72.png" alt="Paramétrage de l&rsquo;option routeur du serveur DHCP de Windows Server2012">{#WS2012_Screenshots/72}</p>
+<p>Cocher l&rsquo;option <code>006 Servers DNS</code>. Dans le champ <em>Adresse IP</em>, entrer
+l&rsquo;adresse IP 192.168.2.2, puis cliquer sur <em>Ajouter</em>. Enfin, cliquer sur
+<em>OK</em> :</p>
+<p><img src="/Archi1/WS2012_Screenshots/73.png" alt="Paramétrage de l&rsquo;option DNS de Windows Server2012">{#WS2012_Screenshots/73}</p>
+<h3 id="ajout-dun-utilisateur-dans-le-domaine-epitaf">Ajout d&rsquo;un utilisateur dans le domaine EPITAF</h3>
+<p>Pour ajouter en toute sécurité un utilisateur dans notre domaine EPITAF,
+nous allons :</p>
+<ul>
+<li>
+<p>Depuis le <strong>Gestionnaire de serveur</strong>, cliquer sur <strong>Outils</strong> puis
+sur <strong>Utilisateurs et ordinateurs AD</strong> ;</p>
+<p><img src="PC01/PC1.png" alt="Accès aux utilisateurs et ordinateurs AD de Windows Server2012"></p>
+</li>
+<li>
+<p>Dérouler le menu comme suit : <strong>Utilisateurs et ordinateurs AD -&gt;
+EPITAF.local -&gt; Users</strong>, cliquer droit sur <strong>Users</strong>. Dans le menu
+<strong>Nouveau</strong> cliquer sur <strong>Utilisateur</strong> ;</p>
+<p><img src="PC01/PC2.png" alt="Ajout d&rsquo;un utilisateur dans le domaine EPITAF de Windows Server2012"></p>
+</li>
+<li>
+<p>Renseigner les champs puis cliquer sur <strong>Suivant</strong> ;</p>
+<p><img src="PC01/PC3.png" alt="Initialisation d&rsquo;un utilisateur dans le domaine EPITAF de WindowsServer 2012"></p>
+</li>
+<li>
+<p>Renseigner le mot de passe de l&rsquo;utilisateur puis cliquer sur
+<strong>Suivant</strong> ;</p>
+<p><img src="PC01/PC4.png" alt="Initialisation du mot de passe d&rsquo;un utilisateur dans le domaineEPITAF de Windows Server 2012"></p>
+</li>
+<li>
+<p>Vérifier les informations puis cliquer sur <strong>Terminer</strong>.</p>
+<p><img src="PC01/PC5.png" alt="Fin de l&rsquo;ajout d&rsquo;un utilisateur dans le domaine EPITAF de WindowsServer 2012"></p>
+</li>
+</ul>
+<h3 id="ajout-dun-ordinateur-dans-le-domaine-epitaf">Ajout d&rsquo;un ordinateur dans le domaine EPITAF</h3>
+<p>Pour ajouter un ordinateur dans le domaine EPITAF, il faut :</p>
+<ul>
+<li>
+<p>Dérouler le menu comme suit : <strong>Utilisateurs et ordinateurs AD -&gt;
+EPITAF.local -&gt; Computers</strong>, cliquer droit sur <strong>Computers</strong>. Dans
+le menu <strong>Nouveau</strong> cliquer sur <strong>Ordinateur</strong> ;</p>
+<p><img src="PC01/PC7.png" alt="Ajout d&rsquo;un ordinateur dans le domaine EPITAF de Windows Server2012"></p>
+</li>
+<li>
+<p>Remplir les champs adéquats puis cliquer sur <strong>Modifier...</strong> ;</p>
+<p><img src="PC01/PC8.png" alt="Initialisation du nouvel ordinateur sur Windows Server2012"></p>
+</li>
+<li>
+<p>Renseigner le nom de l&rsquo;utilisateur précédemment créé puis cliquer
+sur <strong>OK</strong> ;</p>
+<p><img src="PC01/PC9.png" alt="Paramétrage de l&rsquo;option DNS de Windows Server 2012"></p>
+</li>
+<li>
+<p>Cliquer sur <strong>OK</strong> :</p>
+<p><img src="PC01/PC10.png" alt="Paramétrage de l&rsquo;option DNS de Windows Server 2012"></p>
+</li>
+</ul>
+<h2 id="windows">Windows</h2>
+<h3 id="attribution-des-paramètres-réseaux">Attribution des paramètres réseaux</h3>
+<p>Démarrer la machine virtuelle Windows 10. Accéder aux paramètres réseau
+et Internet, en cliquant droit sur l&rsquo;icône de réseau sur la droite de la
+barre des tâches. Cliquer sur <em>Ouvrir les paramètres réseau et Internet</em>
+:</p>
+<p><img src="/Archi1/W_Screenshots/41.png" alt="Accès aux paramètres réseau et Internet de Windows10">{#W_Screenshots/41}</p>
+<p>Ouvrir les options d&rsquo;adaptateur, en cliquant sur <em>Modifier les options
+d&rsquo;adapteur</em> :</p>
+<p><img src="/Archi1/W_Screenshots/42.png" alt="Ouverture des options d&rsquo;adaptateur de Windows10">{#W_Screenshots/42}</p>
+<p>Cliquer droit sur la carte Ethernet, et sélectionner <em>Propriétés</em> :</p>
+<p><img src="/Archi1/W_Screenshots/43.png" alt="Accès aux propriétés de la carte Ethernet de Windows10">{#W_Screenshots/43}</p>
+<p>Décocher <em>Protocole Internet version 6 (TCP/IPv6)</em>, et cocher <em>Protocole
+Internet version 4 (TCP/IPv4)</em>. Cliquer sur <em>Propriétés</em> pour IPv4 :</p>
+<p><img src="/Archi1/W_Screenshots/44.png" alt="Modification sur les protocoles Internet et accès aux propriétés IPv4de Windows 10">{#W_Screenshots/44}</p>
+<p>Renseigner la valeur du serveur DNS préféré : 192.168.2.2. Cliquer sur
+<em>OK</em> :</p>
+<p><img src="/Archi1/W_Screenshots/45.png" alt="Modification de l&rsquo;adresse DNS de PC01 de Windows10">{#W_Screenshots/45}</p>
+<h3 id="attribution-du-domaine">Attribution du domaine</h3>
+<p>Accéder aux paramètres <em>Systèmes</em> :</p>
+<p><img src="/Archi1/W_Screenshots/46.png" alt="Accès à Système sur Windows10">{#W_Screenshots/46}</p>
+<p>Aller à la section <strong>Informations Système</strong>. Cliquer sur <em>Informations
+système</em> :</p>
+<p><img src="/Archi1/W_Screenshots/47.png" alt="Accès à Informations Système de Windows10">{#W_Screenshots/47}</p>
+<p>Cliquer sur <em>Modifier les paramètres</em> :</p>
+<p><img src="/Archi1/W_Screenshots/48.png" alt="Accès à la modification des paramètres système de Windows10">{#W_Screenshots/48}</p>
+<p>Accéder aux propriétés de domaine en cliquant sur <em>Modifier</em> :</p>
+<p><img src="/Archi1/W_Screenshots/49.png" alt="Accès aux propriétés de domaine de Windows10">{#W_Screenshots/49}</p>
+<p>Ajouter le domaine <strong>EPITAF</strong>, et cliquer sur <em>OK</em> :</p>
+<p><img src="PC01/PC11.png" alt="Modification du domaine de Windows10">{#W_Screenshots/50}</p>
+<p>Rentrer les identifiants demandés, par exemple :</p>
+<ul>
+<li>
+<p><em>Nom d&rsquo;utilisateur</em> : EPITAF\Ultrae;</p>
+</li>
+<li>
+<p><em>Mot de passe</em> : celui associé à Ultrae.</p>
+</li>
+</ul>
+<p>Un message de bienvenue apparaît si les identifiants sont corrects.
+Cliquer sur <em>OK</em> puis fermer toutes les fenêtres :</p>
+<p><img src="/Archi1/W_Screenshots/51.png" alt="Modification de domaine effective de Windows10">{#W_Screenshots/51}</p>
+<h2 id="debian">Debian</h2>
+<h3 id="attribution-des-paramètres-réseaux-1">Attribution des paramètres réseaux</h3>
+<p>Sur VirtualBox, sélectionner la machine virtuelle &quot;Debian DM4&quot;, et
+cliquer sur <em>Configuration</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/1.png" alt="Accès à la fenêtre de configuration de la machine virtuelleDebian">{#Debian_screenshots/Config/1}</p>
+<p>Accéder à la section <strong>Réseau</strong>, puis dans l&rsquo;onglet &quot;Interface 1&quot;,
+sélectionner <em>Réseau interne</em> comme mode d&rsquo;accès réseau, avec
+&quot;pfsense&quot; comme nom :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/2.png" alt="Configuration réseau de la machine virtuelleDebian">{#Debian_screenshots/Config/2}</p>
+<p>Se connecter sur la machine virtuelle. Cliquer sur l&rsquo;icône pour les
+réseaux, cliquer sur <em>Connexion de Filaire en ...</em>, puis sur
+<em>Paramètres filaires</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/3.png" alt="Accès aux paramètres de configuration deconnexion">{#Debian_screenshots/Config/3}</p>
+<p>Sélectionner <em>Filaire</em>, puis cliquer sur le bouton des paramètres :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/4.png" alt="Accès aux paramètres de connexionfilaire">{#Debian_screenshots/Config/4}</p>
+<p>Aller dans la section <em>IPv4</em>, puis sélectionner <em>Manuel</em> afin de
+configurer les adresses suivantes : 192.168.2.2, 255.255.255.0 et
+192.168.2.1. Cliquer sur <em>Appliquer</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/5.png" alt="Configuration des paramètres de connexion filaire enIPv4">{#Debian_screenshots/Config/5}</p>
+<p>Ouvrir un navigateur, et se rendre à l&rsquo;adresse &quot;https://192.168.2.1&quot; :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/6.png" alt="Accès à la page web de configuration depfsense">{#Debian_screenshots/Config/6}</p>
+<p>Ouvrir la fenêtre de configuration de la machine virtuelle de
+<strong>pfsense</strong>, et aller dans la section <em>Réseau</em>. Se rendre dans l&rsquo;onglet
+&quot;Interface 3&quot;, cocher &quot;<em>Activer l&rsquo;interface réseau</em>&quot;, sélectionner
+<em>Réseau interne</em> comme mode d&rsquo;accès réseau, avec pour nom &quot;dmz&quot;.
+Cliquer sur <em>OK</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/7.png" alt="Création d&rsquo;un second réseau interne surpfsense">{#Debian_screenshots/Config/7}</p>
+<p>Sur la page web de configuration de pfsense, cliquer sur <em>Interfaces</em>
+puis <em>Assignments</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/8.png" alt="Accès à l&rsquo;assignation des interfaces sur la page web de configurationdepfsense">{#Debian_screenshots/Config/8}</p>
+<p>Cliquer sur le bouton <em>Add</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/9.png" alt="Ajout d&rsquo;une interface sur la page web de configuration depfsense">{#Debian_screenshots/Config/9}</p>
+<p>Cliquer sur la nouvelle interface créée, soit <em>OPT1</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/10.png" alt="Accès à la configuration de l&rsquo;interfaceOPT1">{#Debian_screenshots/Config/10}</p>
+<p>Remplir les champs comme sur la figure ci-dessous :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/11.png" alt="Configuration de l&rsquo;interfaceOPT1">{#Debian_screenshots/Config/11}</p>
+<p>Cliquer sur le bouton <em>Apply Changes</em> une fois les champs remplis :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/12.png" alt="Application des changements sur la configuration del&rsquo;interface">{#Debian_screenshots/Config/12}</p>
+<p>Cliquer sur <em>Firewall</em>, puis sur <em>Rules</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/13.png" alt="Accès aux règles de pfsense sur l&rsquo;interfaceweb">{#Debian_screenshots/Config/13}</p>
+<p>Sélectionner la première règle ainsi que les deux dernières (d&rsquo;après la
+figure suivante), puis cliquer sur le bouton <em>Delete</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/14.png" alt="Suppression de trois règles pfsense sur l&rsquo;interfaceweb">{#Debian_screenshots/Config/14}</p>
+<p>Vérifier que la configuration des règles de pfsense soit la même que
+celle de la figure ci-dessous :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/15.png" alt="Aperçu des règles de pfsense sur l&rsquo;interfaceweb">{#Debian_screenshots/Config/15}</p>
+<p>Cliquer sur l&rsquo;icône pour les réseaux dans le coin haut-droite de la
+machine, puis cliquer sur <em>Paramètres filaire</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/16.png" alt="Accéder aux paramètres filaire de lamachine">{#Debian_screenshots/Config/16}</p>
+<p>Aller dans la section <em>IPv4</em>, puis sélectionner <em>Manuel</em> afin de
+configurer les adresses suivantes : 192.168.3.2, 255.255.255.0 et
+192.168.3.1. Cliquer sur <em>Appliquer</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/17.png" alt="Configuration des paramètres de connexion filaire enIPv4">{#Debian_screenshots/Config/17}</p>
+<p>Ouvrir la fenêtre de configuration réseau de la machine virtuelle
+Debian. Aller dans la section <em>Réseau</em>, puis dans l&rsquo;onglet &quot;Interface
+1&quot;, changer le nom à &quot;dmz&quot;, puis cliquer sur <em>OK</em> :</p>
+<p><img src="/Archi1/Debian_screenshots/Config/18.png" alt="Configuration réseau de la machine virtuelleDebian">{#Debian_screenshots/Config/18}</p>
+<h2 id="interception-ssltls">Interception SSL/TLS</h2>
+<h3 id="objectifs">Objectifs</h3>
+<p>L&rsquo;objectif, comme le montre la figure ci-dessous
+(<a href="#Schema_tls/1">250</a>{reference-type=&ldquo;ref&rdquo; reference=&ldquo;Schema_tls/1&rdquo;}),
+est :</p>
+<ul>
+<li>
+<p>de pouvoir lire les informations transitant entre deux entités
+utilisant une connexion SSL/TLS ;</p>
+</li>
+<li>
+<p>de pouvoir filtrer le mot clé EPITA dans le contenu chargé.</p>
+</li>
+</ul>
+<p>La présente section décrit donc comment obtenir ce résultat en utilisant
+le proxy <em>SQUID</em> avec l&rsquo;antivirus intégré <em>ClamAV</em> via le pare-feu
+<em>pfSense</em>.</p>
+<p><img src="/Archi1/Interception_Screenshots/schema.jpeg" alt="Schéma de l&rsquo;interceptionSSL/TLS">{#Schema_tls/1}</p>
+<h3 id="accès-à-pfsense-et-installation-des-paquets">Accès à Pfsense et installation des paquets</h3>
+<p>Pour pouvoir obtenir SQUID il faut :</p>
+<ul>
+<li>
+<p>Se connecter à Pfsense via Internet Explorer</p>
+</li>
+<li>
+<p>Accéder à <strong>System -&gt; Package Manager</strong> :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/3.png" alt="image">
+[[Pfsense_Screeshots/interception/3]]{#Pfsense_Screeshots/interception/3
+label=&ldquo;Pfsense_Screeshots/interception/3&rdquo;}</p>
+</li>
+<li>
+<p>Cliquer sur <strong>Available Packages</strong> :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/4.png" alt="image">
+[[Pfsense_Screeshots/interception/4]]{#Pfsense_Screeshots/interception/4
+label=&ldquo;Pfsense_Screeshots/interception/4&rdquo;}</p>
+</li>
+<li>
+<p>Rechercher <strong>SQUID</strong> :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/5.png" alt="image">
+[[Pfsense_Screeshots/interception/5]]{#Pfsense_Screeshots/interception/5
+label=&ldquo;Pfsense_Screeshots/interception/5&rdquo;}</p>
+</li>
+<li>
+<p>Cliquer sur <strong>Install</strong></p>
+</li>
+<li>
+<p>Cliquer sur <strong>Confirm</strong> :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/6.png" alt="image">
+[[Pfsense_Screeshots/interception/6]]{#Pfsense_Screeshots/interception/6
+label=&ldquo;Pfsense_Screeshots/interception/6&rdquo;}</p>
+</li>
+<li>
+<p>Attendre la fin de l&rsquo;installation.</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/7.png" alt="image">
+[[Pfsense_Screeshots/interception/7]]{#Pfsense_Screeshots/interception/7
+label=&ldquo;Pfsense_Screeshots/interception/7&rdquo;}</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/8.png" alt="image">
+[[Pfsense_Screeshots/interception/8]]{#Pfsense_Screeshots/interception/8
+label=&ldquo;Pfsense_Screeshots/interception/8&rdquo;}</p>
+</li>
+</ul>
+<h3 id="ajout-dun-certificat">Ajout d&rsquo;un certificat</h3>
+<p>Pour ajouter un certificat, il faut :</p>
+<ul>
+<li>
+<p>accéder à <strong>System -&gt; Certificat Manager -&gt; CAs</strong> ;</p>
+</li>
+<li>
+<p>cliquer sur <strong>Add</strong>;</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/9.png" alt="image">
+[[Pfsense_Screeshots/interception/9]]{#Pfsense_Screeshots/interception/9
+label=&ldquo;Pfsense_Screeshots/interception/9&rdquo;}</p>
+</li>
+<li>
+<p>renseigner les champs comme ci-dessous :</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/10.png" alt="image">
+[[Pfsense_Screeshots/interception/10]]{#Pfsense_Screeshots/interception/10
+label=&ldquo;Pfsense_Screeshots/interception/10&rdquo;}</p>
+</li>
+</ul>
+<h3 id="ajout-du-certificat-sur-tous-les-postes-appartenant-à-epitaf-via-gpo">Ajout du certificat sur tous les postes appartenant à EPITAF via GPO</h3>
+<p>Afin d&rsquo;intercepter tous les flux provonant du réseau couvert par le
+domaine EPITAF, voici comment propager le certificat CA à tous les
+membres du domaine EPITAF :</p>
+<ul>
+<li>
+<p>Depuis le tableau de bord, cliquer sur <strong>Outils</strong> puis cliquer sur
+<strong>Gestion des politiques de groupe</strong> ;</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO0.png" alt="Accès aux politiques de groupe pour l&rsquo;interceptionTLS"></p>
+</li>
+<li>
+<p>Dérouler le menu comme suit : <strong>Gestion de stratégie de groupe -&gt;
+Forêt : EPITAF.local -&gt; Domaines -&gt; EPITAF.local -&gt; Objets de
+stratégie de groupe</strong> puis cliquer sur <strong>Nouveau</strong> ;</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO1.png" alt="Nouvelle GPO pour l&rsquo;interceptionTLS"></p>
+</li>
+<li>
+<p>Indiquer le nom de la GPO et cliquer sur <em>OK</em> ;</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO2.png" alt="Nom de la nouvelle GPO pour l&rsquo;interceptionTLS"></p>
+</li>
+<li>
+<p>Cliquer droit sur la nouvelle GPO puis cliquer sur <em>Modifier...</em> ;</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO3.png" alt="Modification de la GPO pour l&rsquo;interceptionTLS"></p>
+</li>
+<li>
+<p>Dérouler le menu comme suit : <strong>Stratégie AC pour IE -&gt;
+Configuration -&gt; Paramètres Windows -&gt; Paramètres de sécurité -&gt;
+Stratégie de clé publique</strong> puis cliquer droit sur <strong>Autorité de
+certification racines de confiance</strong> ;</p>
+</li>
+<li>
+<p>Cliquer sur <strong>Importer...</strong> ;</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO4.png" alt="Ajout du certificat pour la nouvelle GPO pour l&rsquo;interceptionTLS"></p>
+</li>
+<li>
+<p>Cliquer sur <em>Suivant</em> ;</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO5.png" alt="Nouveau CA pour l&rsquo;interceptionTLS"></p>
+</li>
+<li>
+<p>Cliquer sur <strong>Parcourir...</strong> ;</p>
+</li>
+<li>
+<p>choisir le certificat puis cliquer sur <em>Suivant</em> ;</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO6.png" alt="Choix du certificat pour la nouvelle GPO pour l&rsquo;interceptionTLS"></p>
+</li>
+<li>
+<p>Cliquer sur <em>Suivant</em> ;</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO7.png" alt="Placement du CA pour l&rsquo;interceptionTLS"></p>
+</li>
+<li>
+<p>Cliquer sur <em>Terminer</em> ;</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO8.png" alt="Fin de l&rsquo;installation du nouveau certificat pour l&rsquo;interceptionTLS"></p>
+</li>
+<li>
+<p>Cliquer sur <em>Ok</em>.</p>
+<p><img src="/Archi1/Interception_Screenshots/GPO9.png" alt="Validation de l&rsquo;ajout du nouveau certificat pour l&rsquo;interceptionTLS"></p>
+</li>
+</ul>
+<h3 id="mise-en-place-de-lantivirus-clamav">Mise en place de l&rsquo;antivirus ClamAV</h3>
+<p>Pour mettre en place l&rsquo;antivirus ClamAV, il faut :</p>
+<ul>
+<li>
+<p>Accéder à <strong>Services -&gt; Squid Proxy Server</strong> ;</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/11.png" alt="image">
+[[Pfsense_Screeshots/interception/11]]{#Pfsense_Screeshots/interception/11
+label=&ldquo;Pfsense_Screeshots/interception/11&rdquo;}</p>
+</li>
+<li>
+<p>Changer la valeur du cache par <em>500</em>, puis cliquer sur <em>save</em> ;</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/12.png" alt="image">
+[[Pfsense_Screeshots/interception/12]]{#Pfsense_Screeshots/interception/12
+label=&ldquo;Pfsense_Screeshots/interception/12&rdquo;}</p>
+</li>
+<li>
+<p>Cocher <strong>Enable AV</strong>, mettre <strong>Enable Manual Configuration</strong> à
+<strong>enabled</strong>, cliquer sur <strong>Load Advanced</strong> ;</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/13.png" alt="image">
+[[Pfsense_Screeshots/interception/13]]{#Pfsense_Screeshots/interception/13
+label=&ldquo;Pfsense_Screeshots/interception/13&rdquo;}</p>
+</li>
+<li>
+<p>Ouvrir la configuration avancée puis lire la valeur
+<strong>DatabaseDirectory</strong> dans <strong>freshclam.conf</strong>.</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/14.png" alt="image">
+[[Pfsense_Screeshots/interception/14]]{#Pfsense_Screeshots/interception/14
+label=&ldquo;Pfsense_Screeshots/interception/14&rdquo;}</p>
+</li>
+</ul>
+<pre tabindex="0"><code class="language-{=html}" data-lang="{=html}">&lt;!-- --&gt;
+</code></pre><ul>
+<li>
+<p>Accéder à <strong>Services -&gt; Squid Proxy Server</strong> ;</p>
+</li>
+<li>
+<p>Cocher <strong>Enable Squid Proxy</strong>, cocher <strong>Keep Settings/Data</strong>, mettre
+<strong>Proxy Interface(s)</strong> à <strong>LAN</strong>, cliquer sur <strong>Load Advanced</strong> ;</p>
+</li>
+<li>
+<p>Cocher <strong>Transparent HTTP Proxy</strong> ;</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/15.png" alt="image">
+[[Pfsense_Screeshots/interception/15]]{#Pfsense_Screeshots/interception/15
+label=&ldquo;Pfsense_Screeshots/interception/15&rdquo;}</p>
+</li>
+<li>
+<p>Cocher <strong>HTTPS/SSL Interception</strong> ;</p>
+</li>
+<li>
+<p>Cocher <strong>Enable Access Logging</strong> ;</p>
+</li>
+<li>
+<p>Cliquer sur <strong>save</strong> ;</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/16.png" alt="image">
+[[Pfsense_Screeshots/interception/16]]{#Pfsense_Screeshots/interception/16
+label=&ldquo;Pfsense_Screeshots/interception/16&rdquo;}</p>
+</li>
+<li>
+<p>Comme fait précédemment, ajouter une règle sur pfsense ;</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/17.png" alt="image">
+[[Pfsense_Screeshots/interception/17]]{#Pfsense_Screeshots/interception/17
+label=&ldquo;Pfsense_Screeshots/interception/17&rdquo;}</p>
+</li>
+<li>
+<p>Paramétrer la configuration pour autoriser les ports 3128 et 3129,
+puis cliquer sur <em>save</em>;</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/18.png" alt="image">
+[[Pfsense_Screeshots/interception/18]]{#Pfsense_Screeshots/interception/18
+label=&ldquo;Pfsense_Screeshots/interception/18&rdquo;}</p>
+</li>
+<li>
+<p>Pour interdire tous les navigateurs sauf Internet Explorer en
+version supérieure à 10, il faut ajouter la regex présentée
+ci-dessous dans l&rsquo;onglet <strong>ACLs</strong>, à <strong>Block User Agents</strong>.</p>
+<p><img src="/Archi1/Pfsense_Screeshots/interception/19.png" alt="image">
+[[Pfsense_Screeshots/interception/19]]{#Pfsense_Screeshots/interception/19
+label=&ldquo;Pfsense_Screeshots/interception/19&rdquo;}</p>
+</li>
+</ul>
+<h3 id="filtrage-du-mot-clé-epita-via-clamav">Filtrage du mot clé EPITA via ClamAV</h3>
+<p>Pour pouvoir filtrer tous les paquets contenant le mot clé <strong>EPITA</strong>
+avec <em>SQUID</em>, nous utiliserons l&rsquo;anti-virus intégré : <em>ClamAV</em>.<br>
+Lorsque clamAV détecte une page web en entrée, à l&rsquo;aide d&rsquo;une balise
+HTML valide, il se comporte comme suit [@Clamav-signatures] :</p>
+<ol>
+<li>
+<p>le fichier est normalisé, les commentaires sont supprimés, tout est
+mis en minuscule et les espaces en trop sont supprimés ;</p>
+</li>
+<li>
+<p>les tags HTML sont enlevés ;</p>
+</li>
+<li>
+<p>un fichier contenant le javascript est créé.</p>
+</li>
+</ol>
+<p>Nous cherchons donc à créer une signature permettant de détecter le mot
+clé <strong>EPITA</strong> et donc nous notifier. Pour cela, plusieurs formats se
+présentent à nous. Nous en retiendrons deux :</p>
+<ul>
+<li>
+<p>les <em>.yara</em> [@yara-signatures] [@yara-hunting-signatures];</p>
+</li>
+<li>
+<p>les <em>.ndb</em>[@ndb-signatures].</p>
+</li>
+</ul>
+<p>Ainsi, après avoir lu où se trouve les signatures de <em>ClamAV</em> via les
+fichiers de configuration de <em>SQUID</em>, nous rajouterons les notres (voir
+dev.pdf pour le contenu) dans le dossier adéquat.</p>
+<p>Ci-dessous, le résultat après une recherche google avec des termes
+proches d&rsquo;epita.</p>
+<p><img src="/Archi1/Interception_Screenshots/clamAV01.png" alt="image">
+[[Pfsense_Screeshots/interception/18]]{#Pfsense_Screeshots/interception/18
+label=&ldquo;Pfsense_Screeshots/interception/18&rdquo;}</p>
+<p><img src="/Archi1/Interception_Screenshots/clamAV02.png" alt="image">
+[[Pfsense_Screeshots/interception/18]]{#Pfsense_Screeshots/interception/18
+label=&ldquo;Pfsense_Screeshots/interception/18&rdquo;}</p>
+<p>Ce qui nous donne dans les logs :</p>
+<p><img src="/Archi1/Interception_Screenshots/clamAV03.png" alt="image">
+[[Pfsense_Screeshots/interception/18]]{#Pfsense_Screeshots/interception/18
+label=&ldquo;Pfsense_Screeshots/interception/18&rdquo;}</p>
+<h2 id="mise-en-place-dune-connexion-ssltls-mutualisée">Mise en place d&rsquo;une connexion SSL/TLS mutualisée</h2>
+<h3 id="objectifs-et-pré-requis">Objectifs et pré-requis</h3>
+<p>Nous cherchons ici à établir une connexion SSL/TLS mutualisée.<br>
+Pour cela, nous considérons sur le serveur possédant le serveur TLS que
+:</p>
+<ul>
+<li>
+<p>le serveur est une machine virtuelle hébergée dans le Cloud de
+Google ;</p>
+</li>
+<li>
+<p>l&rsquo;OS utilisé est un Debian 64 ;</p>
+</li>
+<li>
+<p>le serveur Nginx est déjà installé <strong>mais pas encore configuré</strong> ;</p>
+</li>
+<li>
+<p>le nom de domaine utilisé est <em>ultrae.eu</em> ;</p>
+</li>
+<li>
+<p>le site web est déjà créé dans <em>/var/www/html/</em>.</p>
+</li>
+</ul>
+<h3 id="paramétrage-du-serveur-nginx">Paramétrage du serveur NGINX</h3>
+<p>Pour pouvoir paramétrer nginx il faut :</p>
+<ol>
+<li>
+<p>Générer à l&rsquo;aide du pki (voir dev.pdf) :</p>
+<ul>
+<li>
+<p>un certificat CA et sa clé privée ;</p>
+</li>
+<li>
+<p>un CSR signé par le CA.</p>
+</li>
+</ul>
+<p><img src="/Archi1/Interception_Screenshots/mut01.png" alt="Affichage des certificats pour le TLSmutualisé"></p>
+</li>
+<li>
+<p>Les placer dans un dossier sur le serveur distant.</p>
+<p><img src="/Archi1/Interception_Screenshots/mut02.png" alt="Mise en place des certificats pour le TLSmutualisé"></p>
+</li>
+<li>
+<p>Dans la configuration ssl de Nginx rajouter les lignes :</p>
+<ul>
+<li>
+<p><code>ssl_certificate &quot;/etc/nginx/cert/ultrae.eu.CA.crt&quot;;</code></p>
+</li>
+<li>
+<p><code>ssl_certificate_key &quot;/etc/nginx/cert/ultrae.eu.CA.key&quot;;</code></p>
+</li>
+<li>
+<p><code>ssl_client_certificate &quot;/etc/nginx/cert/ultrae.eu.crt&quot;;</code></p>
+</li>
+<li>
+<p><code>ssl_verify_client on.</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Ajouter dans le navigateur :</p>
+<ul>
+<li>
+<p>le certificat du CA dans les certificats root trusted ;</p>
+</li>
+<li>
+<p>le certificat client dans les certificats personnels.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="interception-ssltls-sur-une-connexion-tls-mutualisée">Interception SSL/TLS sur une connexion TLS mutualisée</h3>
+<p>Afin de pouvoir intercepter et pouvoir déchiffrer un flux chiffré entre
+un serveur TLS et un client s&rsquo;authentifiant mutuellement, il faut :</p>
+<ul>
+<li>
+<p>Se connecter sur pfsense ;</p>
+</li>
+<li>
+<p>Dans <strong>System -&gt; Cert. Manager</strong>, importer un CA ;</p>
+<p><img src="/Archi1/Interception_Screenshots/mut03.png" alt="Importation du CA pour le TLSmutualisé"></p>
+</li>
+<li>
+<p>Dans l&rsquo;onglet <strong>Certificates</strong>, importer un CSR ;</p>
+<p><img src="/Archi1/Interception_Screenshots/mut04.png" alt="Importation du CSR pour le TLSmutualisé"></p>
+</li>
+<li>
+<p>Ajouter un nouveau certificat, selectionner la méthode <em>Sign a
+Certificate Signing Request</em>;</p>
+</li>
+<li>
+<p>Mettre <em>ultrae.eu</em> dans <em>Descriptive name</em> ;</p>
+</li>
+<li>
+<p>Mettre <em>ultrae.eu.CA</em> dans <em>CA to sign</em> ;</p>
+</li>
+<li>
+<p>Mettre <em>sha512</em> dans <em>Digest Algorithm</em> ;</p>
+</li>
+<li>
+<p>Mettre <em>URI</em> et <em><a href="http://www.ultrae.eu">www.ultrae.eu</a></em> dans <em>Alternative Names</em> ;</p>
+</li>
+<li>
+<p>Cliquer sur save.</p>
+<p><img src="/Archi1/Interception_Screenshots/mut05.png" alt="Signature du CSR pour le TLSmutualisé"></p>
+</li>
+</ul>
+<p>-</p>
+<h2 id="installation-et-configuration-des-services">Installation et configuration des services</h2>
+<h3 id="ansible">Ansible</h3>
+<p>Pour pouvoir construire notre infrastructure
+<a href="/Archi1/#Architecture_Screenshots/2">251</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;Architecture_Screenshots/2&rdquo;}, nous utiliserons Ansible <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p><img src="/Archi1/Architecture_Screenshots/archi2.jpeg" alt="Architecture cible avecAnsible">{#Architecture_Screenshots/2}</p>
+<p>Afin de lancer le déploiement, il suffit d&rsquo;exécuter la commande suivante
+à partir d&rsquo;une machine présente dans le LAN :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ ansible-playbook -i hosts full.yml --ask-pass --ask-vault
+</code></pre></div><p>Si Ansible n&rsquo;est pas installé sur la machine lançant le script, il
+faudra :</p>
+<ul>
+<li>
+<p>Ajouter à <strong>deb <a href="http://ppa.launchpad.net/ansible/ansible/ubuntu">http://ppa.launchpad.net/ansible/ansible/ubuntu</a>
+trusty main</strong> à :<br>
+<strong>/etc/apt.source.list</strong></p>
+</li>
+<li>
+<p>Il faudra ensuite exécuter ces commandes pour mettre en place
+Ansible :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo apt-key adv <span style="color:#ae81ff">\ </span>
+        --keyserver keyserver.ubuntu.com <span style="color:#ae81ff">\ </span>
+        --recv-keys 93C4A3FD7BB9C367
+    $ sudo apt update
+    $ sudo apt install ansible
+</code></pre></div></li>
+</ul>
+<h3 id="nginx">Nginx</h3>
+<h5 id="paquets-installés">Paquets installés</h5>
+<p>Les paquets nécessaires au fonctionnement du service web Nginx sont:</p>
+<ul>
+<li>
+<p><em>nginx</em></p>
+</li>
+<li>
+<p><em>nginx-extras</em> afin de pouvoir modifier le header et diminuer
+l&rsquo;empreinte numérique</p>
+</li>
+</ul>
+<p><img src="/Archi1/Nginx_Screenshots/4.png" alt="Page d&rsquo;Accueil Nginx avecAuthentification">{#Nginx_Screenshots/4.png}</p>
+<h5 id="rôle">Rôle</h5>
+<p>Ce rôle Ansible permet de déployer automatiquement un service web Nginx,
+clé en main. Les principales étapes sont les suivantes:</p>
+<ul>
+<li>
+<p>Modification du fichier de configuration situé dans
+<em>/etc/nginx/nginx.conf</em>:</p>
+<ul>
+<li>
+<p>Ajout de <em>more_set_headers</em> &lsquo;Server: WeAreAnonymous&rsquo; et
+<em>server_tokens</em> off</p>
+</li>
+<li>
+<p>Journalisation des événements en ajoutant
+<code>access_log /var/log/nginx/access.log</code> et
+<code>error_log /var/log/nginx/error.log</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Création de plusieurs pages html personnalisées, notamment pour
+gérer les erreurs 404, 405 et 50x. Le but est de limiter au maximum
+l&rsquo;identité du service qui est dévoilée avec les pages par défaut.</p>
+</li>
+<li>
+<p>Ecoute sur le port 443 en plus du 80 :</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">      listen <span style="color:#ae81ff">443</span> ssl default_server;
+      listen <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:443 ssl default_server;
+</code></pre></div><ul>
+<li>
+<p>Redirection automatique des requêtes sur le port 80 vers le port 443</p>
+</li>
+<li>
+<p>Ajout d&rsquo;une politique de protection :</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-{.bash" data-lang="{.bash">        add_header Strict-Transport-Security <span style="color:#e6db74">&#34;max-age=31536000; includeSubdomains&#34;</span> always;
+        add_header X-Xss-Protection <span style="color:#e6db74">&#34;1; mode=block&#34;</span> always;
+        add_header X-Frame-Options <span style="color:#e6db74">&#34;SAMEORIGIN&#34;</span> always;
+        add_header X-Content-Type-Options <span style="color:#e6db74">&#34;nosniff&#34;</span> always;
+        add_header Referrer-Policy <span style="color:#e6db74">&#34;no-referrer-when-downgrade&#34;</span>;
+        Politique de sécurité CSP filtrant le contenu :
+        add_header Content-Security-Policy <span style="color:#e6db74">&#34;default-src &#39;self&#39; [...]
+</span><span style="color:#e6db74">        Autorisation des requêtes GET et POST seulement :
+</span><span style="color:#e6db74">        if ( \$reques_method !~ ^(GET|POST)\$ ) { return 405; }
+</span><span style="color:#e6db74">	
+</span></code></pre></div><ul>
+<li>Ajout des certificats générés par la PKI du DM3 :</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">      ssl_certificate /etc/nginx/server.crt;
+      ssl_certificate_key /etc/nginx/server.key;
+      ssl_client_certificate /etc/nginx/CAcrt.pem;
+</code></pre></div><p>L&rsquo;utilisateur devra ensuite se connecter avec le certificat p12
+utilisateur, émis par la PKI.</p>
+<p><img src="/Archi1/Nginx_Screenshots/5.png" alt="Page d&rsquo;Accueil Wordpress depuis Nginx Port 80/Apache Port8000">{#Nginx_Screenshots/5.png}</p>
+<p><img src="/Archi1/Nginx_Screenshots/6.png" alt="Page d&rsquo;erreur 404">{#Nginx_Screenshots/6.png}</p>
+<p><img src="/Archi1/Nginx_Screenshots/7.png" alt="Page d&rsquo;erreur 405">{#Nginx_Screenshots/7.png}</p>
+<p><img src="/Archi1/Nginx_Screenshots/8.png" alt="Page d&rsquo;erreur 50x">{#Nginx_Screenshots/8.png}</p>
+<p><img src="/Archi1/Nginx_Screenshots/9.png" alt="En-tête de Nginx sécurisée etpréservée">{#Nginx_Screenshots/9.png}</p>
+<h3 id="mysql">MySQL</h3>
+<h5 id="paquets-installés-1">Paquets installés</h5>
+<p>Les paquets nécessaires au fonctionnement de MariaDB (MySQL) sont:</p>
+<ul>
+<li>
+<p><em>mysql-server</em></p>
+</li>
+<li>
+<p><em>php-mysql</em></p>
+</li>
+<li>
+<p><em>python-mysqldb</em></p>
+</li>
+</ul>
+<h5 id="rôle-1">Rôle</h5>
+<p>Ce rôle Ansible permet de déployer automatiquement la base de données
+MariaDB (MySQL). Cette base servira au site wordpress joué par le
+service Apache2. Ce rôle décrit une commande autonome, mais interactive
+toute simple : <em>mysql_secure_installation</em>. Cette commande doit être
+lancée en tant que root.</p>
+<p><img src="/Archi1/Wordpress_Screenshots/5.png" alt="Lancement de la commande pourMariaDB">{#Wordpress_Screenshots/5.png}</p>
+<p>Cette commande exécute plusieurs tâches notamment:</p>
+<ul>
+<li>
+<p>Changement du mot de passe root de la DB</p>
+</li>
+<li>
+<p>Désactivation de l&rsquo;authentification root à distance</p>
+</li>
+<li>
+<p>Suppression des utilisateurs anonymes</p>
+</li>
+<li>
+<p>Suppression de la base test</p>
+</li>
+<li>
+<p>Suppression des privilèges de la base test</p>
+</li>
+</ul>
+<p>Bien entendu, cette commande a été reprise en détails dans un rôle
+ansible afin de produire le même comportement.</p>
+<h3 id="apache">Apache</h3>
+<h5 id="paquets-installés-2">Paquets installés</h5>
+<p>Les paquets nécessaires au fonctionnement du serveur Apache sont:</p>
+<ul>
+<li>
+<p><em>apache2</em></p>
+</li>
+<li>
+<p><em>php</em></p>
+</li>
+<li>
+<p><em>libapache2-mod-php</em></p>
+</li>
+<li>
+<p><em>krb5-user</em></p>
+</li>
+<li>
+<p><em>libapache2-mod-auth-kerb</em></p>
+</li>
+<li>
+<p><em>libapache2-modsecurity</em></p>
+</li>
+<li>
+<p><em>php-curl</em></p>
+</li>
+<li>
+<p><em>php-gd</em></p>
+</li>
+<li>
+<p><em>php-intl</em></p>
+</li>
+<li>
+<p><em>php-json</em></p>
+</li>
+<li>
+<p><em>php-mbstring</em></p>
+</li>
+<li>
+<p><em>php-xml</em></p>
+</li>
+<li>
+<p><em>php-zip</em></p>
+</li>
+</ul>
+<h5 id="rôle-2">Rôle</h5>
+<p>Ce rôle Ansible permet de déployer automatiquement le service web
+Apache2 prêt à être utilisé, mais aussi le support de l&rsquo;authentification
+via Kerberos.</p>
+<p>Pour une installation manuelle d&rsquo;Apache, les étapes de déploiement sont
+les suivantes :</p>
+<ul>
+<li>
+<p>Installer les paquets avec un gestionnaire de paquets;</p>
+</li>
+<li>
+<p>Démarrer le service Apache.</p>
+</li>
+</ul>
+<p>Une fois qu&rsquo;Apache est fonctionnel, il faut installer le blog Wordpress
+demandé. Il suffit pour cela de cloner le dépôt WordPress suivant
+<em><a href="https://github.com/WordPress/WordPress.git">https://github.com/WordPress/WordPress.git</a></em>, dans
+<em>/var/www/html/wordpress</em>, afin de pouvoir accéder au site via la boucle
+locale soit <code>https://192.168.3.2/blog</code>.</p>
+<p>En démarrant Wordpress, il faut avoir Apache, PHP et MariaDB en route et
+configuré. Dans un second temps, il faudra se connecter à MariaDB afin
+d&rsquo;y créer une table et un utilisateur.</p>
+<p>Sur Wordpress, un assistant reprenant tous les éléments configurés nous
+guidera afin de générer le fichier <em>wp-config.php</em> qui sera à mettre
+dans le dossier <em>wordpress</em> cité plus haut.</p>
+<p>Lors de la première connexion, il faudra remplir le formulaire de
+création d&rsquo;un administrateur du site, selon l&rsquo;illustration suivante :</p>
+<p><img src="/Archi1/Wordpress_Screenshots/1.png" alt="Première connexion surWordpress">{#Wordpress_Screenshots/1.png}</p>
+<p>À l&rsquo;étape suivante, il suffit de cliquer sur &quot;Log In&quot; pour se
+connecter à l&rsquo;interface administrateur de gestion du site.</p>
+<p><img src="/Archi1/Wordpress_Screenshots/2.png" alt="Connexion à l&rsquo;interface de gestion deWordpress">{#Wordpress_Screenshots/2.png}</p>
+<p>Soyez les bienvenus sur Wordpress !</p>
+<p><img src="/Archi1/Wordpress_Screenshots/4.png" alt="Page d&rsquo;accueilWordpress">{#Wordpress_Screenshots/4.png}</p>
+<h3 id="openssh">OpenSSH</h3>
+<h5 id="paquets-installés-3">Paquets installés</h5>
+<ul>
+<li>
+<p><em>openssh-server</em></p>
+</li>
+<li>
+<p><em>libpam-google-authenticator</em></p>
+</li>
+</ul>
+<h5 id="rôle-3">Rôle</h5>
+<h6 id="gestion-des-utilisateurs">Gestion des utilisateurs</h6>
+<p>La liste ci-dessous détaille et explique les commandes à réaliser
+concernant la gestion des utilisateurs :</p>
+<ul>
+<li>
+<p>Création du groupe TOPGUN : <code>sudo groupadd TOPGUN</code>{.bash}</p>
+</li>
+<li>
+<p>Création de l&rsquo;utilisateur <code>maverik</code> : <code>sudo useradd maverik</code>{.bash}</p>
+</li>
+<li>
+<p>Création de l&rsquo;utilisateur <code>charlie</code> : <code>sudo useradd charlie</code>{.bash}</p>
+</li>
+<li>
+<p>Création de l&rsquo;utilisateur <code>goose</code> : <code>sudo useradd goose</code>{.bash}</p>
+</li>
+<li>
+<p>Ajout de <code>maverik</code> au groupe TOPGUN :
+<code>sudo usermod -g TOPGUN maverik</code>{.bash}</p>
+</li>
+<li>
+<p>Ajout de <code>charlie</code> au groupe TOPGUN :
+<code>sudo usermod -g TOPGUN charlie</code>{.bash}</p>
+</li>
+<li>
+<p>Ajout de <code>goose</code> au groupe TOPGUN :
+<code>sudo usermod -g TOPGUN goose</code>{.bash}</p>
+</li>
+</ul>
+<p>Aussi, les utilisateurs <code>maverik</code> et <code>charlie</code> ne connaissent pas leur
+mot de passe ; ceux-ci sont stockés dans un coffre. Étant donné que nous
+avons utilisé un coffre pour certaines variables des playbooks Ansible,
+nous avons trouvé plus simple d&rsquo;utiliser ce coffre-là pour y stocker les
+mots de passe de <code>maverik</code> et <code>Charlie</code>. Nous avons pour cela utilisé
+l&rsquo;outil <strong>Ansible Vault</strong>.</p>
+<h6 id="attribution-de-droits">Attribution de droits</h6>
+<p>Une fois que les utilisateurs ont été créés, il est possible de leur
+attribuer certains droits. En effet :</p>
+<ul>
+<li>
+<p><code>maverik</code> doit pouvoir redémarrer le système ou le mettre à jour en
+tant que utilisateur privilégié;</p>
+</li>
+<li>
+<p><code>charlie</code> doit pouvoir effectuer toutes les tâches root sur le
+système;</p>
+</li>
+<li>
+<p><code>goose</code> n&rsquo;a auncun droit de ce type.</p>
+</li>
+</ul>
+<p>Ces configurations se font dans le fichier <em>/etc/sudoers</em>. Afin de
+faciliter l&rsquo;ajout de configurations particulières, il est possible de
+rajouter ses propres fichiers. C&rsquo;est ce que nous avons fait, car cela
+permet aussi un déploiement par Ansible plus simple. Ainsi, nous avons
+créé le fichier <em>/etc/sudoers.d/ssh-users</em>, qui contient :</p>
+<ul>
+<li>
+<p>Le temps pendant lequel un utilisateur ayant utilisé <code>sudo</code> n&rsquo;a pas
+besoin de se ré-authentifier pour exécuter des commandes nécessitant
+<code>sudo</code>;</p>
+</li>
+<li>
+<p>L&rsquo;attribution des droits pour <code>maverik</code>;</p>
+</li>
+<li>
+<p>L&rsquo;attribution des droits pour <code>charlie</code>.</p>
+</li>
+</ul>
+<p>Ce fichier doit appartenir à l&rsquo;utilisateur <code>root</code>, et posséder les
+permissions suivantes : &quot;0440&quot; ; on les lui donne avec
+<code>sudo chmod 0440 /etc/sudoers.d/ssh-users</code>{.bash}.</p>
+<h6 id="google-authenticator">Google Authenticator</h6>
+<p>Dans la configuration SSH attendue, il est demandé de permettre
+l&rsquo;authentification via <em>Google Authenticator</em>. Afin de l&rsquo;utiliser, il
+faut tout d&rsquo;abord installer le paquet <code>libpam-google-authenticator</code>.
+Ensuite, lancer la génération de la clé secrète avec
+<code>google-authenticator</code>{.bash} pour chacun des utilisateurs, qui sera
+exécuté de manière interactive. Plusieurs questions sont en effet
+posées, telles que le montrent les figures suivantes :</p>
+<p>Il est préférable d&rsquo;accepter que les jetons d&rsquo;authentification soient
+basés sur le temps.</p>
+<p><img src="/Archi1/OpenSSH_Screenshots/google_auth-1.png" alt="Lancement de GoogleAuthenticator">{#OpenSSH_Screenshots/google-auth-1.png}</p>
+<p>Affichage du QR Code à flasher avec l&rsquo;application Google Authenticator,
+ainsi que de la clé secrète à entrer dans l&rsquo;application Google
+Authenticator s&rsquo;il n&rsquo;est pas possible de la flasher maintenant. Google
+authenticator donne également cinq codes récupération en cas de perte ou
+de vol du téléphone possédant l&rsquo;application Google authenticator. Si le
+fichier <em>/home/&lt;user&gt;/.google_authenticator</em> existe déjà, il est
+possible de le templacer par la nouvelle clé secrète</p>
+<p><img src="/Archi1/OpenSSH_Screenshots/google_auth-2.png" alt="Génération de la clé secrète et deuxième question de GoogleAuthenticator">{#OpenSSH_Screenshots/google-auth-2.png}</p>
+<p>Choisir de ne pas autoriser l&rsquo;utilisation multiple du même jeton
+d&rsquo;authentification.</p>
+<p><img src="/Archi1/OpenSSH_Screenshots/google_auth-3.png" alt="Troisième question de GoogleAuthenticator">{#OpenSSH_Screenshots/google-auth-3.png}</p>
+<p>Garder la génération d&rsquo;un nouveau jeton toutes les 30 secondes, et donc
+répondre non à la question :</p>
+<p><img src="/Archi1/OpenSSH_Screenshots/google_auth-4.png" alt="Quatrième question de GoogleAuthenticator">{#OpenSSH_Screenshots/google-auth-4.png}</p>
+<p>Répondre oui pour permettre la limitation de tentative de connexion :</p>
+<p><img src="/Archi1/OpenSSH_Screenshots/google_auth-5.png" alt="Dernière question de GoogleAuthenticator">{#OpenSSH_Screenshots/google-auth-5.png}</p>
+<p>Ce programme génère un fichier <em>.google_authenticator</em> contenant la clé
+secrète à donner à l&rsquo;application Google Authenticator, dans le dossier
+<em>/home/&lt;user&gt;/</em> de l&rsquo;utilisateur actuel. Cette clé est utile si
+l&rsquo;utilisateur n&rsquo;a pas pu récupérer le QR Code affiché à l&rsquo;écran.</p>
+<p>Cette étape &quot;Google Authenticator&quot; se déroule donc en deux temps : la
+génération de la clé secrète et son ajout dans l&rsquo;application Google
+Authenticator, ce qui rend difficile le déploiement avec Ansible. En
+effet, la difficulté est ici la récupération des clés générées et leur
+distribution aux bons utilisateurs. La solution qui nous a semblé la
+plus appropriée est la suivante :</p>
+<ul>
+<li>
+<p>Copier le fichier <em>.google_authenticator</em> pour chacun des
+utilisateurs dans le dossier d&rsquo;où est lancé le déploiement par
+Ansible. Ils sont ajoutés au dossier <em>GoogleAuthenticator</em> situé au
+niveau du fichier <em>hosts</em>;</p>
+</li>
+<li>
+<p>L&rsquo;administrateur à l&rsquo;origine du déploiement peut ensuite distribuer
+de manière sécurisée ces fichiers aux utilisateurs concernés.</p>
+</li>
+</ul>
+<p>Aussi, nous avons utilisé Google Authenticator en mode non-interactif
+dans le playbook Ansible, contrairement à l&rsquo;exemple montré sur les
+figures ci-dessus, où Google Authenticator est utilisé en mode
+interactif.<br>
+Une fois les clés secrètes générées, il faut permettre leur utilisation.
+Il faut pour cela modifier les fichiers de PAM - Pluggable
+Authentication Modules.</p>
+<h6 id="pam">PAM</h6>
+<p>Le comportement attendu est de pouvoir se connecter en SSH en utilisant
+un code généré par Google Authenticator pour certains utilisateurs. Pour
+faire cela, il faut modifier le fichier <em>/etc/pam.d/sshd</em>, en tant
+qu&rsquo;utilisateur privilégié. Il faut pour cela commenter la ligne
+<code>@include common-auth</code>{.bash}, et ajouter la ligne suivante à la fin du
+fichier : <code>auth required pam_google_authenticator.so</code>{.bash}</p>
+<p>Afin que SSH demande cette méthode d&rsquo;authentification, il faut modifier
+le fichier de configuration du serveur SSH, qui est le fichier
+<em>/etc/ssh/sshd_config</em>. Il faut éditer ce fichier en tant qu&rsquo;utilisateur
+privilégié.</p>
+<h6 id="charlie">charlie</h6>
+<p>Aussi, l&rsquo;utilisateur <code>charlie</code> peut effectuer toutes les tâches root sur
+le système, mais doit se ré-authentifier toutes les 15 minutes avec un
+code de vérification de Google Authenticator. La figure ci-dessous
+montre que <code>charlie</code> peut effectuer toute sorte de commande utilisant
+<code>sudo</code>{.bash}, sans redemander le code de vérification. Au bout de 15
+minutes, <code>charlie</code> doit entrer le code de vérification de Google
+Authenticator :</p>
+<p><img src="/Archi1/OpenSSH_Screenshots/charlie-timeout.png" alt="Capture d&rsquo;écran de la ré-authentification de charlie avec GoogleAuthenticator au bout de 1minute">{#OpenSSH_Screenshots/maverik.png}</p>
+<p>Pour des raisons pratiques, la capture d&rsquo;écran montre le comportement
+attendu avec un timeout de 1 minute.</p>
+<p>Il faut tout d&rsquo;abord ajouter au fichier <em>/etc/sudoers.d/ssh-users</em> créé
+précedemment, la ligne : <code>Defaults:charlie timestamp_timeout=15</code>{.bash}<br>
+Ensuite, il faut configurer PAM pour <code>sudo</code>, via le fichier de
+configuration <em>/etc/pam.d/sudo</em>. Le fichier est affiché ci-dessous :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#%PAM-1.0</span>
+auth <span style="color:#f92672">[</span>success<span style="color:#f92672">=</span>ignore default<span style="color:#f92672">=</span>1<span style="color:#f92672">]</span> pam_succeed_if.so user ingroup charlie-grp
+auth sufficient pam_google_authenticator.so nullok
+
+@include common-auth
+@include common-account
+@include common-session-noninteractive
+</code></pre></div><p>Pour que cette fonctionnalité soit opérationnelle, il faut créer un
+groupe <code>charlie-grp</code>, auquel appartient <code>charlie</code>.</p>
+<h5 id="configuration-de-ssh">Configuration de SSH</h5>
+<p>La configuration du serveur SSH se situe dans le fichier
+<em>/etc/ssh/sshd_config</em>. C&rsquo;est donc ce fichier que nous avons dû modifier
+pour répondre aux conditions requises. La liste ci-dessous détaille les
+mots-clés choisis ainsi que leur(s) argument(s), pour chacun des points
+demandés :</p>
+<ul>
+<li>Le service écoute uniquement sur le port 22 en IPv4 :</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">          Port <span style="color:#ae81ff">22</span>
+          Protocol <span style="color:#ae81ff">2</span>
+          AddressFamily inet
+          ListenAddress 0.0.0.0
+</code></pre></div><ul>
+<li>
+<p>Refus des connexions <code>root</code> : <code>PermitRootLogin no</code>{.bash}</p>
+</li>
+<li>
+<p>Le service log au maximum les interactions et surtout les échecs
+synonymes d&rsquo;incidents de sécurité : <code>LogLevel VERBOSE</code>{.bash}</p>
+</li>
+<li>
+<p>Utilisation du module PAM pour l&rsquo;authentification ; acceptation,
+uniquement, de l&rsquo;authentification avec biclé ou via un code de
+sécurité Google Authenticator pour les utilisateurs du serveur :</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">          PasswordAuthentication no
+          PermitEmptyPasswords no
+          ChallengeResponseAuthentication yes
+          UsePAM yes
+          
+          <span style="color:#75715e"># Configuration des méthodes d&#39;authentification</span>
+          <span style="color:#75715e"># pour certains utilisateurs</span>
+          Match User charlie
+            AuthenticationMethods publickey,keyboard-interactive
+          Match User goose
+            AuthenticationMethods keyboard-interactive
+</code></pre></div><p>Les mots-clés utilisés dans le fichier de configuration que nous avons
+mis en place ne sont pas tous décrits dans ce document. Ils ont
+néanmoins été choisis pour avoir une configuration durcie du serveur
+SSH.</p>
+<h5 id="résultats-attendus">Résultats attendus</h5>
+<p>Ci-dessous des captures d&rsquo;écran montrant le comportement attendu à la
+connexion de chacun des utilisateurs : <code>maverik</code>, <code>charlie</code> et <code>goose</code>.<br>
+La figure ci-dessous montre la connexion SSH de l&rsquo;utilisateur <code>maverik</code>,
+avec le code de vérification de Google Authenticator. Les commandes
+<code>apt update</code>{.bash} et <code>sudo apt update</code>{.bash} permettent de montrer
+que maverik ne peut exécuter que certaines commandes avec <code>sudo</code>{.bash}
+:</p>
+<p><img src="/Archi1/OpenSSH_Screenshots/maverik.png" alt="Capture d&rsquo;écran lors de la connexion demaverik">{#OpenSSH_Screenshots/maverik.png}</p>
+<p>La figure ci-dessous montre la connexion SSH de l&rsquo;utilisateur <code>charlie</code>,
+en mode verbose, afin de voir que l&rsquo;authentification se fait grâce à un
+biclé ainsi que grâce à un code de vérification de Google Authenticator.</p>
+<p><img src="/Archi1/OpenSSH_Screenshots/charlie2.png" alt="Capture d&rsquo;écran lors de la connexion decharlie">{#OpenSSH_Screenshots/charlie2.png}</p>
+<p>La figure ci-dessous montre la connexion SSH de l&rsquo;utilisateur <code>goose</code>.
+Étant donné que cet utilisateur est un stagiaire qui est là pour
+apprendre les bases des commandes UNIX, il nous a semblé judicieux de
+lui donner comme shell par défaut un shell restreint : <code>rbash</code>.</p>
+<p><img src="/Archi1/OpenSSH_Screenshots/goose.png" alt="Capture d&rsquo;écran lors de la connexion degoose">{#OpenSSH_Screenshots/goose.png}</p>
+<h3 id="pare-feu">Pare-feu</h3>
+<h5 id="paquets-installés-4">Paquets installés</h5>
+<p>Les paquets nécessaires au fonctionnement du firewall local sont:</p>
+<ul>
+<li>
+<p><em>iptables</em></p>
+</li>
+<li>
+<p><em>iptables-persistent</em></p>
+</li>
+</ul>
+<h5 id="rôle-4">Rôle</h5>
+<p>Ce rôle Ansible permet de déployer automatiquement un ensemble de règles
+consistentes afin de couper le traffic entrant et sortant, sauf aux
+ports et protocoles des services utilisés.</p>
+<p>Parmi les règles, il y a notamment:</p>
+<ul>
+<li>
+<p>INPUT</p>
+<ul>
+<li>
+<p>DROP ipv6</p>
+</li>
+<li>
+<p>ACCEPT 22/SSH tcp</p>
+</li>
+<li>
+<p>ACCEPT 53/DNS tcp/udp</p>
+</li>
+<li>
+<p>ACCEPT 80/HTTP tcp</p>
+</li>
+<li>
+<p>ACCEPT 443/HTTPS tcp</p>
+</li>
+<li>
+<p>ACCEPT 8000 tcp</p>
+</li>
+<li>
+<p>ACCEPT 10000 tcp</p>
+</li>
+<li>
+<p>ACCEPT ctstate ESTABLISHED,RELATED</p>
+</li>
+<li>
+<p>GOTO LOGGING</p>
+</li>
+</ul>
+</li>
+<li>
+<p>LOGGING</p>
+<ul>
+<li>
+<p>LOG tous les paquets (règle primordiale pour le fonctionnement
+de fail2ban : se situe juste avant le DROP). Une limite de
+paquets et de vitesse de réception est appliquée pour ne pas se
+faire &quot;inonder&quot;;</p>
+</li>
+<li>
+<p>DROP tout ce qui reste</p>
+</li>
+</ul>
+</li>
+<li>
+<p>OUTPUT</p>
+<ul>
+<li>
+<p>REJECT ipv6</p>
+</li>
+<li>
+<p>ACCEPT ctstate ESTABLISHED,RELATED</p>
+</li>
+<li>
+<p>DROP tout ce qui reste</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Les commandes listées ci-dessous correspondent aux règles décrites dans
+la liste précedente :</p>
+<ul>
+<li>
+<p><code>iptables -F</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -X</code>{.bash}</p>
+</li>
+<li>
+<p><code>ip6tables -F</code>{.bash}</p>
+</li>
+<li>
+<p><code>ip6tables -X</code>{.bash}</p>
+</li>
+<li>
+<p><code>ip6tables -A INPUT -j DROP</code>{.bash}</p>
+</li>
+<li>
+<p><code>ip6tables -A OUTPUT -j REJECT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A INPUT --dport 22 -p tcp -j ACCEPT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A INPUT --dport 53 -p tcp -j ACCEPT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A INPUT --dport 53 -p udp -j ACCEPT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A INPUT --dport 80 -p tcp -j ACCEPT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A INPUT --dport 443 -p tcp -j ACCEPT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A INPUT --dport 8000 -p tcp -j ACCEPT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A INPUT --dport 10000 -p tcp -j ACCEPT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A INPUT -m state --ctstate ESTABLISHED,RELATED -j ACCEPT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A OUTPUT -m state --ctstate ESTABLISHED,RELATED -j ACCEPT</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -N LOGGING</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A LOGGING -j LOG -m limit --limit 1/s --limit-burst 4 --log-prefix &quot;PORT DENIED: &quot; --log-level 6</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A LOGGING -j DROP</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables -A INPUT -g LOGGING</code>{.bash}</p>
+</li>
+<li>
+<p><code>iptables-save &gt; /etc/iptables/rules</code>{.bash}</p>
+</li>
+</ul>
+<p>À chaque enregistrement des règles, une copie est sauvegardée avec la
+commande : <code>iptables-save &gt; /etc/iptables/rules</code>{.bash}</p>
+<p>Cette copie sera utilisée à chaque boot par <em>iptables-persistent</em> pour
+restaurer l&rsquo;ensemble des règles car <em>iptables</em> oublie les règles par
+défaut au redémarrage. De cette manière, le filtrage sera permanent.</p>
+<h3 id="fail2ban">Fail2ban</h3>
+<h5 id="paquets-installés-5">Paquets installés</h5>
+<p>Le paquet nécessaire au fonctionnement de fail2ban est uniquement
+<em>fail2ban</em>.</p>
+<h5 id="rôle-5">Rôle</h5>
+<p>Ce rôle Ansible permet de déployer le service fail2ban. Ce dernier
+permet d&rsquo;analyser à l&rsquo;aide de filtres puis de bannir, en cas
+d&rsquo;infraction des IPs détectées dans les logs suivis.</p>
+<p>Le service bannit les machines qui échouent plusieurs fois lors de:</p>
+<ul>
+<li>
+<p>l&rsquo;authentification ssh abusive (3 tentatives);</p>
+</li>
+<li>
+<p>les requêtes HTTP/HTTPS qui ne sont ni GET ni POST (3 tentatives);</p>
+</li>
+<li>
+<p>les scans de port (ban de 5 minutes).</p>
+</li>
+</ul>
+<p>Pour ce faire, il faut créer des filtres à mettre dans
+<em>/etc/fail2ban/filter.d/</em>. Chaque filtre est composé d&rsquo;une <em>failregex</em>,
+une phrase qui identifie les logs coupables. On peut y rajouter une
+exclusion à l&rsquo;aide cette fois-ci d&rsquo;une <em>ignoreregex</em>, où les logs qui
+correspondent sont ignorés. Le fichier de configuration de fail2ban se
+situe dans <em>/etc/fail2ban/jail.d/defaults-debian.conf</em>. Il contient les
+scopes des filtres. Le premier est le scope <em>default</em> qui contient le
+champ <em>ignoreip</em> contenant les machines de confiance. Ensuite, il y a un
+scope par filtre que l&rsquo;on appelle des plugins. Chacun dispose de
+différents champs dont :</p>
+<ul>
+<li>
+<p><em>enabled true</em> : activé;</p>
+</li>
+<li>
+<p><em>filter</em> : nom du filtre utlisé;</p>
+</li>
+<li>
+<p><em>port</em> : ports surveillés dans le cas des requêtes;</p>
+</li>
+<li>
+<p><em>logpath /path/to/log</em> : log du service cible utilisé pour la
+détection;</p>
+</li>
+<li>
+<p><em>bantime</em>: temps de bannissement;</p>
+</li>
+<li>
+<p><em>findtime</em> : temps avant réinitialisation de <em>maxretry</em>;</p>
+</li>
+<li>
+<p><em>maxretry</em> : nombre de fois autorisées avant bannissement.</p>
+</li>
+</ul>
+<p>Les illustrations suivantes montrent la configuration à adopter :</p>
+<p><img src="/Archi1/Fail2ban_Screenshots/1.png" alt="Lancement de la commande pourMariaDB">{#Fail2ban_Screenshots/1.png}</p>
+<p><img src="/Archi1/Fail2ban_Screenshots/2.png" alt="Fonctionnement du ban IP pour scan deport">{#Fail2ban_Screenshots/2.png}</p>
+<p><img src="/Archi1/Fail2ban_Screenshots/3.png" alt="Fonctionnement du ban IP pour requête avec méthodeinterdite">{#Fail2ban_Screenshots/3.png}</p>
+<p><img src="/Archi1/Fail2ban_Screenshots/4.png" alt="Fonctionnement du ban IP pour abus de connexionSSH">{#Fail2ban_Screenshots4.png}</p>
+<h2 id="mise-en-place-dapache-avec-kerberos">Mise en place d&rsquo;apache avec Kerberos</h2>
+<h3 id="objectifs-et-pré-requis-1">Objectifs et pré-requis</h3>
+<p>Nous cherchons ici à mettre en place un système d&rsquo;authentification
+sécurisée via Kerberos <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.<br>
+Pour cela, nous considérons que nous avons un serveur Windows 2012 déjà
+configuré via le présent document.</p>
+<p>Ci-dessous, le comportement attendu de kerberos sur notre infrastructure
+:</p>
+<p><img src="Kerberos/kerberos.jpg" alt="Schéma de la négociation avec leKDC">{#Debian_screenshots/Config/5}</p>
+<p>Il faut comprendre :</p>
+<ul>
+<li>
+<p><strong>Mot de passe</strong> : l&rsquo;utilisateur du domaine <code>EPITAF</code> rentre son mot
+de passe ;</p>
+</li>
+<li>
+<p><strong>Hash</strong> : le mot de passe est ensuite hashé par l&rsquo;un des
+algorithmes et peut être retrouvé via LSSAS.exe;</p>
+</li>
+<li>
+<p><strong>AS-REQ</strong> : la machine de l&rsquo;utilisateur demande un ticket
+d&rsquo;authentification au serveur windows qui est contrôleur de domaine
+et KDC;</p>
+</li>
+<li>
+<p><strong>AS-REP</strong> : le KDC vérifie les identifiants et renvoie un ticket
+TGT et une clef de session chiffrés ;</p>
+</li>
+<li>
+<p><strong>TGS-REQ</strong> : quand l&rsquo;utilisateur cherchera à se connecter à un
+service, il enverra son ticket TGT et le nom du service auquel il
+veut accéder au Windows Server;</p>
+</li>
+<li>
+<p><strong>TGS-REP</strong> : le KDC vérifie ensuite le TGT et l&rsquo;accès au service
+auquel l&rsquo;utilisateur veut accéder. Il renverra un ticket TGS
+permettant à l&rsquo;utilisateur d&rsquo;accéder au service voulu ;</p>
+</li>
+<li>
+<p><strong>TGS</strong> : le client envoie son ticket TGS récemment reçu au serveur
+pour montrer qu&rsquo;il peut accéder au service ;</p>
+</li>
+<li>
+<p><strong>Data</strong> : le serveur fournit le service.</p>
+</li>
+</ul>
+<h6 id="heading"></h6>
+<p>Afin de pouvoir mettre en place ce comportement, on devra :</p>
+<ul>
+<li>
+<p>Configurer le Windows Server (ktpass, création de services, etc) ;</p>
+</li>
+<li>
+<p>Configurer Apache pour qu&rsquo;il puisse prendre en compte Kerberos ;</p>
+</li>
+<li>
+<p>Configurer les clients qui ne sont pas dans l&rsquo;AD avec krb5-user ;</p>
+</li>
+<li>
+<p>Modifier la configuration des navigateurs internet pour qu&rsquo;ils
+puissent prendre en compte la négociation kerberos.</p>
+</li>
+</ul>
+<h3 id="configuration-de-windows-server">Configuration de Windows Server</h3>
+<p>Dans <em>Gestionnaire de serveur -&gt; Outils</em>, cliquer sur DNS</p>
+<p><img src="Kerberos/1.png" alt="Accès à la configuration DNS de Windows Server pourKerberos">{#Debian_screenshots/Config/5}</p>
+<p>Dans <em>DNS -&gt; DC01 -&gt; Zones de recherche directes</em>, cliquer droit sur
+EPITAF.LOCAL puis cliquer sur <strong>Nouvel hôte (A ou AAAA)...</strong></p>
+<p><img src="Kerberos/2.png" alt="Assertion d&rsquo;une nouvelle entrée dans la DNS pourKerberos">{#Debian_screenshots/Config/5}</p>
+<p>Dans <strong>Nom</strong> mettre <em>infra01</em> ; dans <strong>Adresse IP</strong> mettre <em>192.168.3.2</em>
+; cliquer sur <strong>Ajouter un hôte</strong></p>
+<p><img src="Kerberos/3.png" alt="Ajout d&rsquo;un nouvel hôte pourKerberos">{#Debian_screenshots/Config/5}</p>
+<p>Dans <em>Gestionnaire de serveur -&gt; Outils</em>, cliquer sur <strong>Centre
+d&rsquo;administration Active Directory</strong></p>
+<p><img src="Kerberos/4.png" alt="Accès au centre d&rsquo;administration ActiveDirectory">{#Debian_screenshots/Config/5}</p>
+<p>Dans le centre d&rsquo;administration Active Directory, cliquer droit sur
+EPITAF (local) puis dans <em>Nouveau</em>, cliquer sur <strong>Utilisateur</strong></p>
+<p><img src="Kerberos/5.png" alt="Création d&rsquo;un nouvelutilisateur">{#Debian_screenshots/Config/5}</p>
+<p>Dans <strong>Prénom</strong> mettre <em>apache</em> ; dans <strong>Ouverture de session</strong> mettre
+<em>apache</em> ; entrer un mot de passe puis cliquer sur <strong>Ok</strong></p>
+<p><img src="Kerberos/6.png" alt="Ajout de l&rsquo;utilisateur apache dansl&rsquo;AD">{#Debian_screenshots/Config/5}</p>
+<p>Entrer la ligne de commande suivante :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">  ktpass.exe -princ HTTP/infra01.epitaf.local@EPITAF.LOCAL \ 
+  -mapuser apache@EPITAF.LOCAL -pass * \ 
+  -crypto AES256-SHA1 -ptype KRB5_NT_PRINCIPAL \ 
+  -out C:\http.keytab
+</code></pre></div><p>Lorsque le prompt le demande, entrer le mot de passe, puis entrer la
+ligne de commande suivante :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">   ktpass.exe -princ HTTPS/infra01.epitaf.local@EPITAF.LOCAL \ 
+        -mapuser apache@EPITAF.LOCAL -pass * \ 
+        -crypto AES256-SHA1 -ptype KRB5_NT_PRINCIPAL \ 
+        -out C:\https.keytab
+</code></pre></div><p>Lorsque le prompt le demande, entrer le mot de passe.</p>
+<p>Nous venons de créer le service et mapper l&rsquo;utilisateur apache dessus.
+La commande nous a généré deux fichiers keytab, essentiels pour
+qu&rsquo;Apache2 puisse nous fournir le service attendu.</p>
+<p><img src="Kerberos/ktpass.png" alt="Schéma de la négociation avec leKDC">{#Debian_screenshots/Config/5}</p>
+<h3 id="configuration-du-client-kerberos-pour-un-client-hors-active-directory">Configuration du client Kerberos pour un client hors Active Directory</h3>
+<p>La version client de kerberos pour Windows et linux se trouve ici :
+<a href="https://web.mit.edu/kerberos/dist/">https://web.mit.edu/kerberos/dist/</a>.  Sur un debian, il suffit
+d&rsquo;installer le paquet <strong>krb5-user</strong> :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo apt install krb5-user
+</code></pre></div><p>Il suffit ensuite de :</p>
+<ul>
+<li>
+<p>Modifier le fichier de configuration <strong>/etc/krb5.conf</strong> comme
+présenté dans le fichier template d&rsquo;ansible</p>
+</li>
+<li>
+<p>Utiliser <code>kinit</code> pour obtenir un ticket de l&rsquo;utilisateur voulu</p>
+</li>
+<li>
+<p>Utiliser <code>klist</code> pour vérifier l&rsquo;état du cache</p>
+</li>
+<li>
+<p>Utiliser <code>kvno</code> (optionnel) pour obtenir un TGS du service voulu</p>
+<p><img src="Kerberos/k.png" alt="Obtention des tickets sur une machinelinux">{#Debian_screenshots/Config/5}</p>
+</li>
+<li>
+<p>Pour pouvoir accéder au site hébergé sur INFRA01 via le navigateur
+web, il faut :</p>
+<ul>
+<li>
+<p>Ouvrir <code>Firefox</code> et entrer dans l&rsquo;url : <strong>about:config</strong></p>
+<p><img src="Kerberos/firefox1.png" alt="Configuration de firefox pour kerberos -about:config">{#Debian_screenshots/Config/5}</p>
+</li>
+<li>
+<p>Cliquer sur <strong>J&rsquo;accepte le risque</strong> et entrer dans la barre de
+recherche : <strong>network.negotiate-auth.trusted-uris</strong> ; cliquer
+ensuite sur <strong>network.negotiate-auth.trusted-uris</strong></p>
+<p><img src="Kerberos/firefox2.png" alt="Configuration de firefox pour kerberos -network">{#Debian_screenshots/Config/5}</p>
+</li>
+<li>
+<p>Entrer la valeur <strong>192.168.3.2:1000</strong> et cliquer sur <em>Ok</em>.</p>
+<p><img src="Kerberos/firefox3.png" alt="Configuration de firefox pour kerberos - valeur duserveur">{#Debian_screenshots/Config/5}</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Entrer dans l&rsquo;url : <strong>192.168.3.2:10000</strong> et appuyer sur <em>Entrée</em>.
+Le wordpress devrait être accessible.</p>
+<p><img src="Kerberos/firefox4.png" alt="Accès au wordpress après authentification aveckerberos">{#Debian_screenshots/Config/5}</p>
+</li>
+</ul>
+<h3 id="configuration-du-serveur-apache-avec-kerberos">Configuration du serveur Apache avec Kerberos</h3>
+<p>Pour pouvoir utiliser Kerberos avec apache et respecter les contraintes
+imposées, il faut :</p>
+<ul>
+<li>
+<p>Installer libapache2-mod-auth-kerb :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo apt install libapache2-mod-auth-kerb
+</code></pre></div></li>
+<li>
+<p>Activer le module auth_kerb :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo a2enmod auth_kerb
+</code></pre></div></li>
+<li>
+<p>Ajouter dans la configuration apache :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">    <span style="color:#f92672">&lt;VirtualHost</span> <span style="color:#960050;background-color:#1e0010">*:10000</span><span style="color:#f92672">&gt;</span>
+        ServerAdmin wordpress@localhost
+        DocumentRoot /var/www/html/wordpress/
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+        DirectoryIndex index.php
+
+        SSLEngine on
+        SSLCertificateFile &#34;/etc/apache2/server.crt&#34;
+        SSLCertificateKeyFile &#34;/etc/apache2/server.key&#34;
+
+
+        <span style="color:#f92672">&lt;Directory</span> <span style="color:#960050;background-color:#1e0010">&#34;/var/www&#34;</span><span style="color:#f92672">&gt;</span>
+                Order deny,allow
+                Deny from all
+                Allow from 192.168.2.0/24
+
+                AuthType Kerberos
+                AuthName &#34;Kerberos Auth&#34;
+                KrbAuthRealms EPITAF.LOCAL
+                KrbServiceName HTTPS
+                Krb5Keytab /etc/apache2/https.keytab
+                KrbMethodNegotiate on
+                KrbMethodK5Passwd off
+                KrbVerifyKDC on
+                Require valid-user
+        <span style="color:#f92672">&lt;/Directory&gt;</span>
+
+<span style="color:#f92672">&lt;/VirtualHost&gt;</span>
+</code></pre></div></li>
+<li>
+<p>Importer les keytabs https.keytab et http.keytab dans
+<strong>/etc/apache2/</strong></p>
+</li>
+<li>
+<p>Configurer kerberos avec le fichier <strong>/etc/krb5.conf</strong>.</p>
+</li>
+<li>
+<p>Utiliser les commande :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo chown www-data:root /etc/http*.keytab
+    $ sudo chmod <span style="color:#ae81ff">640</span> /etc/http*.keytab
+</code></pre></div></li>
+<li>
+<p>Redémarrer apache :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo systemctl restart apache2
+</code></pre></div></li>
+</ul>
+<h2 id="mise-en-place-dapache-modsecurity">Mise en place d&rsquo;apache Modsecurity</h2>
+<h3 id="objectifs-1">Objectifs</h3>
+<p>L&rsquo;objectif est de mettre en place un pare-feu applicatif permettant de
+protéger les applications de INFRA01 ainsi que de filtrer le mot clef
+<em>EPITA</em> sur les requêtes <em>POST</em>, <em>PUT</em> et <em>GET</em>. Pour cela nous
+utiliserons ModSecurity <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> avec Apache2.<br>
+Le pare-feu présente cependant des limites s&rsquo;il est utilisé seul.<br>
+Pour palier ce problème, nous utiliserons OWASP Core Set Rule <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<p>La figure <a href="#Apache/modsecurity">288</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;Apache/modsecurity&rdquo;} montre le fonctionnement de ModSecurity.
+Cela nous permettra de comprendre comment écrire les règles adéquates.</p>
+<p><img src="Apache/modsecurity.jpg" alt="Phases de traitement de l&rsquo;information par modsecurity[@modsecurity-phases]">{#Apache/modsecurity}</p>
+<p>Le cercle représente le processus de traitement de données d&rsquo;Apache. Les
+étiquettes sont les phases avec lesquelles on pourra interférer via
+ModSecurity.<br>
+Ce qu&rsquo;il faut comprendre :</p>
+<ul>
+<li>
+<p><strong>Phase 1</strong> : cette phase se déroule juste après qu&rsquo;Apache ait fini
+de lire l&rsquo;en-tête d&rsquo;une requête. Il est possible d&rsquo;influer sur la
+façon dont la requête va être traitée.</p>
+</li>
+<li>
+<p><strong>Phase 2</strong> : lors de cette phase, le corps de la requête est
+accessible, il est donc possible d&rsquo;en obtenir les arguments.</p>
+</li>
+<li>
+<p><strong>Phase 3</strong> : cette phase se déroule juste avant que le service
+envoie les en-têtes de la réponse au client. Il est donc possible
+d&rsquo;acquérir ce qui a été envoyé au client avant qu&rsquo;il ne le reçoive.</p>
+</li>
+<li>
+<p><strong>Phase 4</strong> : dans cette phase, le corps de la réponse est
+accessible. Il est possible de détecter des &quot;information
+disclosure&quot;.</p>
+</li>
+<li>
+<p><strong>Phase 5</strong> : phase avant l&rsquo;entrée d&rsquo;information dans les logs. Il
+est possible d&rsquo;inspecter les messages d&rsquo;erreurs d&rsquo;apache.</p>
+</li>
+</ul>
+<h3 id="configuration-du-serveur-apache-avec-modsecurity">Configuration du serveur Apache avec modsecurity</h3>
+<h5 id="configuration-par-défaut">Configuration par défaut</h5>
+<p>Pour pouvoir utiliser modsecurity avec apache il faut :</p>
+<ul>
+<li>
+<p>Installer libapache2-modsecurity :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo apt install libapache2-modsecurity
+</code></pre></div></li>
+<li>
+<p>Activer le module security2 :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo a2enmod security2
+</code></pre></div></li>
+<li>
+<p>Changer <strong>/etc/modsecurity/modsecurity-default.conf</strong> en :<br>
+<strong>/etc/modsecurity/modsecurity.conf</strong> :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo cp /etc/modsecurity/modsecurity-default.conf <span style="color:#ae81ff">\ </span>
+        /etc/modsecurity/modsecurity.conf
+</code></pre></div></li>
+<li>
+<p>Changer dans le fichier; <strong>SecRuleEngine DetectionOnly</strong> en :</p>
+<ul>
+<li><strong>SecRuleEngine On</strong></li>
+</ul>
+</li>
+<li>
+<p>Redémarrer apache :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo systemctl restart apache2
+</code></pre></div></li>
+</ul>
+<h5 id="changement-de-la-configuration-par-défaut">Changement de la configuration par défaut</h5>
+<p>Certains paramètres sont à modifier, on obtiendra :</p>
+<ul>
+<li>
+<p><strong>SecResponseBodyLimitation Reject</strong> : par défaut laisse passer les
+réponses qui ne peuvent pas être inspectées dû à leur taille.</p>
+</li>
+<li>
+<p><strong>SecTmpDir /var/modsecurity/tmp/</strong> : par défaut, écrit les fichiers
+temporaires dans un endroit accessible à tout le monde (/tmp)</p>
+</li>
+<li>
+<p><strong>SecDataDir /var/modsecurity/persistant/</strong> : par défaut, écrit les
+fichiers persistants dans un endroit accessible à tout le monde
+(/tmp)</p>
+</li>
+<li>
+<p><strong>SecAuditEngine On</strong> : par défaut ne log que certaines
+transactions.</p>
+</li>
+</ul>
+<p>Il faut ensuite :</p>
+<ul>
+<li>
+<p>Créer les dossiers adéquats :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ mkdir -p /var/modsecurity/tmp /var/modsecurity/persistant
+</code></pre></div></li>
+<li>
+<p>Redémarrer apache2</p>
+</li>
+</ul>
+<h5 id="filtrage-du-mot-epita">Filtrage du mot <strong>EPITA</strong></h5>
+<p>On cherche à bloquer le mot clé <code>EPITA</code> dans les méthodes <em>GET</em>, <em>PUT</em>
+et <em>POST</em>. Pour cela il faut rajouter la ligne suivante dans
+<strong>/etc/modsecurity/modsecurity.conf</strong> :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    SecRule REQUEST_METHOD <span style="color:#e6db74">&#34;(?:POST|GET|PUT)&#34;</span> <span style="color:#ae81ff">\ </span>
+        <span style="color:#e6db74">&#34;phase:2, t:none, chain, deny, msg:&#39;STOP&#39;, status:500, id:5555&#34;</span>
+    SecRule REQUEST_URI|ARGS|REQUEST_BODY <span style="color:#e6db74">&#34;EPITA&#34;</span> <span style="color:#ae81ff">\ </span>
+        <span style="color:#e6db74">&#34;log, auditlog, tag:&#39;KeyWord_EPITA_matched&#39;&#34;</span>
+</code></pre></div><p>On regarde si <em>EPITA</em> est présent après avoir regardé si on recevait une
+requête GET/POST/PUT. Le message d&rsquo;erreur sera le 500 et l&rsquo;évènement
+sera placé dans les logs. Tout se passe pendant la phase 2.<br>
+Redémarrer apache :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ sudo systemctl restart apache2.
+</code></pre></div><h5 id="owasp-modsecurity-core-rule-set">OWASP ModSecurity Core Rule Set</h5>
+<p>La Configuration par défaut ne suffisant pas, il est possible de se
+protéger en utilisant le CRS d&rsquo;OWASP. OWASP CSR est à ce jour disponible
+par défaut avec l&rsquo;installation de libapache2-mod-security.</p>
+<p>Pour installer OWASP ModSecurity CRS manuellement il faut :</p>
+<ul>
+<li>
+<p>Cloner le dépôt du CRS :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    $ git clone https://github.com/SpiderLabs/owasp-modsecurity-crs.git
+</code></pre></div></li>
+<li>
+<p>Inclure <strong>crs-setup.conf</strong> et <strong>rules/*.conf</strong> dans la
+configuration :</p>
+<ul>
+<li><strong>/etc/apache2/mods-enabled/security2_module</strong>.</li>
+</ul>
+</li>
+<li>
+<p>Redémarrer apache2.</p>
+</li>
+</ul>
+<h2 id="misp">MISP</h2>
+<h3 id="snort">Snort</h3>
+<p>Se rendre sur la page du gestionnaire de paquets de Pfsense, en cliquant
+sur l&rsquo;onglet <strong>System</strong>, puis sur <em>Package Manager</em> :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/1.png" alt="image">
+[[MISP_Screenshots/Snort/1]]{#MISP_Screenshots/Snort/1
+label=&ldquo;MISP_Screenshots/Snort/1&rdquo;}</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/2.png" alt="image">
+[[MISP_Screenshots/Snort/2]]{#MISP_Screenshots/Snort/2
+label=&ldquo;MISP_Screenshots/Snort/2&rdquo;}</p>
+<p>Entrer le mot-clé <code>snort</code> dans la barre de recherche de paquets :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/3.png" alt="image">
+[[MISP_Screenshots/Snort/3]]{#MISP_Screenshots/Snort/3
+label=&ldquo;MISP_Screenshots/Snort/3&rdquo;}</p>
+<p>Confirmer l&rsquo;installation du paquet, en cliquant sur le bouton <em>Confirm</em>
+:</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/4.png" alt="image">
+[[MISP_Screenshots/Snort/4]]{#MISP_Screenshots/Snort/4
+label=&ldquo;MISP_Screenshots/Snort/4&rdquo;}</p>
+<p>Attendre la fin de l&rsquo;installation du paquet Snort :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/5.png" alt="image">
+[[MISP_Screenshots/Snort/5]]{#MISP_Screenshots/Snort/5
+label=&ldquo;MISP_Screenshots/Snort/5&rdquo;}</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/6.png" alt="image">
+[[MISP_Screenshots/Snort/6]]{#MISP_Screenshots/Snort/6
+label=&ldquo;MISP_Screenshots/Snort/6&rdquo;}</p>
+<p>Afin d&rsquo;accéder à la page du service Snort sur l&rsquo;interface web de
+Pfsense, cliquer sur l&rsquo;onglet <strong>Services</strong>, puis sur <em>Snort</em> :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/7.png" alt="image">
+[[MISP_Screenshots/Snort/7]]{#MISP_Screenshots/Snort/7
+label=&ldquo;MISP_Screenshots/Snort/7&rdquo;}</p>
+<p>Ajouter une nouvelle interface WAN en cliquant sur le bouton <em>Add</em> :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/8.png" alt="image">
+[[MISP_Screenshots/Snort/8]]{#MISP_Screenshots/Snort/8
+label=&ldquo;MISP_Screenshots/Snort/8&rdquo;}</p>
+<p>Configurer l&rsquo;interface WAN, selon la capture d&rsquo;écran suivante :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/9.png" alt="image">
+[[MISP_Screenshots/Snort/9]]{#MISP_Screenshots/Snort/9
+label=&ldquo;MISP_Screenshots/Snort/9&rdquo;}</p>
+<p>Ajouter le chemin d&rsquo;un fichier de configuration dans l&rsquo;encadré
+<code>Advanced Configuration Pass-Through</code>. Le texte à écrire est donc :
+<em>include /usr/local/etc/snort/rules/misp.rules</em> :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/10.png" alt="image">
+[[MISP_Screenshots/Snort/10]]{#MISP_Screenshots/Snort/10
+label=&ldquo;MISP_Screenshots/Snort/10&rdquo;}</p>
+<p>Dupliquer la configuration de l&rsquo;interface WAN pour faire une interface
+LAN :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/11.png" alt="image">
+[[MISP_Screenshots/Snort/11]]{#MISP_Screenshots/Snort/11
+label=&ldquo;MISP_Screenshots/Snort/11&rdquo;}</p>
+<p>Configurer la nouvelle interface LAN, tel que sur la capture d&rsquo;écran
+suivante :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/12.png" alt="image">
+[[MISP_Screenshots/Snort/12]]{#MISP_Screenshots/Snort/12
+label=&ldquo;MISP_Screenshots/Snort/12&rdquo;}</p>
+<p>Comme pour l&rsquo;interface WAN, ajouter le chemin du fichier de
+configuration dans l&rsquo;encadré <code>Advanced Configuration Pass-Through</code> :
+<em>include/usr/local/etc/snort/rules/misp.rules</em> :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/13.png" alt="image">
+[[MISP_Screenshots/Snort/13]]{#MISP_Screenshots/Snort/13
+label=&ldquo;MISP_Screenshots/Snort/13&rdquo;}</p>
+<p>De la même manière que pour les interfaces WAN et LAN, créer une
+nouvelle interface pour la DMZ :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/14.png" alt="image">
+[[MISP_Screenshots/Snort/14]]{#MISP_Screenshots/Snort/14
+label=&ldquo;MISP_Screenshots/Snort/14&rdquo;}</p>
+<p>Encore une fois, ajouter le chemin du fichier de configuration dans
+l&rsquo;encadré <code>Advanced Configuration Pass-Through</code> : <em>include
+/usr/local/etc/snort/rules/misp.rules</em> :</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/15.png" alt="image">
+[[MISP_Screenshots/Snort/15]]{#MISP_Screenshots/Snort/15
+label=&ldquo;MISP_Screenshots/Snort/15&rdquo;}</p>
+<p>Cliquer sur le bouton <strong>Play</strong> de chacune des interfaces, dans la
+colonne <em>Snort Status</em>.</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/16.png" alt="image">
+[[MISP_Screenshots/Snort/16]]{#MISP_Screenshots/Snort/16
+label=&ldquo;MISP_Screenshots/Snort/16&rdquo;}</p>
+<p><img src="/Archi1/MISP_Screenshots/Snort/17.png" alt="image">
+[[MISP_Screenshots/Snort/17]]{#MISP_Screenshots/Snort/17
+label=&ldquo;MISP_Screenshots/Snort/17&rdquo;}</p>
+<h3 id="iptables">Iptables</h3>
+<p>C&rsquo;est sur le serveur Web, situé dans la DMZ, que sont gérées les règles
+iptables. Celles-ci sont créées suite à la récupération de règles Snort
+de la plateforme MISP.<br>
+Un script analysant ces règles Snort, et les traduisant en règles
+iptables a été créé. Ce script écrit en Python2.7 est décrit dans le
+document <em>dev.pdf</em>.</p>
+<h3 id="squid-avec-clamav">Squid avec ClamAV</h3>
+<p>L&rsquo;installation et la configuration du proxy Squid ayant déjà été
+traitées dans le document <em>archi1.pdf</em>, il n&rsquo;est pas nécessaire d&rsquo;en
+reparler ici.<br>
+Lors de l&rsquo;installation de Squid, l&rsquo;antivirus ClamAV est également
+installé sur le Pfsense. Cet antivirus est capable de traiter des règles
+YARA, situées dans le dossier :<br>
+<code>/var/db/clamav/</code><br>
+Aussi, il est possible d&rsquo;exporter des règles YARA, via la plateforme
+MISP, permettant de détecter des malwares ainsi que des outils
+d&rsquo;attaques spécifique à APT17.</p>
+<p>Pour cela, nous avons écrit un script Python2.7 utilisant la
+bibliothèque PyMISP, récupérant les attributs YARA, et les écrivant dans
+le fichier <code>/var/db/clamav/rules.yara</code>. Ce script est relancé toutes les
+heures à l&rsquo;aide d&rsquo;une tâche ajoutée avec crontab.<br>
+Ce script est décrit plus en détail dans le document <em>dev.pdf</em>.</p>
+<h2 id="graylog">Graylog</h2>
+<p>Les seules modifications à effectuer sont celles de la configuration
+réseau dans le fichier de configuration <strong>/etc/network/interfaces</strong>
+selon la figure <a href="/Archi1/#graylog_screenshots/1.png">289</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;graylog_screenshots/1.png&rdquo;}, et celles concernant le nom
+d&rsquo;hôte dans <strong>/etc/hosts</strong>, tel que sur la figure
+<a href="/Archi1/#graylog_screenshots/2.png">290</a>{reference-type=&ldquo;ref&rdquo;
+reference=&ldquo;graylog_screenshots/2.png&rdquo;}.<br>
+Il suffira de redémarrer la machine virtuelle pour que les changements
+prennent effet avec la commande suivante : <code>sudo reboot</code>{.shell}</p>
+<p><img src="/Archi1/graylog_screenshots/1.png" alt="Fichier de configurationréseau">{#graylog_screenshots/1.png}</p>
+<p><img src="/Archi1/graylog_screenshots/2.png" alt="Fichier de configurationréseau">{#graylog_screenshots/2.png}</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Ansible est une plate-forme logicielle libre pour la configuration
+et la gestion des ordinateurs. Elle combine le déploiement de
+logiciels multi nœuds, l&rsquo;exécution des tâches ad-hoc, et la gestion
+de configuration. Elle gère les différents nœuds à travers SSH et ne
+nécessite l&rsquo;installation d&rsquo;aucun logiciel supplémentaire sur
+ceux-ci. Les modules communiquent via la sortie standard en notation
+JSON et peuvent être écrits dans n&rsquo;importe quel langage de
+programmation. Le système utilise YAML pour exprimer des
+descriptions réutilisables de systèmes, appelés playbook -
+<a href="https://fr.wikipedia.org/wiki/Ansible_(logiciel)">https://fr.wikipedia.org/wiki/Ansible_(logiciel)</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Kerberos est un protocole réseau d&rsquo;authentification. Il a été
+conçu pour apporter une authentification sûre pour un couple
+client/serveur en utilisant des clés de chiffrement. Il existe une
+implémentation gratuite de ce protocole par le MIT. Kerberos est
+aussi disponible dans plusieurs produits commerciaux -
+<a href="https://web.mit.edu/kerberos/">https://web.mit.edu/kerberos/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>ModSecurity est un module qui s&rsquo;intègre au serveur Web Apache et
+qui permet de mettre en place un pare-feu applicatif dédié aux
+applications Web. Il fournit un moteur permettant de détecter et de
+se prémunir des attaques avant qu&rsquo;elles n&rsquo;atteignent l&rsquo;application
+Web protégée.<br>
+ModSecurity offre les mécanismes suivants :</p>
+<ul>
+<li>
+<p>la journalisation du trafic ;</p>
+</li>
+<li>
+<p>la surveillance du trafic et détection en temps réel des
+attaques ;</p>
+</li>
+<li>
+<p>la prévention des attaques et adaptation des règles de détection
+en vue de corriger les vulnérabilités applicatives sans modifier
+réellement les applications Web.</p>
+</li>
+</ul>
+<p>[@modsecurity]&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>OWASP ModSecurity Core Rule Set (CRS) est un ensemble de règles de
+détection d&rsquo;attaques génériques à utiliser avec, entre autres,
+ModSecurity. Le CRS a pour but de protéger les applications contre
+une grande variété d&rsquo;attaques, incluant le top 10 des attaques
+recensées par OWASP. De plus, il génère très peu de fausses
+alertes - <a href="https://modsecurity.org/crs/">https://modsecurity.org/crs/</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/DM2.0_DEMO/archi1/mise-en-place/" title="Mise en place de l&#39;architecture"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/DM2.0_DEMO/archi2/" title="Archi2" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/DM2.0_DEMO/js/clipboard.min.js?1639744451"></script>
+    <script src="/DM2.0_DEMO/js/perfect-scrollbar.min.js?1639744451"></script>
+    <script src="/DM2.0_DEMO/js/perfect-scrollbar.jquery.min.js?1639744451"></script>
+    <script src="/DM2.0_DEMO/js/jquery.sticky.js?1639744451"></script>
+    <script src="/DM2.0_DEMO/js/featherlight.min.js?1639744451"></script>
+    <script src="/DM2.0_DEMO/js/highlight.pack.js?1639744451"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/DM2.0_DEMO/js/modernizr.custom-3.6.0.js?1639744451"></script>
+    <script src="/DM2.0_DEMO/js/learn.js?1639744451"></script>
+    <script src="/DM2.0_DEMO/js/hugo-learn.js?1639744451"></script>
+    
+        
+            <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

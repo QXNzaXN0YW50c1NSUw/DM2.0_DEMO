@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft on DMs</title>
+    <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft/</link>
+    <description>Recent content in Microsoft on DMs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 15 Dec 2021 01:10:29 +0100</lastBuildDate><atom:link href="https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Déroulé d&#39;une analyse avec MBSA</title>
+      <link>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft/microsoft/</link>
+      <pubDate>Wed, 15 Dec 2021 01:10:29 +0100</pubDate>
+      
+      <guid>https://QXNzaXN0YW50c1NSUw.github.io/DM2.0_DEMO/microsoft/microsoft/</guid>
+      <description>Présentation générale de l&amp;rsquo;utilisation de MBSA Tout d&amp;rsquo;abord, MBSA doit être exécuté avec un compte à privilèges. En effet, un simple utilisateur du domaine n&amp;rsquo;a pas le droit d&amp;rsquo;exécuter ce logiciel :
+{#11}
+Ensuite, MBSA peut être utilisé de deux manières :
+  Via l&amp;rsquo;interface graphique : mbsa.exe
+  Via l&amp;rsquo;invite de commande : mbsacli.exe
+  L&amp;rsquo;analyse peut être réalisée sur une seule machine ou bien sur plusieurs.</description>
+    </item>
+    
+  </channel>
+</rss>
